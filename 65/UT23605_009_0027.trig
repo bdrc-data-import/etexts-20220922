@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_009_0027 {
+    bda:UT23605_009_0027
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_009_0027 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "65/UT23605_009_0027.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_009_0027 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP6DFAB5B7235E53A5
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1558 ;
+        :sliceStartChar     104 .
+    
+    bdr:EPC2450442B591B25B
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2883 ;
+        :sliceStartChar     1560 .
+    
+    bdr:EPE7579E775AF54352
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       102 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT23605_009_0027
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༥༢༣༽༄༅། །ནཱ་རོ་ཆོས་དྲུག་གི་རྟོགས་པ་དོན་གྱི་བརྒྱུད་པ་ལ་གསོལ་བ་འདེབས་པ་ཚིག་ཉུང་ངུར་བྱས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP6DFAB5B7235E53A5 , bdr:EPC2450442B591B25B , bdr:EPE7579E775AF54352 ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      9 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/09_gdams-ngag-mdzod_ta/09_26_~1.rtf" ;
+        :eTextVolumeIndex   27 .
+}

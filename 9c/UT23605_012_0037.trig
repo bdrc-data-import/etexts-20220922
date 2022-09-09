@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_012_0037 {
+    bda:UT23605_012_0037
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_012_0037 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "9c/UT23605_012_0037.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_012_0037 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP10374865136504F9
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4387 ;
+        :sliceStartChar     2974 .
+    
+    bdr:EP7D0D39C53B8FE94A
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1504 ;
+        :sliceStartChar     103 .
+    
+    bdr:EPA007793636DBC2CF
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       101 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPA714177041FEAF11
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2972 ;
+        :sliceStartChar     1506 .
+    
+    bdr:EPC3E991D4623DEB21
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       4792 ;
+        :sliceStartChar     4389 .
+    
+    bdr:UT23605_012_0037
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༧༦༩༽༄༅། །ཞིང་སྐྱོང་ཆེན་པོ་ཀྵེ་ཏྲ་པཱ་ལ་ཡབ་ཡུམ་གྱི་ཐུན་མོང་མ་ཡིན་པའི་རྗེས་གནང་བསྐུར་ཆོག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP10374865136504F9 , bdr:EP7D0D39C53B8FE94A , bdr:EPA007793636DBC2CF , bdr:EPA714177041FEAF11 , bdr:EPC3E991D4623DEB21 ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      12 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/12_gdams-ngag-mdzod_na/12_36_zhing-skyong-chen-po-tra-pqa-la-yab-yum-gyi-thun-mong-ma-yin-paqi-rjes-gnang-bskur-chog.rtf" ;
+        :eTextVolumeIndex   37 .
+}

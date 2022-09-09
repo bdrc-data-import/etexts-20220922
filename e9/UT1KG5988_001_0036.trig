@@ -1,0 +1,74 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG5988_001_0036 {
+    bda:UT1KG5988_001_0036
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG5988_001_0036 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "e9/UT1KG5988_001_0036.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG5988_001_0036 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP4AA631C77E24F3F2
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7375 ;
+        :sliceStartChar     5961 .
+    
+    bdr:EP5FD99E9B46221218
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       3 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP7D92E78C224285BB
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5959 ;
+        :sliceStartChar     4523 .
+    
+    bdr:EP9137854763D948BE
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1428 ;
+        :sliceStartChar     5 .
+    
+    bdr:EPC7F588D2A39E4A6A
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3018 ;
+        :sliceStartChar     1430 .
+    
+    bdr:EPCE3A8DEB9179A553
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8057 ;
+        :sliceStartChar     7377 .
+    
+    bdr:EPF99043CFE7D78CCF
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4521 ;
+        :sliceStartChar     3020 .
+    
+    bdr:UT1KG5988_001_0036
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཤླཽ་ཀ་བརྒྱ་ལོབ་པ་དང༌།སྟོང་ཕྲག་ཉི་ཤུ་ལྔ་པ།སྟོང་ཕྲག་བརྒྱ་པ།བརྒྱད་སྟོང་པ།ཕ་རོལ་ཏུ་ཕྱིན་པ་དྲུག་ཁག་གཉིས་བཅས་གཟུང་བར་འགྱུར་བའི་ག"@bo ;
+        :eTextHasPage       bdr:EP4AA631C77E24F3F2 , bdr:EP5FD99E9B46221218 , bdr:EP7D92E78C224285BB , bdr:EP9137854763D948BE , bdr:EPC7F588D2A39E4A6A , bdr:EPCE3A8DEB9179A553 , bdr:EPF99043CFE7D78CCF ;
+        :eTextInInstance    bdr:IE1KG5988 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/037_Sho-lo-ka-brgya-slob-pa-etc.rtf" ;
+        :eTextVolumeIndex   36 .
+}

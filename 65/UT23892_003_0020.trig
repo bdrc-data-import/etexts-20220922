@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23892_003_0020 {
+    bda:UT23892_003_0020
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23892_003_0020 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "65/UT23892_003_0020.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23892_003_0020 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP05A1218C76232DBA
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       3164 ;
+        :sliceStartChar     86 .
+    
+    bdr:EPB587174F51C75812
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3477 ;
+        :sliceStartChar     3166 .
+    
+    bdr:EPE2977A6784EA1C06
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       84 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT23892_003_0020
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "ཁམས་ཀྱི་བླ་ཆེན་ལ་གདམས་པའི་རྣལ་འབྱོར་བཞི་གསུམ་བཅུ་གཉིས་ཀྱི་ཁྲིད་ཚིགས་བཅད་མ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP05A1218C76232DBA , bdr:EPB587174F51C75812 , bdr:EPE2977A6784EA1C06 ;
+        :eTextInInstance    bdr:IE23892 ;
+        :eTextInVolume      3 ;
+        :eTextSourcePath    "DrikungChetsang/6_KUNRIN/rtfs/volume-003/GA-WA1.020.rtf" ;
+        :eTextVolumeIndex   20 .
+}

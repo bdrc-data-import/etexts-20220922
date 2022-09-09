@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_018_0007 {
+    bda:UT10736_018_0007
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_018_0007 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "ad/UT10736_018_0007.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_018_0007 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0F8AB75A25AC5B02
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       83 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP2D31DCBAD0EC2E2E
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4552 ;
+        :sliceStartChar     3036 .
+    
+    bdr:EP3564A1183889F5C9
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5345 ;
+        :sliceStartChar     4554 .
+    
+    bdr:EP57315660F21B2CC0
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3034 ;
+        :sliceStartChar     1593 .
+    
+    bdr:EP90510168EC41037C
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1591 ;
+        :sliceStartChar     85 .
+    
+    bdr:UT10736_018_0007
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །བདུད་ཀྱི་གཡུལ་ལས་རབ་ཏུ་རྒྱལ་བར་བྱེད་པའི་དམ་ཅན་རྒྱ་མཚོའི་མཆོད་སྤྲིན་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0F8AB75A25AC5B02 , bdr:EP2D31DCBAD0EC2E2E , bdr:EP3564A1183889F5C9 , bdr:EP57315660F21B2CC0 , bdr:EP90510168EC41037C ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      18 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/18_tsha/18_07_tsha_bdud-kyi-g-yul-las-rab-tu-rgyal-bar-byed-paqi-dam-can-rgya-mtshoqi-mchod-sprin.rtf" ;
+        :eTextVolumeIndex   7 .
+}

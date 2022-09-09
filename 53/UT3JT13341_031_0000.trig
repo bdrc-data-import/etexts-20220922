@@ -1,0 +1,37 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13341_031_0000 {
+    bda:UT3JT13341_031_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13341_031_0000 ;
+        adm:facetIndex      2 ;
+        adm:gitPath         "53/UT3JT13341_031_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13341_031_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EPF47DE918AB3D0A63
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       900 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT3JT13341_031_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "ཟབ་ཏིག་སྒྲོལ་མའི་བརྒྱུད་འདེབས་ཨུཏྤ་ལའི་ཕྲེང་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །ཆོས་སྐུ་ཤེར་ཕྱིན་བཅོམ་ལྡན་ཀུན་བཟང་མོ། །ལོངས་སྤྱོད་ཡོངས་རྫོགས"@bo ;
+        :eTextHasPage       bdr:EPF47DE918AB3D0A63 ;
+        :eTextInInstance    bdr:IE3JT13341 ;
+        :eTextIsVolume      31 ;
+        :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/025a_sdrol-mchod-brgyud-qdebs.rtf" .
+}

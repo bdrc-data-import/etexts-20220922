@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG5988_001_0002 {
+    bda:UT1KG5988_001_0002
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG5988_001_0002 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "46/UT1KG5988_001_0002.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG5988_001_0002 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP4CAA710D40274BD6
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       80 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP4D1B1477C5F73A96
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       16981 ;
+        :sliceStartChar     14985 .
+    
+    bdr:EP5ECBCE8E1B4B54E1
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1702 ;
+        :sliceStartChar     82 .
+    
+    bdr:EP5F4D6ACFBE12B8F0
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       17823 ;
+        :sliceStartChar     16983 .
+    
+    bdr:EP6DC998AEBB4E7AB1
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14983 ;
+        :sliceStartChar     13460 .
+    
+    bdr:EP7A50C299A72C7CCA
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8999 ;
+        :sliceStartChar     7530 .
+    
+    bdr:EP7FDB95624C26F981
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11983 ;
+        :sliceStartChar     10519 .
+    
+    bdr:EP8D3BC8B128472FB6
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7528 ;
+        :sliceStartChar     6085 .
+    
+    bdr:EPAAEA0C0DB072EB3F
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3113 ;
+        :sliceStartChar     1704 .
+    
+    bdr:EPAE809A3E29BD0E98
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10517 ;
+        :sliceStartChar     9001 .
+    
+    bdr:EPCB986FB24D0F4F31
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6083 ;
+        :sliceStartChar     4526 .
+    
+    bdr:EPDE7867991DC182E1
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13458 ;
+        :sliceStartChar     11985 .
+    
+    bdr:EPFF8F849FDFC60CAC
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4524 ;
+        :sliceStartChar     3115 .
+    
+    bdr:UT1KG5988_001_0002
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །འཕགས་པ་ཚེ་དང་ཡེ་ཤེས་དཔག་ཏུ་མེད་པ་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP4CAA710D40274BD6 , bdr:EP4D1B1477C5F73A96 , bdr:EP5ECBCE8E1B4B54E1 , bdr:EP5F4D6ACFBE12B8F0 , bdr:EP6DC998AEBB4E7AB1 , bdr:EP7A50C299A72C7CCA , bdr:EP7FDB95624C26F981 , bdr:EP8D3BC8B128472FB6 , bdr:EPAAEA0C0DB072EB3F , bdr:EPAE809A3E29BD0E98 , bdr:EPCB986FB24D0F4F31 , bdr:EPDE7867991DC182E1 , bdr:EPFF8F849FDFC60CAC ;
+        :eTextInInstance    bdr:IE1KG5988 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/002_tshe-mdo.rtf" ;
+        :eTextVolumeIndex   2 .
+}

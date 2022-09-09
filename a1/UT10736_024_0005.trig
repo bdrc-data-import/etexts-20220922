@@ -1,0 +1,68 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_024_0005 {
+    bda:UT10736_024_0005
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_024_0005 ;
+        adm:facetIndex      7 ;
+        adm:gitPath         "a1/UT10736_024_0005.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_024_0005 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0D303958FDCF16B5
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       69 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP5CB1EA6F150C8BD3
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5797 ;
+        :sliceStartChar     4357 .
+    
+    bdr:EPBA0517C36B1498CD
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4355 ;
+        :sliceStartChar     2944 .
+    
+    bdr:EPBA6D44FC1A48900D
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2942 ;
+        :sliceStartChar     1531 .
+    
+    bdr:EPD973A113DE403507
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1529 ;
+        :sliceStartChar     71 .
+    
+    bdr:EPF201B0D8CD4E2BFB
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7180 ;
+        :sliceStartChar     5799 .
+    
+    bdr:UT10736_024_0005
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །རོ་སྙོམས་སྐོར་དྲུག་གི་ཉམས་ལེན་སྒང་དུ་དྲིལ་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0D303958FDCF16B5 , bdr:EP5CB1EA6F150C8BD3 , bdr:EPBA0517C36B1498CD , bdr:EPBA6D44FC1A48900D , bdr:EPD973A113DE403507 , bdr:EPF201B0D8CD4E2BFB ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      24 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/24_ya/24_04_ya_ro-snyoms-skor-drug-gi-nyams-len-sgang-du-dril-ba.rtf" ;
+        :eTextVolumeIndex   5 .
+}

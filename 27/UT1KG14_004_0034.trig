@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG14_004_0034 {
+    bda:UT1KG14_004_0034
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG14_004_0034 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "27/UT1KG14_004_0034.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG14_004_0034 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP3033962D01FC95D2
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1517 ;
+        :sliceStartChar     81 .
+    
+    bdr:EP45B21CA251184455
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       79 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPFB722449ECB86B49
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2096 ;
+        :sliceStartChar     1519 .
+    
+    bdr:UT1KG14_004_0034
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "མར་མེའི་སྐོང་བཤགས་ཀྱི་བཀོལ་བྱང་བཞུགས་སོ། །ན་མཿས་མནྟ་བྷ་དྲཱ་ཡ༔མར་མེ་རྒྱས་པར་བྱེད་ན་ལྷ་གྲངས་དང་མཉམ་པའམ༔བསྡུ་ན་གཅིག་གམ་ལྔའམ་གསུམ་བ"@bo ;
+        :eTextHasPage       bdr:EP3033962D01FC95D2 , bdr:EP45B21CA251184455 , bdr:EPFB722449ECB86B49 ;
+        :eTextInInstance    bdr:IE1KG14 ;
+        :eTextInVolume      4 ;
+        :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/04-NGA/Terdzo-nga.-P-33.rtf" ;
+        :eTextVolumeIndex   34 .
+}

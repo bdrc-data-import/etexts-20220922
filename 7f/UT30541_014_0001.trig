@@ -1,0 +1,44 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT30541_014_0001 {
+    bda:UT30541_014_0001
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT30541_014_0001 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "7f/UT30541_014_0001.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT30541_014_0001 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP84E5CF9A840E5076
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       131 ;
+        :sliceStartChar     50 .
+    
+    bdr:EP86A0DE1C6F0EE0A2
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       48 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT30541_014_0001
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༈ཀརྨ་པ་གསུམ་པ་རང་བྱུང་རྡོ་རྗེའི་གསུང་འབུམ།ཏྲྃ།"@bo ;
+        :eTextHasPage       bdr:EP84E5CF9A840E5076 , bdr:EP86A0DE1C6F0EE0A2 ;
+        :eTextInInstance    bdr:IE30541 ;
+        :eTextInVolume      14 ;
+        :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/14_3rd-karmapa-text_tdoc_Tam/14_00_Tam_dkar-chag.rtf" ;
+        :eTextVolumeIndex   1 .
+}

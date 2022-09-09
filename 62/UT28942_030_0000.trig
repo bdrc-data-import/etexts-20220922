@@ -1,0 +1,55 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT28942_030_0000 {
+    bda:UT28942_030_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT28942_030_0000 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "62/UT28942_030_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT28942_030_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP002EFC420A7EDBFB
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2895 ;
+        :sliceStartChar     1427 .
+    
+    bdr:EP48DB39A2038EBA98
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1425 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP606BA14A91523F9C
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4359 ;
+        :sliceStartChar     2897 .
+    
+    bdr:EPCAD17D2E26750D53
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4950 ;
+        :sliceStartChar     4361 .
+    
+    bdr:UT28942_030_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཐུགས་རྗེ་ཆེན་པོའི་དམར་ཁྲིད་ཀྱི་མན་ངག་པདྨ་དཀར་པོ་ཞེས་བྱ་བ།བླ་མ་དང་ལྷག་པའི་ལྷ་ལ་ཕྱག་འཚལ་ལོ། །སྟོན་ཀའི་ཟླ་ལྟར་གསལ་བར་བསྒོམ་པ"@bo ;
+        :eTextHasPage       bdr:EP002EFC420A7EDBFB , bdr:EP48DB39A2038EBA98 , bdr:EP606BA14A91523F9C , bdr:EPCAD17D2E26750D53 ;
+        :eTextInInstance    bdr:IE28942 ;
+        :eTextIsVolume      30 ;
+        :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/RONGTON/RONT030.rtf" .
+}

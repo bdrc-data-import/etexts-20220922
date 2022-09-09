@@ -1,0 +1,127 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1PD105890_010_0000 {
+    bda:UT1PD105890_010_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1PD105890_010_0000 ;
+        adm:facetIndex      17 ;
+        adm:gitPath         "f7/UT1PD105890_010_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1PD105890_010_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP020A7DA075EE8CFB
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       15852 ;
+        :sliceStartChar     14394 .
+    
+    bdr:EP18AFBDBCF0E4AF6C
+        a                   :EtextPage ;
+        :seqNum             15 ;
+        :sliceEndChar       20244 ;
+        :sliceStartChar     18769 .
+    
+    bdr:EP21BD781911F3ED8C
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8766 ;
+        :sliceStartChar     7302 .
+    
+    bdr:EP3C557FFDDC47D208
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7300 ;
+        :sliceStartChar     5865 .
+    
+    bdr:EP7FDC802666642015
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5863 ;
+        :sliceStartChar     4431 .
+    
+    bdr:EP8E47594D3D130AD4
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2980 ;
+        :sliceStartChar     1522 .
+    
+    bdr:EPAA495AB631B742F5
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       17308 ;
+        :sliceStartChar     15854 .
+    
+    bdr:EPABA5344B774D276E
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14392 ;
+        :sliceStartChar     12944 .
+    
+    bdr:EPAEAE97A85A5773CA
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       12942 ;
+        :sliceStartChar     11506 .
+    
+    bdr:EPB47D18BEA7FF4EFA
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1520 ;
+        :sliceStartChar     57 .
+    
+    bdr:EPB70CAF0060A6BC4B
+        a                   :EtextPage ;
+        :seqNum             14 ;
+        :sliceEndChar       18767 ;
+        :sliceStartChar     17310 .
+    
+    bdr:EPB9EB192F4FDD77C3
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       55 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPBA1F155EF05D3916
+        a                   :EtextPage ;
+        :seqNum             16 ;
+        :sliceEndChar       21333 ;
+        :sliceStartChar     20246 .
+    
+    bdr:EPDE7660F08219932D
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10208 ;
+        :sliceStartChar     8768 .
+    
+    bdr:EPEBFC338A80C829BA
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11504 ;
+        :sliceStartChar     10210 .
+    
+    bdr:EPF3772921D15E5CD0
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4429 ;
+        :sliceStartChar     2982 .
+    
+    bdr:UT1PD105890_010_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ལྟ་བ་ཤན་འབྱེད་ཡིད་ཀྱི་མུན་སེལ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP020A7DA075EE8CFB , bdr:EP18AFBDBCF0E4AF6C , bdr:EP21BD781911F3ED8C , bdr:EP3C557FFDDC47D208 , bdr:EP7FDC802666642015 , bdr:EP8E47594D3D130AD4 , bdr:EPAA495AB631B742F5 , bdr:EPABA5344B774D276E , bdr:EPAEAE97A85A5773CA , bdr:EPB47D18BEA7FF4EFA , bdr:EPB70CAF0060A6BC4B , bdr:EPB9EB192F4FDD77C3 , bdr:EPBA1F155EF05D3916 , bdr:EPDE7660F08219932D , bdr:EPEBFC338A80C829BA , bdr:EPF3772921D15E5CD0 ;
+        :eTextInInstance    bdr:IE1PD105890 ;
+        :eTextIsVolume      10 ;
+        :eTextSourcePath    "KarmaDelek/rgyal-sras-thogs-med-P1830-chos-skor/rtfs/volume_010/volume_010_091.rtf" .
+}

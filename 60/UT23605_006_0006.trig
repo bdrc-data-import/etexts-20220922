@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_006_0006 {
+    bda:UT23605_006_0006
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_006_0006 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "60/UT23605_006_0006.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_006_0006 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP20CD36FD7B70FBFA
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4232 ;
+        :sliceStartChar     2924 .
+    
+    bdr:EP54F381E824E0D860
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2922 ;
+        :sliceStartChar     1502 .
+    
+    bdr:EPB79303247F6AD0C2
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       79 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPCE639A1A79480F93
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1500 ;
+        :sliceStartChar     81 .
+    
+    bdr:UT23605_006_0006
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༥༥༽༄༅། །ནག་པོ་ཨུ་ཙི་ཏ་འཆི་བ་མེད་པས་མཛད་པ་ཡོན་པོ་སྲོང་བའི་གདམས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP20CD36FD7B70FBFA , bdr:EP54F381E824E0D860 , bdr:EPB79303247F6AD0C2 , bdr:EPCE639A1A79480F93 ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      6 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/06_gdams-ngag-mdzod_cha/06_05_nag-po-au-tsi-ta-qchi-ba-med-pas-mdzad-pa-yon-po-srong-baqi-gdams-pa.rtf" ;
+        :eTextVolumeIndex   6 .
+}

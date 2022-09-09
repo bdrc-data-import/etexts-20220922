@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_021_0006 {
+    bda:UT10736_021_0006
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_021_0006 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "49/UT10736_021_0006.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_021_0006 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP01A6F93C9D451F6D
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       90 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPB68950D985660417
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1513 ;
+        :sliceStartChar     92 .
+    
+    bdr:EPB8CA51D333AA90DD
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3537 ;
+        :sliceStartChar     1515 .
+    
+    bdr:EPBC137E942BD4881B
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4621 ;
+        :sliceStartChar     3539 .
+    
+    bdr:UT10736_021_0006
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །རྣལ་འབྱོར་བཞིའི་ངེས་པ་རབ་ཏུ་དབྱེ་བ་ཕྱག་རྒྱ་ཆེན་པོའི་བཤད་པ་ཐམས་ཅད་ཀྱི་བླ་མ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP01A6F93C9D451F6D , bdr:EPB68950D985660417 , bdr:EPB8CA51D333AA90DD , bdr:EPBC137E942BD4881B ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      21 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/21_zha/21_06_zha_rnal-qbyor-bzhiqi-nges-pa-rab-tu-dbye-ba-phyag-rgya-chen-poqi-bshad-pa-thams-cad-kyi-bla-ma.rtf" ;
+        :eTextVolumeIndex   6 .
+}

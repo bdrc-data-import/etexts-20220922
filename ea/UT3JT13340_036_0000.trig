@@ -1,0 +1,85 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13340_036_0000 {
+    bda:UT3JT13340_036_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13340_036_0000 ;
+        adm:facetIndex      10 ;
+        adm:gitPath         "ea/UT3JT13340_036_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13340_036_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP091E20355BC57219
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4487 ;
+        :sliceStartChar     3037 .
+    
+    bdr:EP1ADA8D92518A0485
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7367 ;
+        :sliceStartChar     5932 .
+    
+    bdr:EP588DA1B22351B9CB
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3035 ;
+        :sliceStartChar     1582 .
+    
+    bdr:EP59D5A1C5E6FE5503
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11240 ;
+        :sliceStartChar     10290 .
+    
+    bdr:EP63B6445074C78ECB
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5930 ;
+        :sliceStartChar     4489 .
+    
+    bdr:EP97CC92367F9665F0
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10288 ;
+        :sliceStartChar     8818 .
+    
+    bdr:EPB8FF1DCB261BF2A7
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8816 ;
+        :sliceStartChar     7369 .
+    
+    bdr:EPDBFCE4023819CE26
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       101 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPFDE17EF449A48F93
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1580 ;
+        :sliceStartChar     103 .
+    
+    bdr:UT3JT13340_036_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༁ྃ༔ཟབ་ཆོས་ཞི་ཁྲོ་དགོངས་པ་རང་གྲོལ་ལས༔བཏགས་གྲོལ་ཕུང་པོ་རང་གྲོལ་གྱི༔དོན་བསྡུས་རང་གྲོལ་སྙིང་པོ་བཞུགས༔"@bo ;
+        :eTextHasPage       bdr:EP091E20355BC57219 , bdr:EP1ADA8D92518A0485 , bdr:EP588DA1B22351B9CB , bdr:EP59D5A1C5E6FE5503 , bdr:EP63B6445074C78ECB , bdr:EP97CC92367F9665F0 , bdr:EPB8FF1DCB261BF2A7 , bdr:EPDBFCE4023819CE26 , bdr:EPFDE17EF449A48F93 ;
+        :eTextInInstance    bdr:IE3JT13340 ;
+        :eTextIsVolume      36 ;
+        :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0033_Karling-Zhithro/040-btags-grol.rtf" .
+}

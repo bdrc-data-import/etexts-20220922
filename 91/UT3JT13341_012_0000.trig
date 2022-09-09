@@ -1,0 +1,79 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13341_012_0000 {
+    bda:UT3JT13341_012_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13341_012_0000 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "91/UT3JT13341_012_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13341_012_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP261F5AB2F43CBFA5
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2872 ;
+        :sliceStartChar     1450 .
+    
+    bdr:EP40F5E4BFFFBADF80
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4304 ;
+        :sliceStartChar     2874 .
+    
+    bdr:EP5DCACC1BFF9B092F
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5732 ;
+        :sliceStartChar     4306 .
+    
+    bdr:EP6F58CA1F44C8EFC8
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       10059 ;
+        :sliceStartChar     8617 .
+    
+    bdr:EP996CBD5CEFEAAF38
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       7166 ;
+        :sliceStartChar     5734 .
+    
+    bdr:EPC9F6BAE2FD6A27C3
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8615 ;
+        :sliceStartChar     7168 .
+    
+    bdr:EPDDA74BA3EC0F4B6A
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1448 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPEB8B44014CC2D201
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10480 ;
+        :sliceStartChar     10061 .
+    
+    bdr:UT3JT13341_012_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "གསོལ་འདེབས་བསམ་པ་ལྷུན་གྲུབ་བཞུགས་སོ། །ན་མོ་གུ་རུ༔སློབ་དཔོན་པདྨ་འབྱུང་གནས་ལྷོ་ནུབ་སྲིན་པོའི་ཡུལ་དུ་གཤེགས་པའི་དུས་སུ༔གུང་ཐང་ལ་ཐོག"@bo ;
+        :eTextHasPage       bdr:EP261F5AB2F43CBFA5 , bdr:EP40F5E4BFFFBADF80 , bdr:EP5DCACC1BFF9B092F , bdr:EP6F58CA1F44C8EFC8 , bdr:EP996CBD5CEFEAAF38 , bdr:EPC9F6BAE2FD6A27C3 , bdr:EPDDA74BA3EC0F4B6A , bdr:EPEB8B44014CC2D201 ;
+        :eTextInInstance    bdr:IE3JT13341 ;
+        :eTextIsVolume      12 ;
+        :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/011_bsam-pa-lhun-qgrub.rtf" .
+}

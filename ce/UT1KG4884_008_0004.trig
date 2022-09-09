@@ -1,0 +1,74 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG4884_008_0004 {
+    bda:UT1KG4884_008_0004
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG4884_008_0004 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "ce/UT1KG4884_008_0004.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG4884_008_0004 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0258D57515414139
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       3 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP390C0D22469CD0D1
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4336 ;
+        :sliceStartChar     2874 .
+    
+    bdr:EP396059216E01F166
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2872 ;
+        :sliceStartChar     1440 .
+    
+    bdr:EP41E73E610F398E7B
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8303 ;
+        :sliceStartChar     7220 .
+    
+    bdr:EP5F511A75A586FA0E
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7218 ;
+        :sliceStartChar     5806 .
+    
+    bdr:EP6C072AFEB4838BA4
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5804 ;
+        :sliceStartChar     4338 .
+    
+    bdr:EPC5A89410FB45ECEB
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1438 ;
+        :sliceStartChar     5 .
+    
+    bdr:UT1KG4884_008_0004
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །འོད་གསལ་སྦུབས་འཇུག་བཞུགས་པ་ལགས་སོ༔རིན་ཆེན་ཤོགས་སེར་གྱི་སྐོརཿ"@bo ;
+        :eTextHasPage       bdr:EP0258D57515414139 , bdr:EP390C0D22469CD0D1 , bdr:EP396059216E01F166 , bdr:EP41E73E610F398E7B , bdr:EP5F511A75A586FA0E , bdr:EP6C072AFEB4838BA4 , bdr:EPC5A89410FB45ECEB ;
+        :eTextInInstance    bdr:IE1KG4884 ;
+        :eTextInVolume      8 ;
+        :eTextSourcePath    "KarmaDelek/klong-chen-rab-byams-gung-qbum/rtfs/volume_008/volume_008_216.rtf" ;
+        :eTextVolumeIndex   4 .
+}

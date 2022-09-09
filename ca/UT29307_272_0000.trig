@@ -1,0 +1,61 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT29307_272_0000 {
+    bda:UT29307_272_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT29307_272_0000 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "ca/UT29307_272_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT29307_272_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP1A86698CF7080512
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2842 ;
+        :sliceStartChar     1424 .
+    
+    bdr:EP62A2B48C4878D7AB
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1422 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPA950BE4312D4C5F6
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5710 ;
+        :sliceStartChar     4285 .
+    
+    bdr:EPCF1B1623C2FC5E59
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4283 ;
+        :sliceStartChar     2844 .
+    
+    bdr:EPE9A8BD9877D716A7
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5808 ;
+        :sliceStartChar     5712 .
+    
+    bdr:UT29307_272_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཆུ་སྦྲུལ་དུས་མདོས་ཆེན་མོ་ཞག་བདུན་དུ་སྤར་བའི་ཆོ་གའི་སྒྲིག་རིམ་སོགས་ཀྱི་ཐོ་བཞུགས་སོ། །དགེའོ། །ཨོཾ་སྭསྟི་སིདྡྷཾ།བླ་མདང་རྡོ་"@bo ;
+        :eTextHasPage       bdr:EP1A86698CF7080512 , bdr:EP62A2B48C4878D7AB , bdr:EPA950BE4312D4C5F6 , bdr:EPCF1B1623C2FC5E59 , bdr:EPE9A8BD9877D716A7 ;
+        :eTextInInstance    bdr:IE29307 ;
+        :eTextIsVolume      272 ;
+        :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/4_AMAI/AMAI272_ཆུ་སྦྲུལ་དུས་མདོས་ཆེན་མོ་ཞག་བདུན་དུ་སྤར་བའི་ཆོ་གའི་སྒྲིག་རིམ་སོགས་ཀྱི་ཐོ།.rtf" .
+}

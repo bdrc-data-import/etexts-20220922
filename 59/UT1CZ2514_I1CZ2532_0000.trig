@@ -1,0 +1,127 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1CZ2514_I1CZ2532_0000 {
+    bda:UT1CZ2514_I1CZ2532_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1CZ2514_I1CZ2532_0000 ;
+        adm:facetIndex      17 ;
+        adm:gitPath         "59/UT1CZ2514_I1CZ2532_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1CZ2514_I1CZ2532_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0061E665A6F300F6
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       6294 ;
+        :sliceStartChar     4966 .
+    
+    bdr:EP05C1CCFE65551D42
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       11007 ;
+        :sliceStartChar     9375 .
+    
+    bdr:EP1A960BCA30541B62
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       634 ;
+        :sliceStartChar     278 .
+    
+    bdr:EP2CDD26F6E0F39DC9
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       2041 ;
+        :sliceStartChar     636 .
+    
+    bdr:EP4032547A3C515707
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       9373 ;
+        :sliceStartChar     7874 .
+    
+    bdr:EP4139E74DB12F4035
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       14012 ;
+        :sliceStartChar     12492 .
+    
+    bdr:EP427D2667A3979346
+        a                   :EtextPage ;
+        :seqNum             14 ;
+        :sliceEndChar       15517 ;
+        :sliceStartChar     14014 .
+    
+    bdr:EP565CE3CE4492DDF7
+        a                   :EtextPage ;
+        :seqNum             16 ;
+        :sliceEndChar       18128 ;
+        :sliceStartChar     16777 .
+    
+    bdr:EP7868CF4599CFF556
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       85 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP7E8149A248DF5FCF
+        a                   :EtextPage ;
+        :seqNum             17 ;
+        :sliceEndChar       18740 ;
+        :sliceStartChar     18130 .
+    
+    bdr:EP88C8389F958E1FFD
+        a                   :EtextPage ;
+        :seqNum             15 ;
+        :sliceEndChar       16775 ;
+        :sliceStartChar     15519 .
+    
+    bdr:EP9E19433DB04A7BCB
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       4964 ;
+        :sliceStartChar     3491 .
+    
+    bdr:EPD2BDEB2F4DF47B7E
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       276 ;
+        :sliceStartChar     87 .
+    
+    bdr:EPD8917EDD5D36D14B
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       3489 ;
+        :sliceStartChar     2043 .
+    
+    bdr:EPD9BCFB0772740268
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       7872 ;
+        :sliceStartChar     6296 .
+    
+    bdr:EPEE66AB3A613D3B18
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       12490 ;
+        :sliceStartChar     11009 .
+    
+    bdr:UT1CZ2514_I1CZ2532_0000
+        a                   :EtextPaginated ;
+        skos:prefLabel      "pod 1 mtshur phu gnas nang dgon ma lag dang bcas pa'i rten brten par bcas pa dang de 'dzin dge 'dun pho mo'i sde grangs bcas kyi dgon tho mdor bsdus"@bo-x-ewts ;
+        :eTextHasPage       bdr:EP0061E665A6F300F6 , bdr:EP05C1CCFE65551D42 , bdr:EP1A960BCA30541B62 , bdr:EP2CDD26F6E0F39DC9 , bdr:EP4032547A3C515707 , bdr:EP4139E74DB12F4035 , bdr:EP427D2667A3979346 , bdr:EP565CE3CE4492DDF7 , bdr:EP7868CF4599CFF556 , bdr:EP7E8149A248DF5FCF , bdr:EP88C8389F958E1FFD , bdr:EP9E19433DB04A7BCB , bdr:EPD2BDEB2F4DF47B7E , bdr:EPD8917EDD5D36D14B , bdr:EPD9BCFB0772740268 , bdr:EPEE66AB3A613D3B18 ;
+        :eTextInInstance    bdr:IE1CZ2514 ;
+        :eTextIsVolume      1 ;
+        :eTextSourcePath    "Namsel_OCR/Batch-20140903/W1CZ2514/xml/W1CZ2514-I1CZ2532/W1CZ2514-I1CZ2532.xml" .
+}

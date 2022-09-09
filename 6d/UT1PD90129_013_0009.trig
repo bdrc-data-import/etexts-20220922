@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1PD90129_013_0009 {
+    bda:UT1PD90129_013_0009
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1PD90129_013_0009 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "6d/UT1PD90129_013_0009.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1PD90129_013_0009 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP007E222E35EEDFE6
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4396 ;
+        :sliceStartChar     2936 .
+    
+    bdr:EP0208B3E76C3EEEF4
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       4576 ;
+        :sliceStartChar     4398 .
+    
+    bdr:EP97C141F8BB44E9E8
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1453 ;
+        :sliceStartChar     20 .
+    
+    bdr:EPBAAEF5BEA832343C
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       18 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPE68FCF489143C753
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2934 ;
+        :sliceStartChar     1455 .
+    
+    bdr:UT1PD90129_013_0009
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "སྔོན་འགྲོའི་ཞུ་ཚིག"@bo ;
+        :eTextHasPage       bdr:EP007E222E35EEDFE6 , bdr:EP0208B3E76C3EEEF4 , bdr:EP97C141F8BB44E9E8 , bdr:EPBAAEF5BEA832343C , bdr:EPE68FCF489143C753 ;
+        :eTextInInstance    bdr:IE1PD90129 ;
+        :eTextInVolume      13 ;
+        :eTextSourcePath    "KarmaDelek/co-ne-grags-pa-bshad-sgrub-gsung-qbum/rtfs/volume_013/volume_013_310.rtf" ;
+        :eTextVolumeIndex   9 .
+}

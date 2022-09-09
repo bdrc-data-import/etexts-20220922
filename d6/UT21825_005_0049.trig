@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT21825_005_0049 {
+    bda:UT21825_005_0049
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT21825_005_0049 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "d6/UT21825_005_0049.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT21825_005_0049 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0213E0FE2F83507D
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1425 ;
+        :sliceStartChar     11 .
+    
+    bdr:EP28C522A352AE4105
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       9 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP4DA36F780A27979E
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       1751 ;
+        :sliceStartChar     1427 .
+    
+    bdr:UT21825_005_0049
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༣༢༣༽༄༅།སྒྲུབ་པ་བཀའ་བརྒྱད་ཁྲོ་བོ་རོལ་པ་འདོན་བདེར་བསྡེབས་པ་ནི།ན་མོ།དཀོན་མཆོག་གསུམ་དང་རྩ་བ་གསུམ། །སྒྲུབ་ཆེན་བཀའ་བརྒྱད་ལྷ་ཚོགས་ལ།"@bo ;
+        :eTextHasPage       bdr:EP0213E0FE2F83507D , bdr:EP28C522A352AE4105 , bdr:EP4DA36F780A27979E ;
+        :eTextInInstance    bdr:IE21825 ;
+        :eTextInVolume      5 ;
+        :eTextSourcePath    "PalriParkhang/W21825-bkaq-qbum-pad-nor-02-thub-bstan-chos-kyi-glang-po/rtfs/05-penor-kabum-ca/c-323-324.rtf" ;
+        :eTextVolumeIndex   49 .
+}

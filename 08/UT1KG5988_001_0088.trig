@@ -1,0 +1,116 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG5988_001_0088 {
+    bda:UT1KG5988_001_0088
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG5988_001_0088 ;
+        adm:facetIndex      15 ;
+        adm:gitPath         "08/UT1KG5988_001_0088.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG5988_001_0088 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP252A73B2C2CB8744
+        a                   :EtextPage ;
+        :seqNum             14 ;
+        :sliceEndChar       18707 ;
+        :sliceStartChar     17966 .
+    
+    bdr:EP334EC479751DE88B
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       12288 ;
+        :sliceStartChar     10880 .
+    
+    bdr:EP3E2977C640CF69CA
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10878 ;
+        :sliceStartChar     9399 .
+    
+    bdr:EP4D35CB65B76FE359
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       15096 ;
+        :sliceStartChar     13691 .
+    
+    bdr:EP5E5786447006C654
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7665 ;
+        :sliceStartChar     6089 .
+    
+    bdr:EP6AF6068162AE712F
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       9397 ;
+        :sliceStartChar     7667 .
+    
+    bdr:EP72385EF4EC4EE253
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6087 ;
+        :sliceStartChar     4682 .
+    
+    bdr:EP81378EEF97FB5EE6
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13689 ;
+        :sliceStartChar     12290 .
+    
+    bdr:EP9D6A0F87B821763D
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1462 ;
+        :sliceStartChar     59 .
+    
+    bdr:EPC56DC5EFF1658208
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       16504 ;
+        :sliceStartChar     15098 .
+    
+    bdr:EPD45D462493E97690
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2993 ;
+        :sliceStartChar     1464 .
+    
+    bdr:EPD7FAACA7EC27277F
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       57 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPDE9682885DF42E3C
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4680 ;
+        :sliceStartChar     2995 .
+    
+    bdr:EPEF5FDD2F0A6581CA
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       17964 ;
+        :sliceStartChar     16506 .
+    
+    bdr:UT1KG5988_001_0088
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །འཕགས་པ་ཕྱོགས་བཅུའི་མུན་སེལ་ཞེས་བྱ་བ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP252A73B2C2CB8744 , bdr:EP334EC479751DE88B , bdr:EP3E2977C640CF69CA , bdr:EP4D35CB65B76FE359 , bdr:EP5E5786447006C654 , bdr:EP6AF6068162AE712F , bdr:EP72385EF4EC4EE253 , bdr:EP81378EEF97FB5EE6 , bdr:EP9D6A0F87B821763D , bdr:EPC56DC5EFF1658208 , bdr:EPD45D462493E97690 , bdr:EPD7FAACA7EC27277F , bdr:EPDE9682885DF42E3C , bdr:EPEF5FDD2F0A6581CA ;
+        :eTextInInstance    bdr:IE1KG5988 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/089_phyogs-bcu-mun-sel.rtf" ;
+        :eTextVolumeIndex   88 .
+}

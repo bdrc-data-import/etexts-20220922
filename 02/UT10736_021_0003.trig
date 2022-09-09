@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_021_0003 {
+    bda:UT10736_021_0003
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_021_0003 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "02/UT10736_021_0003.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_021_0003 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0C41CDF38414E9DD
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13464 ;
+        :sliceStartChar     12032 .
+    
+    bdr:EP18009DB3A855323B
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4729 ;
+        :sliceStartChar     3224 .
+    
+    bdr:EP18BEDCAD0998565C
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7583 ;
+        :sliceStartChar     6152 .
+    
+    bdr:EP1B1D3A5BEBE231EA
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       9051 ;
+        :sliceStartChar     7585 .
+    
+    bdr:EP246CCC48C798309F
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       17471 ;
+        :sliceStartChar     16500 .
+    
+    bdr:EP542418AC76EE7D1F
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       12030 ;
+        :sliceStartChar     10492 .
+    
+    bdr:EP5A1700E5ADC13DF8
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3222 ;
+        :sliceStartChar     1775 .
+    
+    bdr:EP64716B9C368B1B8D
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10490 ;
+        :sliceStartChar     9053 .
+    
+    bdr:EP6A3EA94A96A2C990
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       16498 ;
+        :sliceStartChar     15045 .
+    
+    bdr:EPA75C97EFED72CEFA
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       37 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPA866F0399B601448
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       15043 ;
+        :sliceStartChar     13466 .
+    
+    bdr:EPB893A5C481063DCE
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6150 ;
+        :sliceStartChar     4731 .
+    
+    bdr:EPC1781470D2131177
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1773 ;
+        :sliceStartChar     39 .
+    
+    bdr:UT10736_021_0003
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཕྱག་ཆེན་གྱི་ཟིན་བྲིས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0C41CDF38414E9DD , bdr:EP18009DB3A855323B , bdr:EP18BEDCAD0998565C , bdr:EP1B1D3A5BEBE231EA , bdr:EP246CCC48C798309F , bdr:EP542418AC76EE7D1F , bdr:EP5A1700E5ADC13DF8 , bdr:EP64716B9C368B1B8D , bdr:EP6A3EA94A96A2C990 , bdr:EPA75C97EFED72CEFA , bdr:EPA866F0399B601448 , bdr:EPB893A5C481063DCE , bdr:EPC1781470D2131177 ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      21 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/21_zha/21_03_zha_phyag-chen-gyi-zin-bris.rtf" ;
+        :eTextVolumeIndex   3 .
+}

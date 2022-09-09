@@ -1,0 +1,55 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13341_007_0000 {
+    bda:UT3JT13341_007_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13341_007_0000 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "8c/UT3JT13341_007_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13341_007_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP2CF38002F7014907
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4608 ;
+        :sliceStartChar     4391 .
+    
+    bdr:EP879C49DA99CA27F6
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1443 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPA57F4045593F8D4D
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4389 ;
+        :sliceStartChar     2860 .
+    
+    bdr:EPBCC8F860661B02A1
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2858 ;
+        :sliceStartChar     1445 .
+    
+    bdr:UT3JT13341_007_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བཤགས་བཞུགས་སོ། །སེམས་ཅན་ཐམས་ཅད་རྟག་པར་བླ་མ་ལ་སྐྱབས་སུ་མཆིའོ། །སངས་རྒྱས་ལ་སྐྱབས༴ཆོས་ལ༴དགེ་འདུན་ལ༴བཅོམ་ལྡ"@bo ;
+        :eTextHasPage       bdr:EP2CF38002F7014907 , bdr:EP879C49DA99CA27F6 , bdr:EPA57F4045593F8D4D , bdr:EPBCC8F860661B02A1 ;
+        :eTextInInstance    bdr:IE3JT13341 ;
+        :eTextIsVolume      7 ;
+        :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/006_ltung-bshags.rtf" .
+}

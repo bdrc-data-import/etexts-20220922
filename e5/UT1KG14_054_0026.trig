@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG14_054_0026 {
+    bda:UT1KG14_054_0026
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG14_054_0026 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "e5/UT1KG14_054_0026.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG14_054_0026 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP4863C3ECAEE6CCBD
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       148 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP9781AA6C7B933281
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1677 ;
+        :sliceStartChar     150 .
+    
+    bdr:EPA1A54FC2E32E7E59
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       1857 ;
+        :sliceStartChar     1679 .
+    
+    bdr:UT1KG14_054_0026
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "བཅོམ་ལྡན་འཇམ་དཔལ་གཤིན་རྗེ་གཤེད་ཀྱི་སྐོང་བ་རིན་པོ་ཆེ་བཞུགས།བླ་མ་འཇམ་དཔལ་གཤིན་རྗེའི་གཤེད་ལ་ཕྱག་འཚལ་ཞིང་སྐྱབས་སུ་མཆི་འོ། །འདིར་འཇམ"@bo ;
+        :eTextHasPage       bdr:EP4863C3ECAEE6CCBD , bdr:EP9781AA6C7B933281 , bdr:EPA1A54FC2E32E7E59 ;
+        :eTextInInstance    bdr:IE1KG14 ;
+        :eTextInVolume      54 ;
+        :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/54-YI/TERDZO-YI-P25.rtf" ;
+        :eTextVolumeIndex   26 .
+}

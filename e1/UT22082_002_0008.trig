@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22082_002_0008 {
+    bda:UT22082_002_0008
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT22082_002_0008 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "e1/UT22082_002_0008.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22082_002_0008 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP751992B27CE43AFF
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       758 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP977E4FE0B090EE34
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2305 ;
+        :sliceStartChar     2294 .
+    
+    bdr:EPE9958E84B112CC45
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2292 ;
+        :sliceStartChar     760 .
+    
+    bdr:UT22082_002_0008
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །བང་རི་གཏེར་སྟོན་འཇའ་ཚོན་སྙིང་པོར་གནང་བའི་ལམ་ཡིག་བཞུགས་སོ། །།མགོན་པོ་འབྲི་གུང་པ་ཆེན་པོའི་རིགས་དང་ཆོས་ཀྱི་རྒྱལ་སྲིད་ཀྱི་སེང"@bo ;
+        :eTextHasPage       bdr:EP751992B27CE43AFF , bdr:EP977E4FE0B090EE34 , bdr:EPE9958E84B112CC45 ;
+        :eTextInInstance    bdr:IE22082 ;
+        :eTextInVolume      2 ;
+        :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-002/17KHA.TS.rtf" ;
+        :eTextVolumeIndex   8 .
+}

@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22082_009_0005 {
+    bda:UT22082_009_0005
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT22082_009_0005 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "e3/UT22082_009_0005.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22082_009_0005 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP1EF9D759DCD28B65
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1514 ;
+        :sliceStartChar     57 .
+    
+    bdr:EP3A337BCFCC9E65E7
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2882 ;
+        :sliceStartChar     1516 .
+    
+    bdr:EP62A6097B6D4B9972
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       55 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT22082_009_0005
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "གཞི་རྣམ་དག་ལམ་དུས་ཀྱི་ལམ་དུས་ཀྱི་རྣམ་དག་འབྲས་བུ་རྣམ་དག"@bo ;
+        :eTextHasPage       bdr:EP1EF9D759DCD28B65 , bdr:EP3A337BCFCC9E65E7 , bdr:EP62A6097B6D4B9972 ;
+        :eTextInInstance    bdr:IE22082 ;
+        :eTextInVolume      9 ;
+        :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-009/14TA.PHA.rtf" ;
+        :eTextVolumeIndex   5 .
+}

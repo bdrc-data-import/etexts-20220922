@@ -1,0 +1,92 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT30541_011_0011 {
+    bda:UT30541_011_0011
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT30541_011_0011 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "ef/UT30541_011_0011.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT30541_011_0011 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP088C7A904BF32CB6
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1586 ;
+        :sliceStartChar     51 .
+    
+    bdr:EP08A954F922B317B3
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       49 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP26AC1DC6FD67D702
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4485 ;
+        :sliceStartChar     3067 .
+    
+    bdr:EP3257972E7858B4F4
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7393 ;
+        :sliceStartChar     5912 .
+    
+    bdr:EP394C68D60A39D7AF
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10284 ;
+        :sliceStartChar     8811 .
+    
+    bdr:EP6539BD1FFDD7BF74
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8809 ;
+        :sliceStartChar     7395 .
+    
+    bdr:EP9988DA331973BDDD
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       12829 ;
+        :sliceStartChar     11728 .
+    
+    bdr:EPD850F22EAF6E927D
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3065 ;
+        :sliceStartChar     1588 .
+    
+    bdr:EPDEF05668AF5509C2
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5910 ;
+        :sliceStartChar     4487 .
+    
+    bdr:EPE08B18C8A46A8515
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11726 ;
+        :sliceStartChar     10286 .
+    
+    bdr:UT30541_011_0011
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཕྱག་རྒྱ་ཆེན་པོ་གངྒཱ་མའི་འགྲེལ་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP088C7A904BF32CB6 , bdr:EP08A954F922B317B3 , bdr:EP26AC1DC6FD67D702 , bdr:EP3257972E7858B4F4 , bdr:EP394C68D60A39D7AF , bdr:EP6539BD1FFDD7BF74 , bdr:EP9988DA331973BDDD , bdr:EPD850F22EAF6E927D , bdr:EPDEF05668AF5509C2 , bdr:EPE08B18C8A46A8515 ;
+        :eTextInInstance    bdr:IE30541 ;
+        :eTextInVolume      11 ;
+        :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/11_3rd-karmapa-text_tdoc_Aa/11_10_Aa_phyag-rgya-chen-po-gang gqa-maqi-qgrel-pa.rtf" ;
+        :eTextVolumeIndex   11 .
+}

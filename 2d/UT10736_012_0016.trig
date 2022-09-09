@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_012_0016 {
+    bda:UT10736_012_0016
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_012_0016 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "2d/UT10736_012_0016.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_012_0016 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0A849CC8C7628C75
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       3411 ;
+        :sliceStartChar     3116 .
+    
+    bdr:EP6A4B9815F552524F
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       52 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPA97239E158CD23A3
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3114 ;
+        :sliceStartChar     1511 .
+    
+    bdr:EPEF5A391145E0DB07
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1509 ;
+        :sliceStartChar     54 .
+    
+    bdr:UT10736_012_0016
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༡ན༡༽༄༅། །བྱང་བདག་པོའི་ཟླ་གསང་དྲི་ལན་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0A849CC8C7628C75 , bdr:EP6A4B9815F552524F , bdr:EPA97239E158CD23A3 , bdr:EPEF5A391145E0DB07 ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      12 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/12_na/12_16_na_byang-bdag-poqi-zla-gsang-dri-lan.rtf" ;
+        :eTextVolumeIndex   16 .
+}

@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG5988_001_0097 {
+    bda:UT1KG5988_001_0097
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG5988_001_0097 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "95/UT1KG5988_001_0097.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG5988_001_0097 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP215A12FDD3D51A35
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2952 ;
+        :sliceStartChar     1484 .
+    
+    bdr:EP4B467FB7D1A5A856
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1482 ;
+        :sliceStartChar     56 .
+    
+    bdr:EPB7AAA1663D4D0E15
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       3979 ;
+        :sliceStartChar     2954 .
+    
+    bdr:EPF26340FA48A12586
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       54 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT1KG5988_001_0097
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །གཟའི་ནད་རབ་ཏུ་ཞི་བར་བྱེད་པའི་གཟུངས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP215A12FDD3D51A35 , bdr:EP4B467FB7D1A5A856 , bdr:EPB7AAA1663D4D0E15 , bdr:EPF26340FA48A12586 ;
+        :eTextInInstance    bdr:IE1KG5988 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/098_gzaqi-nad-rab-tu-zhi-bar-byed-pa.rtf" ;
+        :eTextVolumeIndex   97 .
+}

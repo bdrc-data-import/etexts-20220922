@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG14_005_0011 {
+    bda:UT1KG14_005_0011
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG14_005_0011 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "9c/UT1KG14_005_0011.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG14_005_0011 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EPA560283116171DE9
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       1837 ;
+        :sliceStartChar     1714 .
+    
+    bdr:EPD0CB57858DEFC568
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1402 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPEDBE5DD674CAC86E
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1712 ;
+        :sliceStartChar     1404 .
+    
+    bdr:UT1KG14_005_0011
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "ཨོཾ་ཨཱཿཧཱུྃ།ཆོས་སྐུའི་ཞིང་ཁམས་པདྨོ་བདེ་བ་ཅན། །འཆི་མེད་མགོན་པོ་སྣང་བ་མཐའ་ཡས་ལ། །གསོལ་བ་འདེབས་སོ་ཨཱ་ཡུཿསིདྡྷི་ཧྲཱིཿབྱིན་གྱིས་རློ"@bo ;
+        :eTextHasPage       bdr:EPA560283116171DE9 , bdr:EPD0CB57858DEFC568 , bdr:EPEDBE5DD674CAC86E ;
+        :eTextInInstance    bdr:IE1KG14 ;
+        :eTextInVolume      5 ;
+        :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/05-CA/TER_CA-P10.rtf" ;
+        :eTextVolumeIndex   11 .
+}

@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG4884_006_0034 {
+    bda:UT1KG4884_006_0034
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG4884_006_0034 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "17/UT1KG4884_006_0034.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG4884_006_0034 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP05181FA83881B362
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       12635 ;
+        :sliceStartChar     11180 .
+    
+    bdr:EP1E436E8361F9184E
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7284 ;
+        :sliceStartChar     5835 .
+    
+    bdr:EP2E4FD4E7DDAC9BF1
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2936 ;
+        :sliceStartChar     1503 .
+    
+    bdr:EP32D75AC40F26CF5E
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       15534 ;
+        :sliceStartChar     14087 .
+    
+    bdr:EP382B658C1F021CB5
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5833 ;
+        :sliceStartChar     4391 .
+    
+    bdr:EP4685E509C137918E
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11178 ;
+        :sliceStartChar     10203 .
+    
+    bdr:EP48D2597885069E8B
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14085 ;
+        :sliceStartChar     12637 .
+    
+    bdr:EP688C85B5D76E9BA9
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4389 ;
+        :sliceStartChar     2938 .
+    
+    bdr:EP6CD0087E349D731C
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8743 ;
+        :sliceStartChar     7286 .
+    
+    bdr:EP74201B08A703596E
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1501 ;
+        :sliceStartChar     46 .
+    
+    bdr:EPC76006E0FA808C6F
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       44 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPEA57B7BCD6FA0FAB
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10201 ;
+        :sliceStartChar     8745 .
+    
+    bdr:EPF3B499D42C7A7441
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       15705 ;
+        :sliceStartChar     15536 .
+    
+    bdr:UT1KG4884_006_0034
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །སྲོག་སྒྲུབ་ནག་མོའི་སྒྲུབ་ཐབས་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP05181FA83881B362 , bdr:EP1E436E8361F9184E , bdr:EP2E4FD4E7DDAC9BF1 , bdr:EP32D75AC40F26CF5E , bdr:EP382B658C1F021CB5 , bdr:EP4685E509C137918E , bdr:EP48D2597885069E8B , bdr:EP688C85B5D76E9BA9 , bdr:EP6CD0087E349D731C , bdr:EP74201B08A703596E , bdr:EPC76006E0FA808C6F , bdr:EPEA57B7BCD6FA0FAB , bdr:EPF3B499D42C7A7441 ;
+        :eTextInInstance    bdr:IE1KG4884 ;
+        :eTextInVolume      6 ;
+        :eTextSourcePath    "KarmaDelek/klong-chen-rab-byams-gung-qbum/rtfs/volume_006/volume_006_179.rtf" ;
+        :eTextVolumeIndex   34 .
+}

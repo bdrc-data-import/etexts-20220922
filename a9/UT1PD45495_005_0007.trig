@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1PD45495_005_0007 {
+    bda:UT1PD45495_005_0007
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1PD45495_005_0007 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "a9/UT1PD45495_005_0007.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1PD45495_005_0007 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0AB7149CB8B6C787
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4460 ;
+        :sliceStartChar     3021 .
+    
+    bdr:EP0FB173C5B34A1D53
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       60 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP853CC0FAB32F4E49
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3019 ;
+        :sliceStartChar     1571 .
+    
+    bdr:EP898CA92B76EF1710
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5550 ;
+        :sliceStartChar     4462 .
+    
+    bdr:EPE9608A8B401C8CC7
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1569 ;
+        :sliceStartChar     62 .
+    
+    bdr:UT1PD45495_005_0007
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །རིམ་གཉིས་ཟབ་མོའི་ལམ་ཀྱི་སྨོན་ལམ་ཁྱད་པར་དུ་འཕགས་པ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP0AB7149CB8B6C787 , bdr:EP0FB173C5B34A1D53 , bdr:EP853CC0FAB32F4E49 , bdr:EP898CA92B76EF1710 , bdr:EPE9608A8B401C8CC7 ;
+        :eTextInInstance    bdr:IE1PD45495 ;
+        :eTextInVolume      5 ;
+        :eTextSourcePath    "KarmaDelek/taranatha-gsung-qbum/rtfs/volume_005/volume_005_042.rtf" ;
+        :eTextVolumeIndex   7 .
+}

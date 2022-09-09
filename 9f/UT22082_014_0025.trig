@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22082_014_0025 {
+    bda:UT22082_014_0025
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT22082_014_0025 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "9f/UT22082_014_0025.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22082_014_0025 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP3065B71DF20A6FD1
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       54 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPD3E56683EFBE95CC
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1468 ;
+        :sliceStartChar     56 .
+    
+    bdr:EPE2E0B3869561A44F
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3747 ;
+        :sliceStartChar     1470 .
+    
+    bdr:EPE60C532AD64B1820
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       3991 ;
+        :sliceStartChar     3749 .
+    
+    bdr:UT22082_014_0025
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ལམ་ཟབ་བླ་མ་སྒྲུབ་པའི་ལོ་རྒྱུས་བསྡུས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP3065B71DF20A6FD1 , bdr:EPD3E56683EFBE95CC , bdr:EPE2E0B3869561A44F , bdr:EPE60C532AD64B1820 ;
+        :eTextInInstance    bdr:IE22082 ;
+        :eTextInVolume      14 ;
+        :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-014/3PHA.GA.rtf" ;
+        :eTextVolumeIndex   25 .
+}

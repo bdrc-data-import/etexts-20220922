@@ -1,0 +1,104 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG5988_001_0016 {
+    bda:UT1KG5988_001_0016
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG5988_001_0016 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "0a/UT1KG5988_001_0016.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG5988_001_0016 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0748E3029740B00E
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7546 ;
+        :sliceStartChar     6120 .
+    
+    bdr:EP115C4B17AC3EFC0E
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4673 ;
+        :sliceStartChar     3236 .
+    
+    bdr:EP187FBBB7FC53FE2E
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3234 ;
+        :sliceStartChar     1511 .
+    
+    bdr:EP4AA7DB30034BA1B9
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10417 ;
+        :sliceStartChar     8992 .
+    
+    bdr:EP5C392F5D19071644
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13422 ;
+        :sliceStartChar     11848 .
+    
+    bdr:EP5D8CFEE2759E0E33
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       15542 ;
+        :sliceStartChar     14976 .
+    
+    bdr:EP664EECB248F20547
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       47 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP7E6F7F6AD11348C8
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14974 ;
+        :sliceStartChar     13424 .
+    
+    bdr:EP99975367195F1CD7
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11846 ;
+        :sliceStartChar     10419 .
+    
+    bdr:EPBEA8E698A20CD377
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1509 ;
+        :sliceStartChar     49 .
+    
+    bdr:EPF93BA9E89DD8F29D
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8990 ;
+        :sliceStartChar     7548 .
+    
+    bdr:EPFBAAD635D68C0560
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6118 ;
+        :sliceStartChar     4675 .
+    
+    bdr:UT1KG5988_001_0016
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །དཔལ་རྡོ་རྗེ་སྡེར་མོའི་གཟུངས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0748E3029740B00E , bdr:EP115C4B17AC3EFC0E , bdr:EP187FBBB7FC53FE2E , bdr:EP4AA7DB30034BA1B9 , bdr:EP5C392F5D19071644 , bdr:EP5D8CFEE2759E0E33 , bdr:EP664EECB248F20547 , bdr:EP7E6F7F6AD11348C8 , bdr:EP99975367195F1CD7 , bdr:EPBEA8E698A20CD377 , bdr:EPF93BA9E89DD8F29D , bdr:EPFBAAD635D68C0560 ;
+        :eTextInInstance    bdr:IE1KG5988 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/017_rdo-rje-sder-mo.rtf" ;
+        :eTextVolumeIndex   16 .
+}

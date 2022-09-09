@@ -1,0 +1,92 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_016_0007 {
+    bda:UT10736_016_0007
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_016_0007 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "ea/UT10736_016_0007.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_016_0007 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP07B12BD4B2CDB200
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10273 ;
+        :sliceStartChar     8846 .
+    
+    bdr:EP106918749684D382
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2908 ;
+        :sliceStartChar     1486 .
+    
+    bdr:EP1DFE3BD913BFE9E9
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8844 ;
+        :sliceStartChar     7406 .
+    
+    bdr:EP1F9B7A848FCDFED8
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       62 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP4B87CAEE79E6974E
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4409 ;
+        :sliceStartChar     2910 .
+    
+    bdr:EP64B2ECC0C07D348C
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5943 ;
+        :sliceStartChar     4411 .
+    
+    bdr:EP90D23D8C958890C6
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       12132 ;
+        :sliceStartChar     11368 .
+    
+    bdr:EPA3BDF65875BA8D24
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7404 ;
+        :sliceStartChar     5945 .
+    
+    bdr:EPB0F811A7299532AF
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1484 ;
+        :sliceStartChar     64 .
+    
+    bdr:EPF13FA621FC142590
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11366 ;
+        :sliceStartChar     10275 .
+    
+    bdr:UT10736_016_0007
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཕྱི་སྒྲུབ་སློབ་མ་ལ་ཕན་པའི་ཚེ་རྟའི་ཟིན་བྲིས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP07B12BD4B2CDB200 , bdr:EP106918749684D382 , bdr:EP1DFE3BD913BFE9E9 , bdr:EP1F9B7A848FCDFED8 , bdr:EP4B87CAEE79E6974E , bdr:EP64B2ECC0C07D348C , bdr:EP90D23D8C958890C6 , bdr:EPA3BDF65875BA8D24 , bdr:EPB0F811A7299532AF , bdr:EPF13FA621FC142590 ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      16 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/16_ma/16_07_ma_phyi-sgrub-slob-ma-la-phan-paqi-tshe-rtaqi-zin-bris.rtf" ;
+        :eTextVolumeIndex   7 .
+}

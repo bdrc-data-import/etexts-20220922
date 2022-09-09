@@ -1,0 +1,61 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13356_002_0000 {
+    bda:UT3JT13356_002_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13356_002_0000 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "88/UT3JT13356_002_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13356_002_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP380B083A07BA7B19
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4344 ;
+        :sliceStartChar     2922 .
+    
+    bdr:EP5AB5E75DCD40B134
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2920 ;
+        :sliceStartChar     1418 .
+    
+    bdr:EPC107373D7AD84500
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5847 ;
+        :sliceStartChar     4346 .
+    
+    bdr:EPC892E58827B661D0
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6060 ;
+        :sliceStartChar     5849 .
+    
+    bdr:EPD12A24E2623F171E
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1416 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT3JT13356_002_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ནི་གུའི་ཡན་ལག་ཕྱག་ཆེན་གའུ་མའི་ཁྲིད་བཞུགས་སོ། །ན་མོ་གུ་རུ།བདེ་ཆེན་ལྷུན་གྲུབ་འདུས་མ་བྱས། །ལོངས་སྐུ་རྡོ་རྗེ་འཆང་ཆེན་པོ། །བ"@bo ;
+        :eTextHasPage       bdr:EP380B083A07BA7B19 , bdr:EP5AB5E75DCD40B134 , bdr:EPC107373D7AD84500 , bdr:EPC892E58827B661D0 , bdr:EPD12A24E2623F171E ;
+        :eTextInInstance    bdr:IE3JT13356 ;
+        :eTextIsVolume      2 ;
+        :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/23_NEGU/NEGU002_ནི་གུའི་ཡན་ལག་ཕྱག་ཆེན་གའུ་མའི་ཁྲིད།.rtf" .
+}

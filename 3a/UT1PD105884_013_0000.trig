@@ -1,0 +1,55 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1PD105884_013_0000 {
+    bda:UT1PD105884_013_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1PD105884_013_0000 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "3a/UT1PD105884_013_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1PD105884_013_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP18352A0FA5C33D7C
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1611 ;
+        :sliceStartChar     26 .
+    
+    bdr:EP8454E6214FA78943
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       24 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPC6F46A95C00BCD31
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       3156 ;
+        :sliceStartChar     3021 .
+    
+    bdr:EPD9980FE7E3249F79
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3019 ;
+        :sliceStartChar     1613 .
+    
+    bdr:UT1PD105884_013_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །བསྡུ་སྒྲིག་གསལ་བཤད།"@bo ;
+        :eTextHasPage       bdr:EP18352A0FA5C33D7C , bdr:EP8454E6214FA78943 , bdr:EPC6F46A95C00BCD31 , bdr:EPD9980FE7E3249F79 ;
+        :eTextInInstance    bdr:IE1PD105884 ;
+        :eTextIsVolume      13 ;
+        :eTextSourcePath    "KarmaDelek/rgyal-sras-thogs-med-P1830-chos-skor/rtfs/volume_011/volume_011_115.rtf" .
+}

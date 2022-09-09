@@ -1,0 +1,74 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT30541_010_0007 {
+    bda:UT30541_010_0007
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT30541_010_0007 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "fd/UT30541_010_0007.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT30541_010_0007 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP2A34A82F0E0FE0C7
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5875 ;
+        :sliceStartChar     4361 .
+    
+    bdr:EP2F4F6740D1291F9F
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1505 ;
+        :sliceStartChar     80 .
+    
+    bdr:EP561A2DCCD3511C20
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8135 ;
+        :sliceStartChar     5877 .
+    
+    bdr:EP5AA129F33E0A23E6
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4359 ;
+        :sliceStartChar     2942 .
+    
+    bdr:EP7FD98512FD31E8BF
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2940 ;
+        :sliceStartChar     1507 .
+    
+    bdr:EPF420951275A5FB06
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       78 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPF4DDEF3EA3C5572E
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8210 ;
+        :sliceStartChar     8137 .
+    
+    bdr:UT30541_010_0007
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །དཔལ་དུས་ཀྱི་འཁོར་ལོའི་བསྒྲུབ་ཐབས་བསྡུས་པ་ལུས་ཀྱི་དཀྱིལ་འཁོར་ཀྵས་བསྐྱེད་པ་"@bo ;
+        :eTextHasPage       bdr:EP2A34A82F0E0FE0C7 , bdr:EP2F4F6740D1291F9F , bdr:EP561A2DCCD3511C20 , bdr:EP5AA129F33E0A23E6 , bdr:EP7FD98512FD31E8BF , bdr:EPF420951275A5FB06 , bdr:EPF4DDEF3EA3C5572E ;
+        :eTextInInstance    bdr:IE30541 ;
+        :eTextInVolume      10 ;
+        :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/10_3rd-karmapa-text_tdoc_tha/10_06_tha_dpal-dus-kyi-qkhor-loqi-bsgrub-thabs-bsdus-pa-lus-kyi-dkyil-qkhor-KSas-bskyed-pa.rtf" ;
+        :eTextVolumeIndex   7 .
+}

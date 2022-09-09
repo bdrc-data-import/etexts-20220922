@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_012_0019 {
+    bda:UT23605_012_0019
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_012_0019 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "cd/UT23605_012_0019.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_012_0019 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP2D4F5172B90B88D7
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       13 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP2F72B77AB1626AC9
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2891 ;
+        :sliceStartChar     1456 .
+    
+    bdr:EP9E997FBEF625A472
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1454 ;
+        :sliceStartChar     15 .
+    
+    bdr:UT23605_012_0019
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༣༣༣༽༄༅། །ཟབ་ལམ་ནི་གུ་ཆོས་དྲུག་གི་བླ་མ་བརྒྱུད་པའི་གསོལ་འདེབས་བྱིན་རླབས་སྤྲིན་ཕུང་བཞུགས་སོ། །ན་མོ་གུ་རུ། །གནས་སྤྱི་གཙུག་ཉི་ཟླའ"@bo ;
+        :eTextHasPage       bdr:EP2D4F5172B90B88D7 , bdr:EP2F72B77AB1626AC9 , bdr:EP9E997FBEF625A472 ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      12 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/12_gdams-ngag-mdzod_na/12_18_zab-lam-ni-gu-chos-drug-gi-bla-ma-brgyud-paqi-gsol-qdebs-byin-rlabs-sprin-phung.rtf" ;
+        :eTextVolumeIndex   19 .
+}

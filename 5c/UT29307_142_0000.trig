@@ -1,0 +1,49 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT29307_142_0000 {
+    bda:UT29307_142_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT29307_142_0000 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "5c/UT29307_142_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT29307_142_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP27AF43E2FE406FBA
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3710 ;
+        :sliceStartChar     2939 .
+    
+    bdr:EP69805E88DC1E077F
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2937 ;
+        :sliceStartChar     1453 .
+    
+    bdr:EPF17ADB32FC4DD3B4
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1451 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT29307_142_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །བླ་བྲང་ཉི་ལྡེ་ན་བཞུགས་པའི་རིགས་ལྡན་ཆེན་པོའི་སྐུ་གདུང་གི་ལོ་རྒྱུས་ཀྱི་ཡི་གེ་བཞུགས་སོ། །དྷརྨ་རཱ་ཛ་མཧཱ་བི་ཛ་ཡ་ཀིརྟི་བྷཊྚཙ་ཤྲ"@bo ;
+        :eTextHasPage       bdr:EP27AF43E2FE406FBA , bdr:EP69805E88DC1E077F , bdr:EPF17ADB32FC4DD3B4 ;
+        :eTextInInstance    bdr:IE29307 ;
+        :eTextIsVolume      142 ;
+        :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/4_AMAI/AMAI142_བླ་བྲང་ཉི་ལྡེ་ན་བཞུགས་པའི་རིགས་ལྡན་ཆེན་པོའི་སྐུ་གདུང་གི་ལོ་རྒྱུས་ཀྱི་ཡི་གེ.rtf" .
+}

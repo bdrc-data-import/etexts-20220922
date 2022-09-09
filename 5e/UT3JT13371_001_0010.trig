@@ -1,0 +1,74 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13371_001_0010 {
+    bda:UT3JT13371_001_0010
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13371_001_0010 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "5e/UT3JT13371_001_0010.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13371_001_0010 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP3346F524DA630434
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       7858 ;
+        :sliceStartChar     7364 .
+    
+    bdr:EP3C715D5D6B026ABF
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7362 ;
+        :sliceStartChar     5901 .
+    
+    bdr:EP57EAD930A237C918
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5899 ;
+        :sliceStartChar     4456 .
+    
+    bdr:EP700B686B0B1A4717
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       66 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP9A4B8B3220B2A311
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4454 ;
+        :sliceStartChar     3000 .
+    
+    bdr:EP9CD173659335BB0B
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1544 ;
+        :sliceStartChar     68 .
+    
+    bdr:EPFA948622F8ACD4FC
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2998 ;
+        :sliceStartChar     1546 .
+    
+    bdr:UT3JT13371_001_0010
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །རྒྱ་གར་སྐད་དུ།ཨཱརྱ་མཱུ་ལ་སརྦ་ཨསྟི་བཱ་དི་ཤྲ་མ་ཎེ་ར་ཀཱ་རི་ཀཱ།"@bo ;
+        :eTextHasPage       bdr:EP3346F524DA630434 , bdr:EP3C715D5D6B026ABF , bdr:EP57EAD930A237C918 , bdr:EP700B686B0B1A4717 , bdr:EP9A4B8B3220B2A311 , bdr:EP9CD173659335BB0B , bdr:EPFA948622F8ACD4FC ;
+        :eTextInInstance    bdr:IE3JT13371 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "VajraVidya/Dulwa_Metok_Treng_gyud/rtfs/volume-001/08_ge_tshul_kA_ri_kA_50.rtf" ;
+        :eTextVolumeIndex   10 .
+}

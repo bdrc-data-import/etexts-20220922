@@ -1,0 +1,55 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13341_042_0000 {
+    bda:UT3JT13341_042_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13341_042_0000 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "f7/UT3JT13341_042_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13341_042_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP368EB68634D64672
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2880 ;
+        :sliceStartChar     1406 .
+    
+    bdr:EP995DC93A9485ED49
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4808 ;
+        :sliceStartChar     4354 .
+    
+    bdr:EPAC35B99CCDF853F2
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1404 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPEB0F589AC93160EF
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4352 ;
+        :sliceStartChar     2882 .
+    
+    bdr:UT3JT13341_042_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་བཞུགས་སོ། །རྒྱ་གར་སྐད་དུ།བྷ་ག་ཝ་ཏི་པྲཛྙཱ་པ་ར་མི་ཏ་ཧྲྀ་ད་ཡ།བོད་སྐད་དུ།བཅོམ་ལྡན་འདས་མ་ཤེས་རབ"@bo ;
+        :eTextHasPage       bdr:EP368EB68634D64672 , bdr:EP995DC93A9485ED49 , bdr:EPAC35B99CCDF853F2 , bdr:EPEB0F589AC93160EF ;
+        :eTextInInstance    bdr:IE3JT13341 ;
+        :eTextIsVolume      42 ;
+        :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/032_shes-rab-snying-po.rtf" .
+}

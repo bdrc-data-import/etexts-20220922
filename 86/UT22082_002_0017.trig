@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22082_002_0017 {
+    bda:UT22082_002_0017
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT22082_002_0017 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "86/UT22082_002_0017.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22082_002_0017 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP135C74F2FD0F52B6
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1447 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP2895ADCBC93CD3DD
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2860 ;
+        :sliceStartChar     1449 .
+    
+    bdr:EP6C2C807B376F11D4
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3958 ;
+        :sliceStartChar     2862 .
+    
+    bdr:UT22082_002_0017
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །བཀའ་འགྱུར་བཞེངས་དུས་དཔོན་ཡིག་རྣམས་ཀྱི་བཅའ་ཡིག་བཞུགས་སོ། །།དཔོན་ཡིག་རྣམས་ཀྱི་ཐུགས་ལ་ངེས་དགོས།ད་ལམ་བཀའ་འགྱུར་འདི་འཇིག་རྟེན་"@bo ;
+        :eTextHasPage       bdr:EP135C74F2FD0F52B6 , bdr:EP2895ADCBC93CD3DD , bdr:EP6C2C807B376F11D4 ;
+        :eTextInInstance    bdr:IE22082 ;
+        :eTextInVolume      2 ;
+        :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-002/4KHA.NGA.rtf" ;
+        :eTextVolumeIndex   17 .
+}

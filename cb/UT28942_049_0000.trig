@@ -1,0 +1,91 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT28942_049_0000 {
+    bda:UT28942_049_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT28942_049_0000 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "cb/UT28942_049_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT28942_049_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP19AFE97BFA477FAC
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       11941 ;
+        :sliceStartChar     10130 .
+    
+    bdr:EP24CC4F3A7B1D199B
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5747 ;
+        :sliceStartChar     4328 .
+    
+    bdr:EP374CDB39CE5A62CC
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       13366 ;
+        :sliceStartChar     11943 .
+    
+    bdr:EP6B627AF4A4DB2FB2
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8633 ;
+        :sliceStartChar     7215 .
+    
+    bdr:EP70F7CF5EB9611D18
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       7213 ;
+        :sliceStartChar     5749 .
+    
+    bdr:EP9126E15E4AFAB249
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13785 ;
+        :sliceStartChar     13368 .
+    
+    bdr:EP9B125F124744AC68
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1424 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPAFDAB60F9D020BC3
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2863 ;
+        :sliceStartChar     1426 .
+    
+    bdr:EPBE0D63D9F5592A6D
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4326 ;
+        :sliceStartChar     2865 .
+    
+    bdr:EPDDFC1894B21D189E
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       10128 ;
+        :sliceStartChar     8635 .
+    
+    bdr:UT28942_049_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཉམས་སུ་ལེན་པའི་མན་ངག་ཟབ་དོན་སྙིང་པོ་ཞེས་བྱ་བ།བླ་མ་དང་ལྷག་པའི་ལྷ་ལ་ཕྱག་འཚལ་ལོ། །གང་ལ་གང་གིས་སྐྱ"@bo ;
+        :eTextHasPage       bdr:EP19AFE97BFA477FAC , bdr:EP24CC4F3A7B1D199B , bdr:EP374CDB39CE5A62CC , bdr:EP6B627AF4A4DB2FB2 , bdr:EP70F7CF5EB9611D18 , bdr:EP9126E15E4AFAB249 , bdr:EP9B125F124744AC68 , bdr:EPAFDAB60F9D020BC3 , bdr:EPBE0D63D9F5592A6D , bdr:EPDDFC1894B21D189E ;
+        :eTextInInstance    bdr:IE28942 ;
+        :eTextIsVolume      49 ;
+        :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/RONGTON/RONT049.rtf" .
+}

@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_016_0020 {
+    bda:UT10736_016_0020
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_016_0020 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "a5/UT10736_016_0020.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_016_0020 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP07B535658A672FDE
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5062 ;
+        :sliceStartChar     4381 .
+    
+    bdr:EP0C6DDED8E0B0B264
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4379 ;
+        :sliceStartChar     2965 .
+    
+    bdr:EP5C995823D7E5C7C8
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       55 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP5F91CDE7C30AF3FB
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2963 ;
+        :sliceStartChar     1530 .
+    
+    bdr:EPEA3C38788D915FEC
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1528 ;
+        :sliceStartChar     57 .
+    
+    bdr:UT10736_016_0020
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །དཔའ་བོ་གཅིག་ཏུ་བསྙེན་པའི་མངོན་རྟོགས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP07B535658A672FDE , bdr:EP0C6DDED8E0B0B264 , bdr:EP5C995823D7E5C7C8 , bdr:EP5F91CDE7C30AF3FB , bdr:EPEA3C38788D915FEC ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      16 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/16_ma/16_20_ma_dpaq-bo-gcig-tu-bsnyen-paqi-mngon-rtogs.rtf" ;
+        :eTextVolumeIndex   20 .
+}

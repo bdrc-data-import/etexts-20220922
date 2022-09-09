@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT2DB16428_004_0003 {
+    bda:UT2DB16428_004_0003
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT2DB16428_004_0003 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "9d/UT2DB16428_004_0003.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT2DB16428_004_0003 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP19A122AC9D7412F2
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       18 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP76466B408C72F9BC
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1507 ;
+        :sliceStartChar     20 .
+    
+    bdr:EP8BB10BF99009AAAB
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       2935 ;
+        :sliceStartChar     2934 .
+    
+    bdr:EPF598AD0B983C4B84
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2932 ;
+        :sliceStartChar     1509 .
+    
+    bdr:UT2DB16428_004_0003
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "རྣམ་ཐར་མདོར་བསྡུས།"@bo ;
+        :eTextHasPage       bdr:EP19A122AC9D7412F2 , bdr:EP76466B408C72F9BC , bdr:EP8BB10BF99009AAAB , bdr:EPF598AD0B983C4B84 ;
+        :eTextInInstance    bdr:IE2DB16428 ;
+        :eTextInVolume      4 ;
+        :eTextSourcePath    "KarmaDelek/sung-thor-bu _blo-gros-rin-chen-seng-ge_gung-ru-rgyal-mtshan-bzang-po-chos-skor/rtfs/volume_004/volume_004_025.rtf" ;
+        :eTextVolumeIndex   3 .
+}

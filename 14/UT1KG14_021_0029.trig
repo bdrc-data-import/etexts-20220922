@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG14_021_0029 {
+    bda:UT1KG14_021_0029
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG14_021_0029 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "14/UT1KG14_021_0029.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG14_021_0029 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP7486E68B95956E9B
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1546 ;
+        :sliceStartChar     112 .
+    
+    bdr:EP8C8B5223B3CBAED5
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       110 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPBFD05B6849B470C2
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4397 ;
+        :sliceStartChar     3023 .
+    
+    bdr:EPC52EC8D74540F507
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3021 ;
+        :sliceStartChar     1548 .
+    
+    bdr:UT1KG14_021_0029
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །གཏེར་སྟོན་ཉི་ཟླ་སངས་རྒྱས་ཀྱི་འཕོ་བ་འཇག་ཚུགས་མའི་ཁྲིད་ཀྱི་དམིགས་རིམ་ཟིན་བྲིས་བླ་མའི་ཞལ་ལུང་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP7486E68B95956E9B , bdr:EP8C8B5223B3CBAED5 , bdr:EPBFD05B6849B470C2 , bdr:EPC52EC8D74540F507 ;
+        :eTextInInstance    bdr:IE1KG14 ;
+        :eTextInVolume      21 ;
+        :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/21-ZHA/Terzod-zha-P28.rtf" ;
+        :eTextVolumeIndex   29 .
+}

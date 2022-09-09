@@ -1,0 +1,85 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT29307_067_0000 {
+    bda:UT29307_067_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT29307_067_0000 ;
+        adm:facetIndex      10 ;
+        adm:gitPath         "84/UT29307_067_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT29307_067_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0CDA5EF61B0437D7
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       11637 ;
+        :sliceStartChar     10154 .
+    
+    bdr:EP510B7A5B6270C9B4
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       10152 ;
+        :sliceStartChar     8714 .
+    
+    bdr:EP53F3EEA3D72083D4
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       12220 ;
+        :sliceStartChar     11639 .
+    
+    bdr:EP69C87C084D285A4A
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4445 ;
+        :sliceStartChar     2938 .
+    
+    bdr:EP79FD37517DD23795
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       7302 ;
+        :sliceStartChar     5872 .
+    
+    bdr:EP7AFE7199C9052F38
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5870 ;
+        :sliceStartChar     4447 .
+    
+    bdr:EP88F28324BF532250
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1466 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPA194BB4212ACDAD4
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8712 ;
+        :sliceStartChar     7304 .
+    
+    bdr:EPC8B8B06BCE16136D
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2936 ;
+        :sliceStartChar     1468 .
+    
+    bdr:UT29307_067_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །རྡོ་རྗེ་ཕུར་པ་དངོས་གྲུབ་ཆར་འབེབས་ཀྱི་འཆམ་དཔེ་སྣང་བ་འགྱུར་ཐུབ་ལས་ལོགས་སུ་བཀོད་པའི་སྟངས་སྟབས་བསྡུས་པའི་འཆམ་དཔེ་འཕྲིན་ལས་བསམ་"@bo ;
+        :eTextHasPage       bdr:EP0CDA5EF61B0437D7 , bdr:EP510B7A5B6270C9B4 , bdr:EP53F3EEA3D72083D4 , bdr:EP69C87C084D285A4A , bdr:EP79FD37517DD23795 , bdr:EP7AFE7199C9052F38 , bdr:EP88F28324BF532250 , bdr:EPA194BB4212ACDAD4 , bdr:EPC8B8B06BCE16136D ;
+        :eTextInInstance    bdr:IE29307 ;
+        :eTextIsVolume      67 ;
+        :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/4_AMAI/AMAI067_ཕུར་པའི་འཆམ་དཔེ་སྣང་བ་འགྱུར་ཐུབ་ལས་ལོགས་སུ་བཀོད་པའི་སྟངས་སྟབས་བསྡུས་པའི་འཆམ་དཔེ།.rtf" .
+}

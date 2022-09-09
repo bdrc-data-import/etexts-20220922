@@ -1,0 +1,109 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13341_016_0000 {
+    bda:UT3JT13341_016_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13341_016_0000 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "3c/UT3JT13341_016_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13341_016_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP7B51D0537AAA0201
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       18118 ;
+        :sliceStartChar     17061 .
+    
+    bdr:EP938272A766B0F7C3
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       9612 ;
+        :sliceStartChar     8040 .
+    
+    bdr:EP94E521AAAEB12DE4
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8038 ;
+        :sliceStartChar     5880 .
+    
+    bdr:EPA94010C02C99EB99
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4450 ;
+        :sliceStartChar     2994 .
+    
+    bdr:EPAD2E4A8F161BE301
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       17059 ;
+        :sliceStartChar     15626 .
+    
+    bdr:EPB29368E6CAD82811
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       139 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPC5186968064E0346
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1537 ;
+        :sliceStartChar     141 .
+    
+    bdr:EPC7DCE2F68CDFAA5B
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       14151 ;
+        :sliceStartChar     13828 .
+    
+    bdr:EPCB706177A0810DB9
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2992 ;
+        :sliceStartChar     1539 .
+    
+    bdr:EPCF8E2A74A335C774
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       11180 ;
+        :sliceStartChar     9614 .
+    
+    bdr:EPE723C206E4A46BFF
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5878 ;
+        :sliceStartChar     4452 .
+    
+    bdr:EPF84FEA30BA654650
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       15624 ;
+        :sliceStartChar     14153 .
+    
+    bdr:EPFB22179473BB6F5E
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       13826 ;
+        :sliceStartChar     11182 .
+    
+    bdr:UT3JT13341_016_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཟབ་ལམ་རྟ་མགྲིན་སྙིང་ཐིག་སྙིང་པོ་དོན་སྦྱོར་གྱི་བླ་མ་བརྒྱུད་པའི་གསོལ་འདེབས་བྱིན་རླབས་གཏེར་འབྱུང་དངོས་གྲུབ་རྒྱ་མཚོ་ཞེས་བྱ་བ་བ"@bo ;
+        :eTextHasPage       bdr:EP7B51D0537AAA0201 , bdr:EP938272A766B0F7C3 , bdr:EP94E521AAAEB12DE4 , bdr:EPA94010C02C99EB99 , bdr:EPAD2E4A8F161BE301 , bdr:EPB29368E6CAD82811 , bdr:EPC5186968064E0346 , bdr:EPC7DCE2F68CDFAA5B , bdr:EPCB706177A0810DB9 , bdr:EPCF8E2A74A335C774 , bdr:EPE723C206E4A46BFF , bdr:EPF84FEA30BA654650 , bdr:EPFB22179473BB6F5E ;
+        :eTextInInstance    bdr:IE3JT13341 ;
+        :eTextIsVolume      16 ;
+        :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/015_gsol-qdebs-drug-po.rtf" .
+}

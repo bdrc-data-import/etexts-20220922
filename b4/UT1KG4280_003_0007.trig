@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG4280_003_0007 {
+    bda:UT1KG4280_003_0007
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG4280_003_0007 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "b4/UT1KG4280_003_0007.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG4280_003_0007 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EPBFA438D0C3A6DCEE
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2017 ;
+        :sliceStartChar     75 .
+    
+    bdr:EPCDAF8F1FACE4993C
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       73 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPD0A31E43B1FD8EA7
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4485 ;
+        :sliceStartChar     3464 .
+    
+    bdr:EPF53C96C22993C72B
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3462 ;
+        :sliceStartChar     2019 .
+    
+    bdr:UT1KG4280_003_0007
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །བཅོམ་ལྡན་མ་ཧཱ་མཱ་ཡཱའི་ཚོགས་མཆོད་འདོད་དགུ་མྱུར་སྟེར་ཞེས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EPBFA438D0C3A6DCEE , bdr:EPCDAF8F1FACE4993C , bdr:EPD0A31E43B1FD8EA7 , bdr:EPF53C96C22993C72B ;
+        :eTextInInstance    bdr:IE1KG4280 ;
+        :eTextInVolume      3 ;
+        :eTextSourcePath    "DharmaDownload/Situpa-09-sung-bum/rtfs/OM/008_9th-Situ-Kabum_OM_ma-haq-ma-yqi-tshogs-mchod-qdod-dgu-gyur-ster.rtf" ;
+        :eTextVolumeIndex   7 .
+}

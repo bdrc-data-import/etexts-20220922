@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT21888_002_0012 {
+    bda:UT21888_002_0012
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT21888_002_0012 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "c4/UT21888_002_0012.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT21888_002_0012 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP097B175EEB9CED26
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       892 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP23443AB4AB37F8EB
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2378 ;
+        :sliceStartChar     2366 .
+    
+    bdr:EPF070654F39018CC4
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2364 ;
+        :sliceStartChar     894 .
+    
+    bdr:UT21888_002_0012
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༢༡༩༽ཆོས་ཉིད་མཁའ་འགྲོའི་གསང་མཛོད་ལས༔ཡེ་ཤེས་མཁའ་འགྲོའི་སྒྲུབ་ཐབས་བྱིན་རླབས་མྱུར་ཐོབ་ཤིན་ཏུ་གསང་བའི་རྒྱ་ཅན་བཞུགས༔ན་མོ༔རང་བྱུང་རིག་པ"@bo ;
+        :eTextHasPage       bdr:EP097B175EEB9CED26 , bdr:EP23443AB4AB37F8EB , bdr:EPF070654F39018CC4 ;
+        :eTextInInstance    bdr:IE21888 ;
+        :eTextInVolume      2 ;
+        :eTextSourcePath    "PalriParkhang/W21888-se-ra-mkhaq-qgro-bkaq-qbum/rtfs/2-Wam-Serakhagro-Kabum/Wam-Serakhagro-218-222.rtf" ;
+        :eTextVolumeIndex   12 .
+}

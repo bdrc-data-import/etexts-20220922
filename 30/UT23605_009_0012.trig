@@ -1,0 +1,68 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_009_0012 {
+    bda:UT23605_009_0012
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_009_0012 ;
+        adm:facetIndex      7 ;
+        adm:gitPath         "30/UT23605_009_0012.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_009_0012 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP455C323B4804374B
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6936 ;
+        :sliceStartChar     5468 .
+    
+    bdr:EP554B9C9B876538CD
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5466 ;
+        :sliceStartChar     3326 .
+    
+    bdr:EP5B09BED1EBC490D7
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3324 ;
+        :sliceStartChar     1932 .
+    
+    bdr:EP8F59EEB3FCFB65E2
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       102 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPEB5CE8FAFE77A732
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1930 ;
+        :sliceStartChar     104 .
+    
+    bdr:EPFC5FF05F86089160
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7109 ;
+        :sliceStartChar     6938 .
+    
+    bdr:UT23605_009_0012
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༢༤༧༽༄༅། །རྫོགས་པའི་སངས་རྒྱས་དཔལ་ཀརྨ་པའི་ཟབ་ཆོས་སྐུ་གསུམ་ངོ་སྤྲོད་ཀྱི་གདམས་པ་ཞེས་བྱ་བ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP455C323B4804374B , bdr:EP554B9C9B876538CD , bdr:EP5B09BED1EBC490D7 , bdr:EP8F59EEB3FCFB65E2 , bdr:EPEB5CE8FAFE77A732 , bdr:EPFC5FF05F86089160 ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      9 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/09_gdams-ngag-mdzod_ta/09_11_rdzogs-paqi-sangs-rgyas-dpal-karma-paqi-zab-chos-sku-gsum-ngo-sprod-kyi-gdams-pa.rtf" ;
+        :eTextVolumeIndex   12 .
+}

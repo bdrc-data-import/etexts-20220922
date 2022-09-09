@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_001_0008 {
+    bda:UT23605_001_0008
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_001_0008 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "af/UT23605_001_0008.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_001_0008 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP22F238222F38DFF8
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5847 ;
+        :sliceStartChar     4457 .
+    
+    bdr:EP36E06364136CD6F3
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4455 ;
+        :sliceStartChar     3015 .
+    
+    bdr:EP4BC7B1FD12444DB5
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       15184 ;
+        :sliceStartChar     14504 .
+    
+    bdr:EP59AB5949C4BF327F
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7292 ;
+        :sliceStartChar     5849 .
+    
+    bdr:EP60BBD0E61454BF5D
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1515 ;
+        :sliceStartChar     79 .
+    
+    bdr:EP692EF2DD54444438
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3013 ;
+        :sliceStartChar     1517 .
+    
+    bdr:EP69704D94E232095B
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       77 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP862F329BDE7191AD
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11661 ;
+        :sliceStartChar     10167 .
+    
+    bdr:EP8F6EA855A0CA9AF3
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13094 ;
+        :sliceStartChar     11663 .
+    
+    bdr:EP9013E909CD81319F
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8742 ;
+        :sliceStartChar     7294 .
+    
+    bdr:EP97074D6671FAC051
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       15492 ;
+        :sliceStartChar     15186 .
+    
+    bdr:EPBD4765D5CF7EB71C
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10165 ;
+        :sliceStartChar     8744 .
+    
+    bdr:EPBF3AF954C5B152C3
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14502 ;
+        :sliceStartChar     13096 .
+    
+    bdr:UT23605_001_0008
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༡༤༧༽༄༅། །ན་རག་དོང་སྤྲུགས་ཀྱི་ཁྲིད་ཡིག་ཟབ་ལམ་སྣང་བྱེད་ཅེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP22F238222F38DFF8 , bdr:EP36E06364136CD6F3 , bdr:EP4BC7B1FD12444DB5 , bdr:EP59AB5949C4BF327F , bdr:EP60BBD0E61454BF5D , bdr:EP692EF2DD54444438 , bdr:EP69704D94E232095B , bdr:EP862F329BDE7191AD , bdr:EP8F6EA855A0CA9AF3 , bdr:EP9013E909CD81319F , bdr:EP97074D6671FAC051 , bdr:EPBD4765D5CF7EB71C , bdr:EPBF3AF954C5B152C3 ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/01_gdams-ngag-mdzod_ka/01_07_na-rag-dong-sprugs-kyi-khrid-yig-zab-lam-snang-byed.rtf" ;
+        :eTextVolumeIndex   8 .
+}

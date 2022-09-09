@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1PD45495_023_0008 {
+    bda:UT1PD45495_023_0008
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1PD45495_023_0008 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "17/UT1PD45495_023_0008.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1PD45495_023_0008 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0690EE73F92CC7A8
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10417 ;
+        :sliceStartChar     8930 .
+    
+    bdr:EP15DB22EC7D720BBB
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       13978 ;
+        :sliceStartChar     12540 .
+    
+    bdr:EP1C63D1FDEB2D444C
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8928 ;
+        :sliceStartChar     7431 .
+    
+    bdr:EP1E5AD22E5B622CD5
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1518 ;
+        :sliceStartChar     77 .
+    
+    bdr:EP2A2214F0DBCBFC3B
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4457 ;
+        :sliceStartChar     2998 .
+    
+    bdr:EP39AD8B569DB94104
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7429 ;
+        :sliceStartChar     5953 .
+    
+    bdr:EP4C9EE14D2D265CB7
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       12538 ;
+        :sliceStartChar     11099 .
+    
+    bdr:EP7D5D4825FA6E5F83
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       75 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP9DB44B0818428A67
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2996 ;
+        :sliceStartChar     1520 .
+    
+    bdr:EPCB5A87EA80BC7D3B
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11097 ;
+        :sliceStartChar     10419 .
+    
+    bdr:EPE12D56B7107C51D7
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5951 ;
+        :sliceStartChar     4459 .
+    
+    bdr:EPF7E77CF7D35B145B
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       15424 ;
+        :sliceStartChar     13980 .
+    
+    bdr:EPF809A45324DB3BBF
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       16190 ;
+        :sliceStartChar     15426 .
+    
+    bdr:UT1PD45495_023_0008
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །སྒྲོལ་མ་འབྱུང་བའི་རྒྱུད་ཀྱི་བསྡུས་དོན་གསལ་བའི་སྒྲོན་མེ་ཞེས་བྱ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP0690EE73F92CC7A8 , bdr:EP15DB22EC7D720BBB , bdr:EP1C63D1FDEB2D444C , bdr:EP1E5AD22E5B622CD5 , bdr:EP2A2214F0DBCBFC3B , bdr:EP39AD8B569DB94104 , bdr:EP4C9EE14D2D265CB7 , bdr:EP7D5D4825FA6E5F83 , bdr:EP9DB44B0818428A67 , bdr:EPCB5A87EA80BC7D3B , bdr:EPE12D56B7107C51D7 , bdr:EPF7E77CF7D35B145B , bdr:EPF809A45324DB3BBF ;
+        :eTextInInstance    bdr:IE1PD45495 ;
+        :eTextInVolume      23 ;
+        :eTextSourcePath    "KarmaDelek/taranatha-gsung-qbum/rtfs/volume_023/volume_023_205.rtf" ;
+        :eTextVolumeIndex   8 .
+}

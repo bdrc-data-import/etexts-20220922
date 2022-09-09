@@ -1,0 +1,49 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT28942_019_0000 {
+    bda:UT28942_019_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT28942_019_0000 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "3d/UT28942_019_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT28942_019_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP4F5564FAB1117EF5
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2816 ;
+        :sliceStartChar     1401 .
+    
+    bdr:EP63E6704B432695BE
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1399 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP8C896445439DE9A7
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4161 ;
+        :sliceStartChar     2818 .
+    
+    bdr:UT28942_019_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཏིང་ངེ་འཛིན་བསྒོམ་པའི་གོལ་སའི་མཐའ་དཔྱད་པ་གདམས་ངག་བདུད་རྩིའི་ཐིགས་པ་ཞེས་བྱ་བ།བླ་མ་དང་ལྷག་པའི་ལྷ་ལ་ཕྱག་འཚལ་ལོ། །སངས་རྒྱས་ཀུ"@bo ;
+        :eTextHasPage       bdr:EP4F5564FAB1117EF5 , bdr:EP63E6704B432695BE , bdr:EP8C896445439DE9A7 ;
+        :eTextInInstance    bdr:IE28942 ;
+        :eTextIsVolume      19 ;
+        :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/RONGTON/RONT019.rtf" .
+}

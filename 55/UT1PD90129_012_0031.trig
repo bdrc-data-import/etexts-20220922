@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1PD90129_012_0031 {
+    bda:UT1PD90129_012_0031
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1PD90129_012_0031 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "55/UT1PD90129_012_0031.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1PD90129_012_0031 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP48BA62E2AB8828F4
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1500 ;
+        :sliceStartChar     32 .
+    
+    bdr:EP4FB91F85E6E819A7
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       30 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP8CD50E0971540DBB
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2815 ;
+        :sliceStartChar     1502 .
+    
+    bdr:UT1PD90129_012_0031
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "རྩོམ་པ་པོའི་རྣམ་ཐར་མདོར་བསྡུས།"@bo ;
+        :eTextHasPage       bdr:EP48BA62E2AB8828F4 , bdr:EP4FB91F85E6E819A7 , bdr:EP8CD50E0971540DBB ;
+        :eTextInInstance    bdr:IE1PD90129 ;
+        :eTextInVolume      12 ;
+        :eTextSourcePath    "KarmaDelek/co-ne-grags-pa-bshad-sgrub-gsung-qbum/rtfs/volume_012/volume_012_300.rtf" ;
+        :eTextVolumeIndex   31 .
+}

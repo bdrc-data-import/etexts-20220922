@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG5988_001_0080 {
+    bda:UT1KG5988_001_0080
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG5988_001_0080 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "49/UT1KG5988_001_0080.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG5988_001_0080 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP46A0C145A51B4922
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4194 ;
+        :sliceStartChar     2989 .
+    
+    bdr:EP8BFBBEA058F3E08F
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1530 ;
+        :sliceStartChar     66 .
+    
+    bdr:EPE31326EE8F1013BF
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       64 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPEAF3C7705E8E646A
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2987 ;
+        :sliceStartChar     1532 .
+    
+    bdr:UT1KG5988_001_0080
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །འཕགས་པ་དཀོན་མཆོག་གསུམ་ལ་སྐྱབས་སུ་འགྲོ་བ་ཞེས་བྱ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP46A0C145A51B4922 , bdr:EP8BFBBEA058F3E08F , bdr:EPE31326EE8F1013BF , bdr:EPEAF3C7705E8E646A ;
+        :eTextInInstance    bdr:IE1KG5988 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/081_dkon-mchog-gsum-la-skyabs-su-qgro-ba.rtf" ;
+        :eTextVolumeIndex   80 .
+}

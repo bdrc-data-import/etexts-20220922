@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG5988_001_0010 {
+    bda:UT1KG5988_001_0010
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG5988_001_0010 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "f7/UT1KG5988_001_0010.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG5988_001_0010 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0E1A469164439948
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1562 ;
+        :sliceStartChar     116 .
+    
+    bdr:EP2BAC1AB195ABBC23
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4549 ;
+        :sliceStartChar     3026 .
+    
+    bdr:EP84B956D673964DFA
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       114 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPA3EC53058D212B5D
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       4762 ;
+        :sliceStartChar     4551 .
+    
+    bdr:EPA79E4AF235306F09
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3024 ;
+        :sliceStartChar     1564 .
+    
+    bdr:UT1KG5988_001_0010
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །བྱམས་པ།འཇམ་དབྱངས།སྒྲོལ་མ་བཅས་ཀྱིས་དམ་བཅས་པའི་གཟུངས་དང༌།ཤེས་རབ་བློ་འཕེལ་མ།ཉིས་ཁྲིའི་སྙིང་པོ་བཅས་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP0E1A469164439948 , bdr:EP2BAC1AB195ABBC23 , bdr:EP84B956D673964DFA , bdr:EPA3EC53058D212B5D , bdr:EPA79E4AF235306F09 ;
+        :eTextInInstance    bdr:IE1KG5988 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/010_byams-pa-qjam-dbyang-sgrol-ma-and-etc.rtf" ;
+        :eTextVolumeIndex   10 .
+}

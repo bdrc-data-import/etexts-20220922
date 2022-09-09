@@ -1,0 +1,86 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13384_004_0028 {
+    bda:UT3JT13384_004_0028
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13384_004_0028 ;
+        adm:facetIndex      10 ;
+        adm:gitPath         "70/UT3JT13384_004_0028.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13384_004_0028 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0CD2C4B901995D09
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       6120 ;
+        :sliceStartChar     4551 .
+    
+    bdr:EP50949D9307F25910
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4549 ;
+        :sliceStartChar     3058 .
+    
+    bdr:EP580B35B25D2F859E
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       3056 ;
+        :sliceStartChar     1643 .
+    
+    bdr:EP9757160C5B88B789
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       7592 ;
+        :sliceStartChar     6122 .
+    
+    bdr:EP9768DD45D21A4150
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       9720 ;
+        :sliceStartChar     8262 .
+    
+    bdr:EPAF89FFA2AEBCBEE6
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1641 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPC5D52DBEA99983DD
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       12126 ;
+        :sliceStartChar     11157 .
+    
+    bdr:EPC6BEB67BAF94458D
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8260 ;
+        :sliceStartChar     7594 .
+    
+    bdr:EPECD126E9AAB52922
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       11155 ;
+        :sliceStartChar     9722 .
+    
+    bdr:UT3JT13384_004_0028
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །སྒྲུབ་ཆེན་གྱི་གཏོང་ཐུན་སྤྱི་ཁྱབ་ལྷའི་ཏམྦུ་རའི་དབྱངས་སྙན་ཞེས་བྱ་བ་བཞུགས་སོ། །ཨོཾ་སྭ་སྟི།སྒྲུབ་པ་པོ་རྣམས་གནས་སུ་འགོད་པའི་སྐ"@bo ;
+        :eTextHasPage       bdr:EP0CD2C4B901995D09 , bdr:EP50949D9307F25910 , bdr:EP580B35B25D2F859E , bdr:EP9757160C5B88B789 , bdr:EP9768DD45D21A4150 , bdr:EPAF89FFA2AEBCBEE6 , bdr:EPC5D52DBEA99983DD , bdr:EPC6BEB67BAF94458D , bdr:EPECD126E9AAB52922 ;
+        :eTextInInstance    bdr:IE3JT13384 ;
+        :eTextInVolume      4 ;
+        :eTextSourcePath    "Various/gsung_qbum_mkhyen_brtseqi_dbang_po_UT2MS24768/rtfs/volume-004/4-34.rtf" ;
+        :eTextVolumeIndex   28 .
+}

@@ -1,0 +1,104 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG5988_001_0093 {
+    bda:UT1KG5988_001_0093
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG5988_001_0093 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "55/UT1KG5988_001_0093.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG5988_001_0093 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP05611630E92B41E3
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8758 ;
+        :sliceStartChar     7343 .
+    
+    bdr:EP05C54F10196E7110
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       14679 ;
+        :sliceStartChar     14573 .
+    
+    bdr:EP09EA693F7323C591
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10194 ;
+        :sliceStartChar     8760 .
+    
+    bdr:EP3D3C9B6E3CD9B891
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5909 ;
+        :sliceStartChar     4415 .
+    
+    bdr:EP57FF38FC49E4F261
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1508 ;
+        :sliceStartChar     62 .
+    
+    bdr:EP8543E31BFD738162
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       60 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP8C288330FF9B4A92
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4413 ;
+        :sliceStartChar     2961 .
+    
+    bdr:EPB48E0C2C22CDA99A
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11622 ;
+        :sliceStartChar     10196 .
+    
+    bdr:EPCA9DCE1268B2858E
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7341 ;
+        :sliceStartChar     5911 .
+    
+    bdr:EPDF07D018AB622DAE
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2959 ;
+        :sliceStartChar     1510 .
+    
+    bdr:EPEA2E7C584350ED88
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14571 ;
+        :sliceStartChar     13055 .
+    
+    bdr:EPF7005188A13622F9
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13053 ;
+        :sliceStartChar     11624 .
+    
+    bdr:UT1KG5988_001_0093
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཕྱིར་ཟློག་པ་ངན་སྔགས་ཀྱི་འཁོར་ལོ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP05611630E92B41E3 , bdr:EP05C54F10196E7110 , bdr:EP09EA693F7323C591 , bdr:EP3D3C9B6E3CD9B891 , bdr:EP57FF38FC49E4F261 , bdr:EP8543E31BFD738162 , bdr:EP8C288330FF9B4A92 , bdr:EPB48E0C2C22CDA99A , bdr:EPCA9DCE1268B2858E , bdr:EPDF07D018AB622DAE , bdr:EPEA2E7C584350ED88 , bdr:EPF7005188A13622F9 ;
+        :eTextInInstance    bdr:IE1KG5988 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/094_pyir-zlog-nan-snags-qkhor-lo.rtf" ;
+        :eTextVolumeIndex   93 .
+}

@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13373_002_0004 {
+    bda:UT3JT13373_002_0004
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13373_002_0004 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "fa/UT3JT13373_002_0004.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13373_002_0004 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP23FC362E1AB74487
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11243 ;
+        :sliceStartChar     10090 .
+    
+    bdr:EP2C6C458AA34B45FB
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       16311 ;
+        :sliceStartChar     15760 .
+    
+    bdr:EP3456E101E232915A
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5762 ;
+        :sliceStartChar     4319 .
+    
+    bdr:EP37842456FDA68DF4
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2895 ;
+        :sliceStartChar     1442 .
+    
+    bdr:EP7243705674236DF3
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       12759 ;
+        :sliceStartChar     11245 .
+    
+    bdr:EP73EDC634417C1932
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14243 ;
+        :sliceStartChar     12761 .
+    
+    bdr:EP77CF7D9A62C07545
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       22 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP7B0F29AE946D1CEC
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1440 ;
+        :sliceStartChar     24 .
+    
+    bdr:EP808736777FA62010
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4317 ;
+        :sliceStartChar     2897 .
+    
+    bdr:EP9F313A23F029AA15
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10088 ;
+        :sliceStartChar     8625 .
+    
+    bdr:EPCFBC4533E603B272
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       15758 ;
+        :sliceStartChar     14245 .
+    
+    bdr:EPD634B57AF015B9D2
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7193 ;
+        :sliceStartChar     5764 .
+    
+    bdr:EPF9E8FF0B5CEED321
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8623 ;
+        :sliceStartChar     7195 .
+    
+    bdr:UT3JT13373_002_0004
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "ཀརྨ་པ་སྐུ་ཕྲེང་དྲུག་པ་"@bo ;
+        :eTextHasPage       bdr:EP23FC362E1AB74487 , bdr:EP2C6C458AA34B45FB , bdr:EP3456E101E232915A , bdr:EP37842456FDA68DF4 , bdr:EP7243705674236DF3 , bdr:EP73EDC634417C1932 , bdr:EP77CF7D9A62C07545 , bdr:EP7B0F29AE946D1CEC , bdr:EP808736777FA62010 , bdr:EP9F313A23F029AA15 , bdr:EPCFBC4533E603B272 , bdr:EPD634B57AF015B9D2 , bdr:EPF9E8FF0B5CEED321 ;
+        :eTextInInstance    bdr:IE3JT13373 ;
+        :eTextInVolume      2 ;
+        :eTextSourcePath    "VajraVidya/Kagyu_Sertreng/rtfs/volume-002/18_Thongwa_Donden.rtf" ;
+        :eTextVolumeIndex   4 .
+}

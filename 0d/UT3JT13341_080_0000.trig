@@ -1,0 +1,43 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13341_080_0000 {
+    bda:UT3JT13341_080_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13341_080_0000 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "0d/UT3JT13341_080_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13341_080_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EPA22BA49E56A14317
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       776 ;
+        :sliceStartChar     504 .
+    
+    bdr:EPCC69BA9B498CB746
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       502 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT3JT13341_080_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "ཨོཾ་སྭ་སྟི། །འཇམ་པའི་དབྱངས་སོགས་སྲས་བཅས་རྒྱལ་ཀུན་དང༌། །ཁྱད་པར་ཨོ་རྒྱན་མཚོ་སྐྱེས་རྡོ་རྗེ་བཅས། །རྩ་གསུམ་རབ་འབྱམས་རྒྱ་མཚོ་ལྷག་པའ"@bo ;
+        :eTextHasPage       bdr:EPA22BA49E56A14317 , bdr:EPCC69BA9B498CB746 ;
+        :eTextInInstance    bdr:IE3JT13341 ;
+        :eTextIsVolume      80 ;
+        :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/063e_shabtan.rtf" .
+}

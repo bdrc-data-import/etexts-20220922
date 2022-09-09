@@ -1,0 +1,55 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13302_013_0000 {
+    bda:UT3JT13302_013_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13302_013_0000 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "00/UT3JT13302_013_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13302_013_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP1C741BB818287632
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       3157 ;
+        :sliceStartChar     3125 .
+    
+    bdr:EP557C28F3C9189114
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1715 ;
+        :sliceStartChar     103 .
+    
+    bdr:EPA11750C10E8E7F68
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3123 ;
+        :sliceStartChar     1717 .
+    
+    bdr:EPD5A229879D78D985
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       101 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT3JT13302_013_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ལམ་ཟབ་ཚར་གསུམ་ཁུག་པ་རྒྱུན་ཁྱེར་ཉམས་སུ་བླང་ཚུལ་སྔགས་འཆང་དབང་པོའི་སྙིང་ནོར་ཞེས་བྱ་བ་བཞུགས་སོ། །༈།ལམ་ཟབ་ཚར་གསུམ་ཁུག་པའི་རྣལ་"@bo ;
+        :eTextHasPage       bdr:EP1C741BB818287632 , bdr:EP557C28F3C9189114 , bdr:EPA11750C10E8E7F68 , bdr:EPD5A229879D78D985 ;
+        :eTextInInstance    bdr:IE3JT13302 ;
+        :eTextIsVolume      13 ;
+        :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/KHADON/KHAD013.rtf" .
+}

@@ -1,0 +1,152 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22393_001_0028 {
+    bda:UT22393_001_0028
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT22393_001_0028 ;
+        adm:facetIndex      21 ;
+        adm:gitPath         "bb/UT22393_001_0028.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22393_001_0028 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP1A8032593F6AD2D8
+        a                   :EtextPage ;
+        :seqNum             18 ;
+        :sliceEndChar       23749 ;
+        :sliceStartChar     22311 .
+    
+    bdr:EP1EF043AA92DA74AE
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1515 ;
+        :sliceStartChar     79 .
+    
+    bdr:EP332E7F6E89C186A8
+        a                   :EtextPage ;
+        :seqNum             14 ;
+        :sliceEndChar       18873 ;
+        :sliceStartChar     17438 .
+    
+    bdr:EP376540AC8E6FF98C
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       77 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP466980987720C670
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8678 ;
+        :sliceStartChar     7249 .
+    
+    bdr:EP5E374FA331DB74DD
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10125 ;
+        :sliceStartChar     8680 .
+    
+    bdr:EP689FF9BAD7A19CD8
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11643 ;
+        :sliceStartChar     10127 .
+    
+    bdr:EP717AF650C9FD58AD
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5827 ;
+        :sliceStartChar     4377 .
+    
+    bdr:EP7764E9B1AEB604EE
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       16001 ;
+        :sliceStartChar     14548 .
+    
+    bdr:EP78B67713605FE924
+        a                   :EtextPage ;
+        :seqNum             20 ;
+        :sliceEndChar       26525 ;
+        :sliceStartChar     25172 .
+    
+    bdr:EP79259E7F9A052E33
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13094 ;
+        :sliceStartChar     11645 .
+    
+    bdr:EP91FFDBFC1AA9E1D5
+        a                   :EtextPage ;
+        :seqNum             16 ;
+        :sliceEndChar       20883 ;
+        :sliceStartChar     20587 .
+    
+    bdr:EP94886E72C887CB94
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4375 ;
+        :sliceStartChar     2956 .
+    
+    bdr:EP999A85ACFEF9CBB6
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       17436 ;
+        :sliceStartChar     16003 .
+    
+    bdr:EPACD3DB2D507450C4
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2954 ;
+        :sliceStartChar     1517 .
+    
+    bdr:EPAEE8AC0DA3CBF243
+        a                   :EtextPage ;
+        :seqNum             19 ;
+        :sliceEndChar       25170 ;
+        :sliceStartChar     23751 .
+    
+    bdr:EPB1E3ADA0B3D46C8A
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14546 ;
+        :sliceStartChar     13096 .
+    
+    bdr:EPC154E757B163B378
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7247 ;
+        :sliceStartChar     5829 .
+    
+    bdr:EPC160C44828AC8A43
+        a                   :EtextPage ;
+        :seqNum             17 ;
+        :sliceEndChar       22309 ;
+        :sliceStartChar     20885 .
+    
+    bdr:EPCC6460B68A567D51
+        a                   :EtextPage ;
+        :seqNum             15 ;
+        :sliceEndChar       20585 ;
+        :sliceStartChar     18875 .
+    
+    bdr:UT22393_001_0028
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༡ན༽ཆོས་རྗེ་དྭགས་པོ་ལྷ་རྗེའི་གསུང༌།མདོ་སྔགས་ཀྱི་སྒོམ་དོན་བསྡུས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1A8032593F6AD2D8 , bdr:EP1EF043AA92DA74AE , bdr:EP332E7F6E89C186A8 , bdr:EP376540AC8E6FF98C , bdr:EP466980987720C670 , bdr:EP5E374FA331DB74DD , bdr:EP689FF9BAD7A19CD8 , bdr:EP717AF650C9FD58AD , bdr:EP7764E9B1AEB604EE , bdr:EP78B67713605FE924 , bdr:EP79259E7F9A052E33 , bdr:EP91FFDBFC1AA9E1D5 , bdr:EP94886E72C887CB94 , bdr:EP999A85ACFEF9CBB6 , bdr:EPACD3DB2D507450C4 , bdr:EPAEE8AC0DA3CBF243 , bdr:EPB1E3ADA0B3D46C8A , bdr:EPC154E757B163B378 , bdr:EPC160C44828AC8A43 , bdr:EPCC6460B68A567D51 ;
+        :eTextInInstance    bdr:IE22393 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Dhakpo-Kabum/rtfs/volume-001/28_SA.rtf" ;
+        :eTextVolumeIndex   28 .
+}

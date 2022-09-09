@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_016_0025 {
+    bda:UT10736_016_0025
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_016_0025 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "09/UT10736_016_0025.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_016_0025 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP9319CDF547C0A27D
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       3824 ;
+        :sliceStartChar     2957 .
+    
+    bdr:EP942417089B5BE0DA
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       56 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPAA9C01FEB3C60079
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1539 ;
+        :sliceStartChar     58 .
+    
+    bdr:EPCC1020696ABBABAF
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2955 ;
+        :sliceStartChar     1541 .
+    
+    bdr:UT10736_016_0025
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༡ན༡༽༄༅། །སྔགས་བཏུའི་དཀྱིལ་འཁོར་གྱི་མདོ་སྦྱར་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP9319CDF547C0A27D , bdr:EP942417089B5BE0DA , bdr:EPAA9C01FEB3C60079 , bdr:EPCC1020696ABBABAF ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      16 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/16_ma/16_24_ma_sngags-btuqi-dkyil-qkhor-gyi-mdo-sbyar.rtf" ;
+        :eTextVolumeIndex   25 .
+}

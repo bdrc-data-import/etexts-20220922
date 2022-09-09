@@ -1,0 +1,122 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_019_0016 {
+    bda:UT10736_019_0016
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_019_0016 ;
+        adm:facetIndex      16 ;
+        adm:gitPath         "24/UT10736_019_0016.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_019_0016 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP1C78EC82F801664D
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       10354 ;
+        :sliceStartChar     8057 .
+    
+    bdr:EP2A6305A903A64851
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4939 ;
+        :sliceStartChar     3098 .
+    
+    bdr:EP3180D5CE9EEFC3F7
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       16697 ;
+        :sliceStartChar     14991 .
+    
+    bdr:EP66CC3BFC5DD6E391
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       18130 ;
+        :sliceStartChar     16699 .
+    
+    bdr:EP71023733955E992E
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       20603 ;
+        :sliceStartChar     18132 .
+    
+    bdr:EP797C69B8B3388D44
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       14989 ;
+        :sliceStartChar     13572 .
+    
+    bdr:EP9AB0DF3A5579CF05
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1611 ;
+        :sliceStartChar     42 .
+    
+    bdr:EPAA40A8CC4AB3D893
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       11764 ;
+        :sliceStartChar     10356 .
+    
+    bdr:EPABFDCE521BCA3ED2
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3096 ;
+        :sliceStartChar     1613 .
+    
+    bdr:EPAC15BEA262BC7B79
+        a                   :EtextPage ;
+        :seqNum             15 ;
+        :sliceEndChar       22309 ;
+        :sliceStartChar     22211 .
+    
+    bdr:EPB23BF7010817BC37
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       40 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPD07592DEED2FC42F
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6334 ;
+        :sliceStartChar     4941 .
+    
+    bdr:EPD3AFE0798DFEE3E7
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       13570 ;
+        :sliceStartChar     11766 .
+    
+    bdr:EPEB6771D4AECA05F1
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8055 ;
+        :sliceStartChar     6336 .
+    
+    bdr:EPFE29ACAB3B26C700
+        a                   :EtextPage ;
+        :seqNum             14 ;
+        :sliceEndChar       22209 ;
+        :sliceStartChar     20605 .
+    
+    bdr:UT10736_019_0016
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །བསང་དཔེ་བཀྲ་ཤིས་རེ་སྐོང་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1C78EC82F801664D , bdr:EP2A6305A903A64851 , bdr:EP3180D5CE9EEFC3F7 , bdr:EP66CC3BFC5DD6E391 , bdr:EP71023733955E992E , bdr:EP797C69B8B3388D44 , bdr:EP9AB0DF3A5579CF05 , bdr:EPAA40A8CC4AB3D893 , bdr:EPABFDCE521BCA3ED2 , bdr:EPAC15BEA262BC7B79 , bdr:EPB23BF7010817BC37 , bdr:EPD07592DEED2FC42F , bdr:EPD3AFE0798DFEE3E7 , bdr:EPEB6771D4AECA05F1 , bdr:EPFE29ACAB3B26C700 ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      19 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/19_dza/19_22_dza_bsang-dpe-bkra-shis-re-skong.rtf" ;
+        :eTextVolumeIndex   16 .
+}

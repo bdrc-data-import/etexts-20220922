@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_017_0019 {
+    bda:UT23605_017_0019
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_017_0019 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "56/UT23605_017_0019.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_017_0019 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP00D3F1764E5D5160
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3151 ;
+        :sliceStartChar     1509 .
+    
+    bdr:EP14D6763A986D89B6
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       97 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP22003A7A568E9894
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5045 ;
+        :sliceStartChar     3153 .
+    
+    bdr:EP8E1231102D6AEFFC
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1507 ;
+        :sliceStartChar     99 .
+    
+    bdr:EPA2A3A82FEBC98701
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5220 ;
+        :sliceStartChar     5047 .
+    
+    bdr:UT23605_017_0019
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༢༩༧༽༄༅། །བཀའ་བབས་དྲུག་ལྡན་གྱི་ཟབ་ཁྲིད་བརྒྱུད་པའི་གསོལ་འདེབས་མུ་ཏིག་ཕྲེང་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP00D3F1764E5D5160 , bdr:EP14D6763A986D89B6 , bdr:EP22003A7A568E9894 , bdr:EP8E1231102D6AEFFC , bdr:EPA2A3A82FEBC98701 ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      17 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/17_gdams-ngag-mdzod_tsa/17_18_bkaq-babs-drug-ldan-gyi-zab-khrid-brgyud-paqi-gsol-qdebs-mu-tig-phreng-ba.rtf" ;
+        :eTextVolumeIndex   19 .
+}

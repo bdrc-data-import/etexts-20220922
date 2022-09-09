@@ -1,0 +1,74 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_024_0012 {
+    bda:UT10736_024_0012
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_024_0012 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "30/UT10736_024_0012.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_024_0012 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP1E0142F7A0F90FD8
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2964 ;
+        :sliceStartChar     1550 .
+    
+    bdr:EP26727CCB8C63E5A6
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1548 ;
+        :sliceStartChar     65 .
+    
+    bdr:EP6ED8F7943D252A70
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6187 ;
+        :sliceStartChar     4749 .
+    
+    bdr:EPC7DC3AF7B22E9A3F
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8132 ;
+        :sliceStartChar     7625 .
+    
+    bdr:EPD4DBD808E38F8A8F
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4747 ;
+        :sliceStartChar     2966 .
+    
+    bdr:EPDAF5A9A35AC0509B
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       63 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPDBECC275D60C5EA1
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7623 ;
+        :sliceStartChar     6189 .
+    
+    bdr:UT10736_024_0012
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །རྟེན་འབྲེལ་གྱི་སྒོམ་རིམ་དམ་པའི་ཆོས་ཀྱི་ཟ་མ་ཏོག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1E0142F7A0F90FD8 , bdr:EP26727CCB8C63E5A6 , bdr:EP6ED8F7943D252A70 , bdr:EPC7DC3AF7B22E9A3F , bdr:EPD4DBD808E38F8A8F , bdr:EPDAF5A9A35AC0509B , bdr:EPDBECC275D60C5EA1 ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      24 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/24_ya/24_11_ya_rten-qbrel-gyi-sgom-rim-dam-paqi-chos-kyi-za-ma-tog.rtf" ;
+        :eTextVolumeIndex   12 .
+}

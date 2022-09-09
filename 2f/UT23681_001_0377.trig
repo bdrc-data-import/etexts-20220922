@@ -1,0 +1,122 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23681_001_0377 {
+    bda:UT23681_001_0377
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23681_001_0377 ;
+        adm:facetIndex      16 ;
+        adm:gitPath         "2f/UT23681_001_0377.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23681_001_0377 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0BEC1E8CBD4F3A91
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       14374 ;
+        :sliceStartChar     12954 .
+    
+    bdr:EP1819F9962879FA56
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5764 ;
+        :sliceStartChar     4334 .
+    
+    bdr:EP337AB3927676F3A5
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4332 ;
+        :sliceStartChar     2912 .
+    
+    bdr:EP3A214C2C0F924D8D
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       15788 ;
+        :sliceStartChar     14376 .
+    
+    bdr:EP5D3616E42CF8E169
+        a                   :EtextPage ;
+        :seqNum             14 ;
+        :sliceEndChar       20513 ;
+        :sliceStartChar     18889 .
+    
+    bdr:EP699D4DA4DA35D328
+        a                   :EtextPage ;
+        :seqNum             15 ;
+        :sliceEndChar       20798 ;
+        :sliceStartChar     20515 .
+    
+    bdr:EP7416B0482C8F6903
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       11503 ;
+        :sliceStartChar     10050 .
+    
+    bdr:EP7444A42EF11FEFBD
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8596 ;
+        :sliceStartChar     7172 .
+    
+    bdr:EP97B033912DD295DC
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       17424 ;
+        :sliceStartChar     15790 .
+    
+    bdr:EPA0C5BE42560FEA57
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       10048 ;
+        :sliceStartChar     8598 .
+    
+    bdr:EPADB2990D648863A3
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1407 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPAF3EBB282D623A2F
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       18887 ;
+        :sliceStartChar     17426 .
+    
+    bdr:EPBABB7ED088E54F96
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2910 ;
+        :sliceStartChar     1409 .
+    
+    bdr:EPD5D0A12E14DBE80B
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       7170 ;
+        :sliceStartChar     5766 .
+    
+    bdr:EPD8AC7A4FC180198C
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       12952 ;
+        :sliceStartChar     11505 .
+    
+    bdr:UT23681_001_0377
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼ཤྲཱི༽༄༅། །དཔལ་དུར་ཁྲོད་བདག་པོ་ཡབ་ཡུམ་གྱི་བསྙེན་སྒྲུབ་གསལ་བར་བྱེད་པའི་གཏམ་གྱི་རྒྱུད་མངས་ཞེས་བྱ་བ་བཞུགས་སོ། །༄༅། །ཨོཾ་སྭ་སྟི་ས"@bo ;
+        :eTextHasPage       bdr:EP0BEC1E8CBD4F3A91 , bdr:EP1819F9962879FA56 , bdr:EP337AB3927676F3A5 , bdr:EP3A214C2C0F924D8D , bdr:EP5D3616E42CF8E169 , bdr:EP699D4DA4DA35D328 , bdr:EP7416B0482C8F6903 , bdr:EP7444A42EF11FEFBD , bdr:EP97B033912DD295DC , bdr:EPA0C5BE42560FEA57 , bdr:EPADB2990D648863A3 , bdr:EPAF3EBB282D623A2F , bdr:EPBABB7ED088E54F96 , bdr:EPD5D0A12E14DBE80B , bdr:EPD8AC7A4FC180198C ;
+        :eTextInInstance    bdr:IE23681 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "GuruLamaWorks/Drub-thab-kuntu/rtfs/volume-001-014/DBTU377.rtf" ;
+        :eTextVolumeIndex   377 .
+}

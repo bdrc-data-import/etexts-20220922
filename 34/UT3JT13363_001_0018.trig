@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13363_001_0018 {
+    bda:UT3JT13363_001_0018
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13363_001_0018 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "34/UT3JT13363_001_0018.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13363_001_0018 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP00E4622AAA12C605
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       10164 ;
+        :sliceStartChar     8507 .
+    
+    bdr:EP0A9A689B55D86151
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       17913 ;
+        :sliceStartChar     16401 .
+    
+    bdr:EP0F46FF07EADDB297
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6930 ;
+        :sliceStartChar     5363 .
+    
+    bdr:EP2EC8097D8106CF16
+        a                   :EtextPage ;
+        :seqNum             14 ;
+        :sliceEndChar       18438 ;
+        :sliceStartChar     17915 .
+    
+    bdr:EP386F2DA55C393C99
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5361 ;
+        :sliceStartChar     3633 .
+    
+    bdr:EP41547CC2C733E5B1
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       3 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP9147FECD3C9FBB63
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3631 ;
+        :sliceStartChar     2231 .
+    
+    bdr:EPC663F4DAEE3938FD
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       11730 ;
+        :sliceStartChar     10166 .
+    
+    bdr:EPCC85842985E6E4C9
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14715 ;
+        :sliceStartChar     13315 .
+    
+    bdr:EPDE5D98B16B170935
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8505 ;
+        :sliceStartChar     6932 .
+    
+    bdr:EPEC85245298F9C07A
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2229 ;
+        :sliceStartChar     5 .
+    
+    bdr:EPED43EAF1F2B98291
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13313 ;
+        :sliceStartChar     11732 .
+    
+    bdr:EPEF09E13CE6074C28
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       16399 ;
+        :sliceStartChar     14717 .
+    
+    bdr:UT3JT13363_001_0018
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །བཤེས་པའི་སྤྲིང་ཡིག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP00E4622AAA12C605 , bdr:EP0A9A689B55D86151 , bdr:EP0F46FF07EADDB297 , bdr:EP2EC8097D8106CF16 , bdr:EP386F2DA55C393C99 , bdr:EP41547CC2C733E5B1 , bdr:EP9147FECD3C9FBB63 , bdr:EPC663F4DAEE3938FD , bdr:EPCC85842985E6E4C9 , bdr:EPDE5D98B16B170935 , bdr:EPEC85245298F9C07A , bdr:EPED43EAF1F2B98291 , bdr:EPEF09E13CE6074C28 ;
+        :eTextInInstance    bdr:IE3JT13363 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "GuruLamaWorks/UMA/rtfs/volume-001/018UMA.rtf" ;
+        :eTextVolumeIndex   18 .
+}

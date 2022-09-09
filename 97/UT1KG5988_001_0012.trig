@@ -1,0 +1,74 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG5988_001_0012 {
+    bda:UT1KG5988_001_0012
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG5988_001_0012 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "97/UT1KG5988_001_0012.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG5988_001_0012 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP164D2B78CA5D798A
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       67 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP1CDCC0EE04116D04
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4958 ;
+        :sliceStartChar     2057 .
+    
+    bdr:EP4C3EEE3BB294C470
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       8039 ;
+        :sliceStartChar     6407 .
+    
+    bdr:EP5141585D5A7269E9
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2055 ;
+        :sliceStartChar     69 .
+    
+    bdr:EP6CD818C3DBF4AEFB
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       10042 ;
+        :sliceStartChar     9838 .
+    
+    bdr:EPC132B638D779E9A4
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       9836 ;
+        :sliceStartChar     8041 .
+    
+    bdr:EPD2EC5968A47E0475
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       6405 ;
+        :sliceStartChar     4960 .
+    
+    bdr:UT1KG5988_001_0012
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མའི་མཚན་བརྒྱ་རྩ་བརྒྱད་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP164D2B78CA5D798A , bdr:EP1CDCC0EE04116D04 , bdr:EP4C3EEE3BB294C470 , bdr:EP5141585D5A7269E9 , bdr:EP6CD818C3DBF4AEFB , bdr:EPC132B638D779E9A4 , bdr:EPD2EC5968A47E0475 ;
+        :eTextInInstance    bdr:IE1KG5988 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/012_sgrol-maqi-mtsan-brgya-rtsa-brgyad.rtf" ;
+        :eTextVolumeIndex   12 .
+}

@@ -1,0 +1,79 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13341_074_0000 {
+    bda:UT3JT13341_074_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13341_074_0000 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "a6/UT3JT13341_074_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13341_074_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP3A9CB6CC4457B4A4
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1553 ;
+        :sliceStartChar     55 .
+    
+    bdr:EP48D15C6D130C3F2E
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7815 ;
+        :sliceStartChar     6331 .
+    
+    bdr:EP998995781A98FF04
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       53 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPB07F9951D6F29A6E
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3062 ;
+        :sliceStartChar     1555 .
+    
+    bdr:EPD078D51A200B81E6
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6329 ;
+        :sliceStartChar     4468 .
+    
+    bdr:EPDF74FDBD415A71E2
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       9679 ;
+        :sliceStartChar     9257 .
+    
+    bdr:EPE19E9110720EFDE2
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4466 ;
+        :sliceStartChar     3064 .
+    
+    bdr:EPE58F046AF0C2F781
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       9255 ;
+        :sliceStartChar     7817 .
+    
+    bdr:UT3JT13341_074_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །སྟག་ཤམ་ལུགས་ཀྱི་བཀྲ་ཤིས་ཕྱོགས་བསྡུས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP3A9CB6CC4457B4A4 , bdr:EP48D15C6D130C3F2E , bdr:EP998995781A98FF04 , bdr:EPB07F9951D6F29A6E , bdr:EPD078D51A200B81E6 , bdr:EPDF74FDBD415A71E2 , bdr:EPE19E9110720EFDE2 , bdr:EPE58F046AF0C2F781 ;
+        :eTextInInstance    bdr:IE3JT13341 ;
+        :eTextIsVolume      74 ;
+        :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/061_stag-sham-lugs-kyi-bkra-shis.rtf" .
+}

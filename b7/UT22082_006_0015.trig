@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22082_006_0015 {
+    bda:UT22082_006_0015
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT22082_006_0015 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "b7/UT22082_006_0015.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22082_006_0015 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP20C0844F3E67A5E9
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       61 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP6971817BD2F5BADF
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1496 ;
+        :sliceStartChar     63 .
+    
+    bdr:EPB0B98FDD55021A6E
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2981 ;
+        :sliceStartChar     1498 .
+    
+    bdr:EPBC53BBDB479159E7
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4264 ;
+        :sliceStartChar     2983 .
+    
+    bdr:UT22082_006_0015
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །གཉན་མགོན་ཞལ་བཞི་པའི་གཏོར་བསྔོས་དང་བསྙེན་སྒྲུབ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP20C0844F3E67A5E9 , bdr:EP6971817BD2F5BADF , bdr:EPB0B98FDD55021A6E , bdr:EPBC53BBDB479159E7 ;
+        :eTextInInstance    bdr:IE22082 ;
+        :eTextInVolume      6 ;
+        :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-006/23CHA.VA.rtf" ;
+        :eTextVolumeIndex   15 .
+}

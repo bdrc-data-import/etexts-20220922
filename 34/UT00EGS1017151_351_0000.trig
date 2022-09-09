@@ -1,0 +1,55 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT00EGS1017151_351_0000 {
+    bda:UT00EGS1017151_351_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT00EGS1017151_351_0000 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "34/UT00EGS1017151_351_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT00EGS1017151_351_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0F6A5B738B6262C8
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4399 ;
+        :sliceStartChar     4334 .
+    
+    bdr:EP70397428893C1BF4
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1434 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP9DC15403B5EF32A4
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4332 ;
+        :sliceStartChar     2875 .
+    
+    bdr:EPBD8C030348BE26BE
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2873 ;
+        :sliceStartChar     1436 .
+    
+    bdr:UT00EGS1017151_351_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼པ༽༄༅། །བླ་མ་བརྒྱུད་པའི་མཚན་འབུམ་སྔགས་ཅན་བཞུགས། །༄༅། །བཛྲ་དྷཱ་ར་བཛྲ་གརྦྷ་དཔལ། །བཛྲ་ཌཱ་ཀ་ཙེ་ལུ་དུས་ཞབས་གཉིས། །དཔེ་མེད་བསྲུང་"@bo ;
+        :eTextHasPage       bdr:EP0F6A5B738B6262C8 , bdr:EP70397428893C1BF4 , bdr:EP9DC15403B5EF32A4 , bdr:EPBD8C030348BE26BE ;
+        :eTextInInstance    bdr:IE00EGS1017151 ;
+        :eTextIsVolume      351 ;
+        :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SA-KABUM/SKYA345.rtf" .
+}

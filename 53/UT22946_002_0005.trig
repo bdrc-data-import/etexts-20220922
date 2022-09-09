@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22946_002_0005 {
+    bda:UT22946_002_0005
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT22946_002_0005 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "53/UT22946_002_0005.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22946_002_0005 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP05248817195F7703
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2869 ;
+        :sliceStartChar     1426 .
+    
+    bdr:EP8ECB0A536E973C0B
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3484 ;
+        :sliceStartChar     2871 .
+    
+    bdr:EPD105ED9507F6C678
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1424 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPFC7224602CD16588
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       3823 ;
+        :sliceStartChar     3486 .
+    
+    bdr:UT22946_002_0005
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༡༽བླ་མ་དང་གཉིས་སུ་མེད་པའི་དཔལ་ཧེ་རུ་ཀ་ལ་ཕྱག་འཚལ་ལོ།དྷཱི་ཧཱུྃ།ཆོས་རྣམས་རང་བཞིན་གདོད་ནས་རྣམ་པར་དགམ་རྟོགས་འགྲོ་ལ་བརྩེ་བའི་ཏིང་ངེ་འ"@bo ;
+        :eTextHasPage       bdr:EP05248817195F7703 , bdr:EP8ECB0A536E973C0B , bdr:EPD105ED9507F6C678 , bdr:EPFC7224602CD16588 ;
+        :eTextInInstance    bdr:IE22946 ;
+        :eTextInVolume      2 ;
+        :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-2-KHA/E-LAMA-HE-RU-KA.rtf" ;
+        :eTextVolumeIndex   5 .
+}

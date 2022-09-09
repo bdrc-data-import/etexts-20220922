@@ -1,0 +1,86 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT21888_003_0013 {
+    bda:UT21888_003_0013
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT21888_003_0013 ;
+        adm:facetIndex      10 ;
+        adm:gitPath         "5a/UT21888_003_0013.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT21888_003_0013 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP01ADEECBBD9AB052
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8677 ;
+        :sliceStartChar     7228 .
+    
+    bdr:EP20D13C18017F5B4E
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2880 ;
+        :sliceStartChar     1466 .
+    
+    bdr:EP2CA323FD86935A91
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       11610 ;
+        :sliceStartChar     10148 .
+    
+    bdr:EP4ABDDD07B5F81E1A
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       12943 ;
+        :sliceStartChar     11612 .
+    
+    bdr:EP5288515EE445BD59
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5781 ;
+        :sliceStartChar     4326 .
+    
+    bdr:EP704A35EFF72D5874
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4324 ;
+        :sliceStartChar     2882 .
+    
+    bdr:EP7B4E498FA7D537A5
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1464 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPBF050795B233529A
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       7226 ;
+        :sliceStartChar     5783 .
+    
+    bdr:EPEEA04B9083218DFF
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       10146 ;
+        :sliceStartChar     8679 .
+    
+    bdr:UT21888_003_0013
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༢༢༡༽ཆོས་ཉིད་མཁའ་འགྲོའི་ཐུགས་ཏིག་ལས༔ཡེ་ཤེས་མཁའ་འགྲོའི་ལོ་རྒྱུས་མེ་ཏོག་ཆུན་པོ་མཛེས་པའི་ཕྲེང་བ་བཞུགས་སོ༔ན་མོ་གུ་རུ་རྡེ་ཝ་ཌཱ་ཀི་ཡེ༔ད"@bo ;
+        :eTextHasPage       bdr:EP01ADEECBBD9AB052 , bdr:EP20D13C18017F5B4E , bdr:EP2CA323FD86935A91 , bdr:EP4ABDDD07B5F81E1A , bdr:EP5288515EE445BD59 , bdr:EP704A35EFF72D5874 , bdr:EP7B4E498FA7D537A5 , bdr:EPBF050795B233529A , bdr:EPEEA04B9083218DFF ;
+        :eTextInInstance    bdr:IE21888 ;
+        :eTextInVolume      3 ;
+        :eTextSourcePath    "PalriParkhang/W21888-se-ra-mkhaq-qgro-bkaq-qbum/rtfs/3-Ma-Serakhagro-Kabum/Ma-Serakhagro-221-238.rtf" ;
+        :eTextVolumeIndex   13 .
+}

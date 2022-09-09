@@ -1,0 +1,55 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13360_056_0000 {
+    bda:UT3JT13360_056_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13360_056_0000 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "15/UT3JT13360_056_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13360_056_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP4918007E570D925B
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1430 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP6209FC971CEE053E
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2900 ;
+        :sliceStartChar     1432 .
+    
+    bdr:EP73B4C75969526838
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5245 ;
+        :sliceStartChar     4341 .
+    
+    bdr:EP9D3E7CB224E334F3
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4339 ;
+        :sliceStartChar     2902 .
+    
+    bdr:UT3JT13360_056_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼ན༽༄༅། །མགོན་པོའི་སྲུང་འཁོར་བཞུགས་སོ། །བླ་མ་དང་དཔལ་ནག་པོ་ཆེན་པོ་ལ་ཕྱག་འཚལ་ལོ། །ནག་པོ་ཆེན་པོ་ལ་བརྟེན་པའི་སྲུང་འཁོར་ལ།རང་བསྲུང་"@bo ;
+        :eTextHasPage       bdr:EP4918007E570D925B , bdr:EP6209FC971CEE053E , bdr:EP73B4C75969526838 , bdr:EP9D3E7CB224E334F3 ;
+        :eTextInInstance    bdr:IE3JT13360 ;
+        :eTextIsVolume      56 ;
+        :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/27_GRAM/GRAM060_མགོན་པོའི་སྲུང་འཁོར།.rtf" .
+}

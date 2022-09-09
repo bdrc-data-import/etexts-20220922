@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT21888_004_0045 {
+    bda:UT21888_004_0045
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT21888_004_0045 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "4d/UT21888_004_0045.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT21888_004_0045 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP366065F9CF4960EF
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1419 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP54CFC696E1E64A24
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4203 ;
+        :sliceStartChar     2751 .
+    
+    bdr:EP66F0958DF9C6C138
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2749 ;
+        :sliceStartChar     1421 .
+    
+    bdr:EPDBEB14B023139923
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5862 ;
+        :sliceStartChar     5859 .
+    
+    bdr:EPF3EEFE3353AE6D3F
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5857 ;
+        :sliceStartChar     4205 .
+    
+    bdr:UT21888_004_0045
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༩༡༽ཆོས་ཉིད་མཁའ་འགྲོའི་ཐུགས་ཐིག་ལས༔འོག་མིན་མཁའ་སྤྱོད་ཞིང་དུ་སྐྱེ་བའི་སྨོན་ལམ་དྲི་མེད་ནོར་བུ་བཞུགས་སོ༔ན་མོ་བཛྲ་ཛྙཱ་ན་ཌཱ་ཀི་ཡེ༔རང་ས"@bo ;
+        :eTextHasPage       bdr:EP366065F9CF4960EF , bdr:EP54CFC696E1E64A24 , bdr:EP66F0958DF9C6C138 , bdr:EPDBEB14B023139923 , bdr:EPF3EEFE3353AE6D3F ;
+        :eTextInInstance    bdr:IE21888 ;
+        :eTextInVolume      4 ;
+        :eTextSourcePath    "PalriParkhang/W21888-se-ra-mkhaq-qgro-bkaq-qbum/rtfs/4-Ya-Serakhagro-Kabum/Ya-Serakhagro-Kabum-91-98.rtf" ;
+        :eTextVolumeIndex   45 .
+}

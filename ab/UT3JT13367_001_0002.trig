@@ -1,0 +1,44 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13367_001_0002 {
+    bda:UT3JT13367_001_0002
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13367_001_0002 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "ab/UT3JT13367_001_0002.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13367_001_0002 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0AB8CE85023A1344
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       66 ;
+        :sliceStartChar     34 .
+    
+    bdr:EP7B5BAAFB9D684FCB
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       32 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT3JT13367_001_0002
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "no title"@bo-x-ewts ;
+        :eTextHasPage       bdr:EP0AB8CE85023A1344 , bdr:EP7B5BAAFB9D684FCB ;
+        :eTextInInstance    bdr:IE3JT13367 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "KarmaDelek/unknown/rtfs/volume_001/volume_001_002.rtf" ;
+        :eTextVolumeIndex   2 .
+}

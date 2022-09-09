@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG5988_001_0043 {
+    bda:UT1KG5988_001_0043
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG5988_001_0043 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "ac/UT1KG5988_001_0043.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG5988_001_0043 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0E9458A1E1D5EF2A
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1705 ;
+        :sliceStartChar     53 .
+    
+    bdr:EP144214DDE48F990E
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4689 ;
+        :sliceStartChar     3230 .
+    
+    bdr:EP304FA4BCD1658C0D
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3228 ;
+        :sliceStartChar     1707 .
+    
+    bdr:EPA1002314121C0F92
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5791 ;
+        :sliceStartChar     4691 .
+    
+    bdr:EPF1B017BF28574329
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       51 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT1KG5988_001_0043
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །འཕགས་པ་རྡོ་རྗེ་གནམ་ལྕགས་མཆུ་ཞེས་བྱ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP0E9458A1E1D5EF2A , bdr:EP144214DDE48F990E , bdr:EP304FA4BCD1658C0D , bdr:EPA1002314121C0F92 , bdr:EPF1B017BF28574329 ;
+        :eTextInInstance    bdr:IE1KG5988 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/044_rdo-rje-gnam-lcags-mchu.rtf" ;
+        :eTextVolumeIndex   43 .
+}

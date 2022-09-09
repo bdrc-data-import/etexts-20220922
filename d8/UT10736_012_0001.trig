@@ -1,0 +1,80 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_012_0001 {
+    bda:UT10736_012_0001
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_012_0001 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "d8/UT10736_012_0001.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_012_0001 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP317803C7116852AA
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       9935 ;
+        :sliceStartChar     9375 .
+    
+    bdr:EP41A04A67243B02F4
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7925 ;
+        :sliceStartChar     6501 .
+    
+    bdr:EP58C82F4ACF75AAE5
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3063 ;
+        :sliceStartChar     1533 .
+    
+    bdr:EPADFFB878F85E5EC5
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       9373 ;
+        :sliceStartChar     7927 .
+    
+    bdr:EPB53941E0C86F9048
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       73 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPC4F3AE8AE29DC4CA
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6499 ;
+        :sliceStartChar     4611 .
+    
+    bdr:EPDC1BBD55C487F4D3
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1531 ;
+        :sliceStartChar     75 .
+    
+    bdr:EPFD300A70C637DD0E
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4609 ;
+        :sliceStartChar     3065 .
+    
+    bdr:UT10736_012_0001
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །སྒྲོལ་མ་སྔོན་མོའི་སྒྲུབ་ཐབས་འདོད་དགུའི་འདོད་འཇོ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP317803C7116852AA , bdr:EP41A04A67243B02F4 , bdr:EP58C82F4ACF75AAE5 , bdr:EPADFFB878F85E5EC5 , bdr:EPB53941E0C86F9048 , bdr:EPC4F3AE8AE29DC4CA , bdr:EPDC1BBD55C487F4D3 , bdr:EPFD300A70C637DD0E ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      12 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/12_na/12_01_na_sgrol-ma-sngon-moqi-sgrub-thabs-qdod-dguqi-qdod-qjo.rtf" ;
+        :eTextVolumeIndex   1 .
+}

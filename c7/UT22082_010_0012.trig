@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22082_010_0012 {
+    bda:UT22082_010_0012
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT22082_010_0012 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "c7/UT22082_010_0012.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22082_010_0012 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP34F384AE1F070761
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1495 ;
+        :sliceStartChar     77 .
+    
+    bdr:EPA970B396E3E59640
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2952 ;
+        :sliceStartChar     1497 .
+    
+    bdr:EPAC9E9939A906CFC6
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       4570 ;
+        :sliceStartChar     4409 .
+    
+    bdr:EPBC762E8BDAA0C7CC
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4407 ;
+        :sliceStartChar     2954 .
+    
+    bdr:EPBFCD5D2267DAF787
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       75 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT22082_010_0012
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །སྒྲུབ་ཆེན་བཀའ་བརྒྱད་ཉང་ལུགས་ཀྱི་དཀྱིལ་འཁོར་གྱི་ཚོན་ཡིག་ལྷ་མཚན་ཤེས་ལྡན་"@bo ;
+        :eTextHasPage       bdr:EP34F384AE1F070761 , bdr:EPA970B396E3E59640 , bdr:EPAC9E9939A906CFC6 , bdr:EPBC762E8BDAA0C7CC , bdr:EPBFCD5D2267DAF787 ;
+        :eTextInInstance    bdr:IE22082 ;
+        :eTextInVolume      10 ;
+        :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-010/20THA.WA.rtf" ;
+        :eTextVolumeIndex   12 .
+}

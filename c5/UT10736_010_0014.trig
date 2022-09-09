@@ -1,0 +1,74 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_010_0014 {
+    bda:UT10736_010_0014
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_010_0014 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "c5/UT10736_010_0014.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_010_0014 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP1FB9DA5FA18B196D
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7735 ;
+        :sliceStartChar     6317 .
+    
+    bdr:EP69BEFEB7268D54C5
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1677 ;
+        :sliceStartChar     43 .
+    
+    bdr:EP6A0B40BF700914FA
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       41 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP6E76D7DDD9A852E7
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8632 ;
+        :sliceStartChar     7737 .
+    
+    bdr:EP7173F2FDC98C1654
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3313 ;
+        :sliceStartChar     1679 .
+    
+    bdr:EPCF2D56FB0228099D
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6315 ;
+        :sliceStartChar     4726 .
+    
+    bdr:EPE5E6C34652E9F0B3
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4724 ;
+        :sliceStartChar     3315 .
+    
+    bdr:UT10736_010_0014
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ལམ་ཟབ་དམིགས་པར་དྲིལ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1FB9DA5FA18B196D , bdr:EP69BEFEB7268D54C5 , bdr:EP6A0B40BF700914FA , bdr:EP6E76D7DDD9A852E7 , bdr:EP7173F2FDC98C1654 , bdr:EPCF2D56FB0228099D , bdr:EPE5E6C34652E9F0B3 ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      10 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/10_tha/10_19_tha_lam-zab-dmigs-par-dril-ba.rtf" ;
+        :eTextVolumeIndex   14 .
+}

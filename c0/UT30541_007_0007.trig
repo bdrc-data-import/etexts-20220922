@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT30541_007_0007 {
+    bda:UT30541_007_0007
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT30541_007_0007 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "c0/UT30541_007_0007.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT30541_007_0007 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP2E97559E3ECCB86D
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1481 ;
+        :sliceStartChar     59 .
+    
+    bdr:EP4705C5FABF3AD00F
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       57 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPE542AD8C636D3DD3
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2691 ;
+        :sliceStartChar     1483 .
+    
+    bdr:UT30541_007_0007
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །དེ་བཞིན་གཤེགས་པའི་སྙིང་པོ་བསྟན་པའི་ས་བཅད་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2E97559E3ECCB86D , bdr:EP4705C5FABF3AD00F , bdr:EPE542AD8C636D3DD3 ;
+        :eTextInInstance    bdr:IE30541 ;
+        :eTextInVolume      7 ;
+        :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/07_3rd-karmapa-text_tdoc_ja/07_06_ja_de-bzhin-gshegs-paqi-snying-po-bstan-paqi-sa-bcad.rtf" ;
+        :eTextVolumeIndex   7 .
+}

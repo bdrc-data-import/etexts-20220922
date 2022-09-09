@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG5988_001_0011 {
+    bda:UT1KG5988_001_0011
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG5988_001_0011 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "1b/UT1KG5988_001_0011.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG5988_001_0011 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP01C43CED5747545E
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       3 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP17C3116907FBA929
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2904 ;
+        :sliceStartChar     1453 .
+    
+    bdr:EP7F9DFBC542B6B916
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1451 ;
+        :sliceStartChar     5 .
+    
+    bdr:EPF8DADEB538C02E3A
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       3540 ;
+        :sliceStartChar     2906 .
+    
+    bdr:UT1KG5988_001_0011
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །འབུམ་རྒྱས་འབྲིང་བསྡུས་གསུམ་དང༌།ཡི་གེ་གཅིག་མ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP01C43CED5747545E , bdr:EP17C3116907FBA929 , bdr:EP7F9DFBC542B6B916 , bdr:EPF8DADEB538C02E3A ;
+        :eTextInInstance    bdr:IE1KG5988 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/011_qbum-rgyas-qbring-bsdus-gsum-yi-ge-gcig-ma.rtf" ;
+        :eTextVolumeIndex   11 .
+}

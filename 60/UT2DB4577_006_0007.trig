@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT2DB4577_006_0007 {
+    bda:UT2DB4577_006_0007
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT2DB4577_006_0007 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "60/UT2DB4577_006_0007.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT2DB4577_006_0007 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP16EF756D3E251A2E
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       17049 ;
+        :sliceStartChar     15673 .
+    
+    bdr:EP234B6A86246AE6FB
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3004 ;
+        :sliceStartChar     1547 .
+    
+    bdr:EP25DFE007C57A44B4
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5878 ;
+        :sliceStartChar     4441 .
+    
+    bdr:EP2E8D0E997C6F9393
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13165 ;
+        :sliceStartChar     11710 .
+    
+    bdr:EP58076A88A14615D0
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1545 ;
+        :sliceStartChar     56 .
+    
+    bdr:EP9554A1CBBB3B17E5
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4439 ;
+        :sliceStartChar     3006 .
+    
+    bdr:EPA0BFC5C05D06BEA2
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10235 ;
+        :sliceStartChar     8791 .
+    
+    bdr:EPA95B7A759255DF4E
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8789 ;
+        :sliceStartChar     7336 .
+    
+    bdr:EPBDD0D5447A2DD929
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14177 ;
+        :sliceStartChar     13167 .
+    
+    bdr:EPDC50DD3E21A6EF4C
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       54 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPF0C8620D88332F55
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11708 ;
+        :sliceStartChar     10237 .
+    
+    bdr:EPF52728E6F9D8BC97
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       15671 ;
+        :sliceStartChar     14179 .
+    
+    bdr:EPFAAF0CFAD9F667F8
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7334 ;
+        :sliceStartChar     5880 .
+    
+    bdr:UT2DB4577_006_0007
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཆོས་དང་ཆོས་ཉིད་རྣམ་འབྱེད་ཀྱི་རྣམ་བཤད་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP16EF756D3E251A2E , bdr:EP234B6A86246AE6FB , bdr:EP25DFE007C57A44B4 , bdr:EP2E8D0E997C6F9393 , bdr:EP58076A88A14615D0 , bdr:EP9554A1CBBB3B17E5 , bdr:EPA0BFC5C05D06BEA2 , bdr:EPA95B7A759255DF4E , bdr:EPBDD0D5447A2DD929 , bdr:EPDC50DD3E21A6EF4C , bdr:EPF0C8620D88332F55 , bdr:EPF52728E6F9D8BC97 , bdr:EPFAAF0CFAD9F667F8 ;
+        :eTextInInstance    bdr:IE2DB4577 ;
+        :eTextInVolume      6 ;
+        :eTextSourcePath    "KarmaDelek/gsung-qbum _shes-rab-rin-chen/rtfs/volume_006/volume_006_070.rtf" ;
+        :eTextVolumeIndex   7 .
+}

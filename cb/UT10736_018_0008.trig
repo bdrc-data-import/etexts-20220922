@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_018_0008 {
+    bda:UT10736_018_0008
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_018_0008 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "cb/UT10736_018_0008.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_018_0008 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP960881F6027CA3EA
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       35 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPB52D6E248D033B72
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4316 ;
+        :sliceStartChar     1884 .
+    
+    bdr:EPC9D9D0B585A10AF2
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5198 ;
+        :sliceStartChar     4318 .
+    
+    bdr:EPFD0F2D9D2D765283
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1882 ;
+        :sliceStartChar     37 .
+    
+    bdr:UT10736_018_0008
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཞི་བའི་བསྟོད་བསྐུལ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP960881F6027CA3EA , bdr:EPB52D6E248D033B72 , bdr:EPC9D9D0B585A10AF2 , bdr:EPFD0F2D9D2D765283 ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      18 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/18_tsha/18_08_tsha_zhi-baqi-bstod-bskul.rtf" ;
+        :eTextVolumeIndex   8 .
+}

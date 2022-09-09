@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG14_012_0012 {
+    bda:UT1KG14_012_0012
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG14_012_0012 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "25/UT1KG14_012_0012.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG14_012_0012 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP3EBC39C5D38BE60D
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2572 ;
+        :sliceStartChar     1592 .
+    
+    bdr:EP72F760AA07CA8C61
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       89 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP933FBB37C3C3D3D7
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1590 ;
+        :sliceStartChar     91 .
+    
+    bdr:UT1KG14_012_0012
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཡང་ཏིག་གཅེས་པའི་སྒྲོན་མེའི་ཁྲིད་ཀྱི་རྩ་ཚིག་གསུང་རྒྱུན་སྙིང་པོ་རབ་གསལ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP3EBC39C5D38BE60D , bdr:EP72F760AA07CA8C61 , bdr:EP933FBB37C3C3D3D7 ;
+        :eTextInInstance    bdr:IE1KG14 ;
+        :eTextInVolume      12 ;
+        :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/12-NA/Terdzo-NA.P11.rtf" ;
+        :eTextVolumeIndex   12 .
+}

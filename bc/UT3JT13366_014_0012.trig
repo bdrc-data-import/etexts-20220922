@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13366_014_0012 {
+    bda:UT3JT13366_014_0012
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13366_014_0012 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "bc/UT3JT13366_014_0012.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13366_014_0012 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP2AFD2A56C204EA9B
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       6 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP8000F2F1778BB920
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2532 ;
+        :sliceStartChar     1525 .
+    
+    bdr:EP9EDDC86080E4F7CF
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1523 ;
+        :sliceStartChar     8 .
+    
+    bdr:UT3JT13366_014_0012
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "ཐུབ་པའི་དགོངས་པ་རབ་ཏུ་གསལ་བ།ས་སྐྱ་ལེགས་བཤད་བཞུགས།གཞུང་ལུགས་ལེགས་བཤད།དབུ་མ་ལུགས་ཀྱི་སེམས་བསྐྱེད་ཀྱི་ཆོ་གསེམས་བསྐྱེད་ཆོ་གའི་ལུང་སྦ"@bo ;
+        :eTextHasPage       bdr:EP2AFD2A56C204EA9B , bdr:EP8000F2F1778BB920 , bdr:EP9EDDC86080E4F7CF ;
+        :eTextInInstance    bdr:IE3JT13366 ;
+        :eTextInVolume      14 ;
+        :eTextSourcePath    "KarmaDelek/sa-skya-bkaq-qbum/rtfs/volume_014/volume_014_139.rtf" ;
+        :eTextVolumeIndex   12 .
+}

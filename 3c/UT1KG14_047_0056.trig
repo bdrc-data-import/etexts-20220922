@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG14_047_0056 {
+    bda:UT1KG14_047_0056
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG14_047_0056 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "3c/UT1KG14_047_0056.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG14_047_0056 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP1A85BD844FF4F873
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1538 ;
+        :sliceStartChar     71 .
+    
+    bdr:EPC0509BF7A0AD8657
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2973 ;
+        :sliceStartChar     1540 .
+    
+    bdr:EPEDE49F867629B344
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       69 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT1KG14_047_0056
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །མཁའ་འགྲོ་མའི་བྱས་པ་བཤིག་པའི་འཁོར་ལོ་མཆོག་ཏུ་ཟབ་པ་བཞུགས་སོ། །བཀའ་གཏེར་ཟུང་འཇུག་གི་ཨུ་པ་དེ་ཤའོ། །"@bo ;
+        :eTextHasPage       bdr:EP1A85BD844FF4F873 , bdr:EPC0509BF7A0AD8657 , bdr:EPEDE49F867629B344 ;
+        :eTextInInstance    bdr:IE1KG14 ;
+        :eTextInVolume      47 ;
+        :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/47-TSI/TERDZO-TSI-P54.rtf" ;
+        :eTextVolumeIndex   56 .
+}

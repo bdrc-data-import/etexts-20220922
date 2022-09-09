@@ -1,0 +1,73 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13344_009_0000 {
+    bda:UT3JT13344_009_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13344_009_0000 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "ee/UT3JT13344_009_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13344_009_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP2FC23795A58332CB
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2954 ;
+        :sliceStartChar     1535 .
+    
+    bdr:EP31E346C1B6221955
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4431 ;
+        :sliceStartChar     2956 .
+    
+    bdr:EP8B65940532AD9E2B
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1533 ;
+        :sliceStartChar     117 .
+    
+    bdr:EP8D4EAAABCED1042D
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8892 ;
+        :sliceStartChar     7449 .
+    
+    bdr:EPDB936D1AE776C4AE
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5895 ;
+        :sliceStartChar     4433 .
+    
+    bdr:EPE1F85E3035CEF9B3
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7447 ;
+        :sliceStartChar     5897 .
+    
+    bdr:EPFE9AE98A52028BFB
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       115 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT3JT13344_009_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །བཅོམ་ལྡན་འདས་མི་འཁྲུགས་པའི་ཆོ་ག་ལ་བརྟེན་ནས་ཕུང་པོ་བསྲེག་སྦྱོང་བྱ་ཚུལ་མདོར་བསྡུས་བལྟས་ཆོག་ཏུ་བཀོད་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2FC23795A58332CB , bdr:EP31E346C1B6221955 , bdr:EP8B65940532AD9E2B , bdr:EP8D4EAAABCED1042D , bdr:EPDB936D1AE776C4AE , bdr:EPE1F85E3035CEF9B3 , bdr:EPFE9AE98A52028BFB ;
+        :eTextInInstance    bdr:IE3JT13344 ;
+        :eTextIsVolume      9 ;
+        :eTextSourcePath    "DharmaDownload/pecha/rtfs/various/P0039_03_mi-qkhrugs-pa-phung-po-bsreg-sbyong.rtf" .
+}

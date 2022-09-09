@@ -1,0 +1,44 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG14_051_0064 {
+    bda:UT1KG14_051_0064
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG14_051_0064 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "20/UT1KG14_051_0064.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG14_051_0064 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP3315F923623E5D58
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       240 ;
+        :sliceStartChar     120 .
+    
+    bdr:EPEFDB16E80A3E86A4
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       118 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT1KG14_051_0064
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༈ཆགས་མེད་མཆོག་སྤྲུལ་བཞི་པ་བསྟན་འཛིན་ཕྲིན་ལས་ཀྱིས་སྒྲིག་ཆོག་ཞིང་ལྷ་ཚངས་པའི་གཡང་སྐྱབས་ཀྱི་གཏོར་མའི་དཔེའུ་རིས།"@bo ;
+        :eTextHasPage       bdr:EP3315F923623E5D58 , bdr:EPEFDB16E80A3E86A4 ;
+        :eTextInInstance    bdr:IE1KG14 ;
+        :eTextInVolume      51 ;
+        :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/51-ZHI/TERDZO-ZHI-P61.rtf" ;
+        :eTextVolumeIndex   64 .
+}

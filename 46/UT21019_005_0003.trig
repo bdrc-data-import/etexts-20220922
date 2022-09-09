@@ -1,0 +1,98 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT21019_005_0003 {
+    bda:UT21019_005_0003
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT21019_005_0003 ;
+        adm:facetIndex      12 ;
+        adm:gitPath         "46/UT21019_005_0003.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT21019_005_0003 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0A3DC06C0201ADF2
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       11903 ;
+        :sliceStartChar     10103 .
+    
+    bdr:EP18C2DF4B1FA95F5B
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11909 ;
+        :sliceStartChar     11905 .
+    
+    bdr:EP584E17D81FF43A9C
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14374 ;
+        :sliceStartChar     13525 .
+    
+    bdr:EP7236618BF1E61E95
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5137 ;
+        :sliceStartChar     3506 .
+    
+    bdr:EP9E3E0AD85ED9BCDF
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       469 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPA6CC4C6F9BDAC067
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       10101 ;
+        :sliceStartChar     8558 .
+    
+    bdr:EPAB87F45D584F5C2F
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13523 ;
+        :sliceStartChar     11911 .
+    
+    bdr:EPAC2D15A3A843CAC9
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8556 ;
+        :sliceStartChar     6880 .
+    
+    bdr:EPD276B285890E06B8
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1888 ;
+        :sliceStartChar     471 .
+    
+    bdr:EPE881275DB9097622
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3504 ;
+        :sliceStartChar     1890 .
+    
+    bdr:EPFB7FE81FF8698C88
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6878 ;
+        :sliceStartChar     5139 .
+    
+    bdr:UT21019_005_0003
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༤༤༡༽༄༅།རྒྱལ་བསྟན་ཡུན་དུ་གནས་ཕྱིར་འཕགས་པའི་གནས་བརྟན་བཅུ་དྲུག་གི་ཆོ་ག་ཐུབ་བསྟན་ཉིན་བྱེད་བཞུགས་སོ།༤༤༢༽ན་མོ་བུདྡྷ་ཡ།རྒྱལ་བ་མ་ལུས་ཐུག"@bo ;
+        :eTextHasPage       bdr:EP0A3DC06C0201ADF2 , bdr:EP18C2DF4B1FA95F5B , bdr:EP584E17D81FF43A9C , bdr:EP7236618BF1E61E95 , bdr:EP9E3E0AD85ED9BCDF , bdr:EPA6CC4C6F9BDAC067 , bdr:EPAB87F45D584F5C2F , bdr:EPAC2D15A3A843CAC9 , bdr:EPD276B285890E06B8 , bdr:EPE881275DB9097622 , bdr:EPFB7FE81FF8698C88 ;
+        :eTextInInstance    bdr:IE21019 ;
+        :eTextInVolume      5 ;
+        :eTextSourcePath    "PalriParkhang/W21019-rtse-le-sna-tshogs-rang-grol/rtfs/Tseley-Natsog-Rangdrol-Volume-5/Volume-5-Tsele-441-468.rtf" ;
+        :eTextVolumeIndex   3 .
+}

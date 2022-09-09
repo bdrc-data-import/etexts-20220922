@@ -1,0 +1,43 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT29307_199_0000 {
+    bda:UT29307_199_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT29307_199_0000 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "3d/UT29307_199_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT29307_199_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP832707D59473EC37
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2241 ;
+        :sliceStartChar     1430 .
+    
+    bdr:EPD593C0A6A85D552C
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1428 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT29307_199_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄། །ཞིང་སྐྱོང་དབང་པོ་ཞལ་བཞི་པའི་ཐུགས་དམ་སྐང་ཞིང་འཕྲིན་ལས་འཆོལ་བའི་ཡི་གེ་བསམ་དོན་མྱུར་འགྲུབ་བཞུགས། །ན་མོ་གུ་རུ་བཛྲ་དྷ་ར་བུདྡྷ་ད"@bo ;
+        :eTextHasPage       bdr:EP832707D59473EC37 , bdr:EPD593C0A6A85D552C ;
+        :eTextInInstance    bdr:IE29307 ;
+        :eTextIsVolume      199 ;
+        :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/4_AMAI/AMAI199_ཞིང་སྐྱོང་དབང་པོ་ཞལ་བཞི་པའི་ཐུགས་དམ་བསྐང་ཞིང་འཕྲིན་ལས་འཆོལ་བའི་ཡི་གེ.rtf" .
+}

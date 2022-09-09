@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_012_0017 {
+    bda:UT23605_012_0017
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_012_0017 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "0e/UT23605_012_0017.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_012_0017 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP11CA76E776138A00
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2298 ;
+        :sliceStartChar     1513 .
+    
+    bdr:EPBE7908677626E227
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       13 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPE9B69D63D0AEA56C
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1511 ;
+        :sliceStartChar     15 .
+    
+    bdr:UT23605_012_0017
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༣༢༩༽༄༅། །སུ་ཁ་མ་སིདྡྷི་ཕྱག་རྒྱ་ཆེན་པོའི་ངོ་སྤྲོད་བཞུགས་སོ། །ན་མོ།མཁའ་འགྲོ་རིག་པའི་ངོ་སྤྲོད་ནི། །ནམ་མཁའ་རིས་མེད་སྟོང་པ་ལ། །ར"@bo ;
+        :eTextHasPage       bdr:EP11CA76E776138A00 , bdr:EPBE7908677626E227 , bdr:EPE9B69D63D0AEA56C ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      12 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/12_gdams-ngag-mdzod_na/12_16_su-kha-ma-siddhi-phyag-rgya-chen-poqi-ngo-sprod.rtf" ;
+        :eTextVolumeIndex   17 .
+}

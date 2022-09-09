@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1PD45495_020_0005 {
+    bda:UT1PD45495_020_0005
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1PD45495_020_0005 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "1a/UT1PD45495_020_0005.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1PD45495_020_0005 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP307759AF5AB6B5FC
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       3935 ;
+        :sliceStartChar     2912 .
+    
+    bdr:EP8B3587DF780873C7
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2910 ;
+        :sliceStartChar     1484 .
+    
+    bdr:EP8E901D1416006F01
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1482 ;
+        :sliceStartChar     58 .
+    
+    bdr:EP976D8045B88770E5
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       56 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT1PD45495_020_0005
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །དཔལ་ལྡན་བླ་མ་དམ་པའི་མཛད་པའི་བསྙེན་པ་བྱེད་ཚུལ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP307759AF5AB6B5FC , bdr:EP8B3587DF780873C7 , bdr:EP8E901D1416006F01 , bdr:EP976D8045B88770E5 ;
+        :eTextInInstance    bdr:IE1PD45495 ;
+        :eTextInVolume      20 ;
+        :eTextSourcePath    "KarmaDelek/taranatha-gsung-qbum/rtfs/volume_020/volume_020_155.rtf" ;
+        :eTextVolumeIndex   5 .
+}

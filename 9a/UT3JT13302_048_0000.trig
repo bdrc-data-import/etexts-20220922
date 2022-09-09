@@ -1,0 +1,91 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13302_048_0000 {
+    bda:UT3JT13302_048_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13302_048_0000 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "9a/UT3JT13302_048_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13302_048_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP37FC1A30300EA1BA
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       96 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP4EF8D2C3D65C2590
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7492 ;
+        :sliceStartChar     6027 .
+    
+    bdr:EP69033E4E912BE4D9
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3138 ;
+        :sliceStartChar     1713 .
+    
+    bdr:EP767F9ACC9C01CF44
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4605 ;
+        :sliceStartChar     3140 .
+    
+    bdr:EP798A51149C448218
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6025 ;
+        :sliceStartChar     4607 .
+    
+    bdr:EP7E6C8BA3CC08E11C
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       12457 ;
+        :sliceStartChar     11801 .
+    
+    bdr:EP884959B000E93BEB
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1711 ;
+        :sliceStartChar     98 .
+    
+    bdr:EP95D95C6995B9DB59
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8930 ;
+        :sliceStartChar     7494 .
+    
+    bdr:EPA9E23F5F37ACD033
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10343 ;
+        :sliceStartChar     8932 .
+    
+    bdr:EPDEACD44D030D4494
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11799 ;
+        :sliceStartChar     10345 .
+    
+    bdr:UT3JT13302_048_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །རྡོ་རྗེ་གཞོན་ནུའི་སྒྲུབ་ཐབས་ངེས་དོན་ཐིག་ལེ་བཞུགས་སོ། །༈།ན་མཿས་མནྟ་བྷ་དྲ་ཡ།དཔལ་ལྡན་རྩ་བའི་སོགས།ཀུན་ཏུ་བཟང་པོ་རྡོ་རྗེ་སེམས་"@bo ;
+        :eTextHasPage       bdr:EP37FC1A30300EA1BA , bdr:EP4EF8D2C3D65C2590 , bdr:EP69033E4E912BE4D9 , bdr:EP767F9ACC9C01CF44 , bdr:EP798A51149C448218 , bdr:EP7E6C8BA3CC08E11C , bdr:EP884959B000E93BEB , bdr:EP95D95C6995B9DB59 , bdr:EPA9E23F5F37ACD033 , bdr:EPDEACD44D030D4494 ;
+        :eTextInInstance    bdr:IE3JT13302 ;
+        :eTextIsVolume      48 ;
+        :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/KHADON/KHAD048.rtf" .
+}

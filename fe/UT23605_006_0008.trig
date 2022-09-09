@@ -1,0 +1,104 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_006_0008 {
+    bda:UT23605_006_0008
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_006_0008 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "fe/UT23605_006_0008.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_006_0008 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP092121298310F252
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13287 ;
+        :sliceStartChar     11874 .
+    
+    bdr:EP23CBC40144E553E3
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1505 ;
+        :sliceStartChar     74 .
+    
+    bdr:EP3DC124374288D61F
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11872 ;
+        :sliceStartChar     10436 .
+    
+    bdr:EP44293E3F1349830E
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4524 ;
+        :sliceStartChar     3070 .
+    
+    bdr:EP4B6695636CFBD6FD
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14736 ;
+        :sliceStartChar     13289 .
+    
+    bdr:EP65E2ED55CB823485
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5940 ;
+        :sliceStartChar     4526 .
+    
+    bdr:EP80AC0260D42EF4FF
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3068 ;
+        :sliceStartChar     1507 .
+    
+    bdr:EP94CE5D4F032CFD48
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7417 ;
+        :sliceStartChar     5942 .
+    
+    bdr:EP950C91F2BC584C45
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       72 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPB62DCD36C5CB30B3
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10434 ;
+        :sliceStartChar     8903 .
+    
+    bdr:EPBF0CD2C6284B3846
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       15650 ;
+        :sliceStartChar     14738 .
+    
+    bdr:EPCA8999EA3A370FA8
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8901 ;
+        :sliceStartChar     7419 .
+    
+    bdr:UT23605_006_0008
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༦༧༽༄༅། །སློབ་དཔོན་ངག་དབང་གྲགས་པས་མཛད་པའི་ཕྱག་རྒྱ་ཆེན་པོ་ཡི་གེ་མེད་པ་"@bo ;
+        :eTextHasPage       bdr:EP092121298310F252 , bdr:EP23CBC40144E553E3 , bdr:EP3DC124374288D61F , bdr:EP44293E3F1349830E , bdr:EP4B6695636CFBD6FD , bdr:EP65E2ED55CB823485 , bdr:EP80AC0260D42EF4FF , bdr:EP94CE5D4F032CFD48 , bdr:EP950C91F2BC584C45 , bdr:EPB62DCD36C5CB30B3 , bdr:EPBF0CD2C6284B3846 , bdr:EPCA8999EA3A370FA8 ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      6 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/06_gdams-ngag-mdzod_cha/06_07_slob-dpon-ngag-dbang-grags-pas-mdzad-paqi-phyag-rgya-chen-po-yi-ge-med-pa.rtf" ;
+        :eTextVolumeIndex   8 .
+}

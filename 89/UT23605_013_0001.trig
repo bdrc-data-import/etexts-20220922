@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_013_0001 {
+    bda:UT23605_013_0001
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_013_0001 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "89/UT23605_013_0001.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_013_0001 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP2F607686CF50AFEB
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2019 ;
+        :sliceStartChar     1461 .
+    
+    bdr:EP8422382961307783
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1459 ;
+        :sliceStartChar     46 .
+    
+    bdr:EPE3D0C1CA01EC7BE9
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       44 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT23605_013_0001
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །གདམས་ངག་མཛོད།ཞི་བྱེད་པོད་དང་པོ།༼པ༽"@bo ;
+        :eTextHasPage       bdr:EP2F607686CF50AFEB , bdr:EP8422382961307783 , bdr:EPE3D0C1CA01EC7BE9 ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      13 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/13_gdams-ngag-mdzod_pa/13_00_karchag.rtf" ;
+        :eTextVolumeIndex   1 .
+}

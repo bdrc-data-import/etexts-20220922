@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_017_0028 {
+    bda:UT10736_017_0028
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_017_0028 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "a3/UT10736_017_0028.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_017_0028 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP251740DB774D7ED1
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       9162 ;
+        :sliceStartChar     7754 .
+    
+    bdr:EP2B16527888EFF531
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       16818 ;
+        :sliceStartChar     16634 .
+    
+    bdr:EP55EEB9E5C45E2317
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5793 ;
+        :sliceStartChar     4350 .
+    
+    bdr:EP58F2B4D0F5447C32
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2933 ;
+        :sliceStartChar     1463 .
+    
+    bdr:EP93A14BA8ABAC75A1
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4348 ;
+        :sliceStartChar     2935 .
+    
+    bdr:EP9B0172B7540D7FA7
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1461 ;
+        :sliceStartChar     56 .
+    
+    bdr:EPAEDF1B9E44BD2718
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11997 ;
+        :sliceStartChar     10572 .
+    
+    bdr:EPB11E68DB2FA870CC
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13454 ;
+        :sliceStartChar     11999 .
+    
+    bdr:EPB322642A4A9E4CDD
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14980 ;
+        :sliceStartChar     13456 .
+    
+    bdr:EPE3DBE5B34174BAA2
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10570 ;
+        :sliceStartChar     9164 .
+    
+    bdr:EPE5F499F55E053B19
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7752 ;
+        :sliceStartChar     5795 .
+    
+    bdr:EPEB3FC818AEF77638
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       54 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPF526A922D4495EBD
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       16632 ;
+        :sliceStartChar     14982 .
+    
+    bdr:UT10736_017_0028
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །སྙན་བརྒྱུད་ལས་ཟབ་མོ་བརྡའི་དབང་གི་ཆོ་ག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP251740DB774D7ED1 , bdr:EP2B16527888EFF531 , bdr:EP55EEB9E5C45E2317 , bdr:EP58F2B4D0F5447C32 , bdr:EP93A14BA8ABAC75A1 , bdr:EP9B0172B7540D7FA7 , bdr:EPAEDF1B9E44BD2718 , bdr:EPB11E68DB2FA870CC , bdr:EPB322642A4A9E4CDD , bdr:EPE3DBE5B34174BAA2 , bdr:EPE5F499F55E053B19 , bdr:EPEB3FC818AEF77638 , bdr:EPF526A922D4495EBD ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      17 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/17_tsa/17_24_tsa_snyan-brgyud-las-zab-mo-brdaqi-dbang-gi-cho-ga.rtf" ;
+        :eTextVolumeIndex   28 .
+}

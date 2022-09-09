@@ -1,0 +1,121 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13325_003_0000 {
+    bda:UT3JT13325_003_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13325_003_0000 ;
+        adm:facetIndex      16 ;
+        adm:gitPath         "33/UT3JT13325_003_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13325_003_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP01DD19AA0C5B0B51
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5922 ;
+        :sliceStartChar     4461 .
+    
+    bdr:EP0E9A0A2E51F066B3
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10235 ;
+        :sliceStartChar     8784 .
+    
+    bdr:EP2FE6C30BC87E2A8C
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7334 ;
+        :sliceStartChar     5924 .
+    
+    bdr:EP3D23E7F36ECC1B47
+        a                   :EtextPage ;
+        :seqNum             14 ;
+        :sliceEndChar       18906 ;
+        :sliceStartChar     17486 .
+    
+    bdr:EP4AC6EA62DC94E5E5
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       17484 ;
+        :sliceStartChar     16052 .
+    
+    bdr:EP58F392C6F5BBE698
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       16050 ;
+        :sliceStartChar     14584 .
+    
+    bdr:EP5E1F720B68F1E418
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       95 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP7D48C4CCB25A795C
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11712 ;
+        :sliceStartChar     10237 .
+    
+    bdr:EPAB2B5535B4A6BBB3
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14582 ;
+        :sliceStartChar     13173 .
+    
+    bdr:EPAE4169536E3BFA36
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1506 ;
+        :sliceStartChar     97 .
+    
+    bdr:EPB5462C787E276544
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3020 ;
+        :sliceStartChar     1508 .
+    
+    bdr:EPC86035ACEE2E8673
+        a                   :EtextPage ;
+        :seqNum             15 ;
+        :sliceEndChar       20096 ;
+        :sliceStartChar     18908 .
+    
+    bdr:EPD5E273435A84D46F
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13171 ;
+        :sliceStartChar     11714 .
+    
+    bdr:EPE0DD7B8D4BA25300
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8782 ;
+        :sliceStartChar     7336 .
+    
+    bdr:EPE78D8A9D9E54F267
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4459 ;
+        :sliceStartChar     3022 .
+    
+    bdr:UT3JT13325_003_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཆོས་རྗེ་དྭགས་པོ་ལྷ་རྗེའི་གསུང༌།ཕྱག་རྒྱ་ཆེན་པོ་བསམ་གྱིས་མི་ཁྱབ་པའི་སྒོམ་རིམ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP01DD19AA0C5B0B51 , bdr:EP0E9A0A2E51F066B3 , bdr:EP2FE6C30BC87E2A8C , bdr:EP3D23E7F36ECC1B47 , bdr:EP4AC6EA62DC94E5E5 , bdr:EP58F392C6F5BBE698 , bdr:EP5E1F720B68F1E418 , bdr:EP7D48C4CCB25A795C , bdr:EPAB2B5535B4A6BBB3 , bdr:EPAE4169536E3BFA36 , bdr:EPB5462C787E276544 , bdr:EPC86035ACEE2E8673 , bdr:EPD5E273435A84D46F , bdr:EPE0DD7B8D4BA25300 , bdr:EPE78D8A9D9E54F267 ;
+        :eTextInInstance    bdr:IE3JT13325 ;
+        :eTextIsVolume      3 ;
+        :eTextSourcePath    "DharmaDownload/Mahamudra/rtfs/03_dakpo/303.rtf" .
+}

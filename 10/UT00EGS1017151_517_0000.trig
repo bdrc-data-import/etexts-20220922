@@ -1,0 +1,55 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT00EGS1017151_517_0000 {
+    bda:UT00EGS1017151_517_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT00EGS1017151_517_0000 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "10/UT00EGS1017151_517_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT00EGS1017151_517_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP5EE530876B5D0B98
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1622 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP9E64AE2AE35834DD
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       3071 ;
+        :sliceStartChar     1624 .
+    
+    bdr:EPF0D637C645AE26EA
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4506 ;
+        :sliceStartChar     3073 .
+    
+    bdr:EPF720A717E7259E09
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4962 ;
+        :sliceStartChar     4508 .
+    
+    bdr:UT00EGS1017151_517_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼བ༽༄༅། །ཕྱོགས་ཀྱི་གཏོར་མ་བཞུགས། །༄༅། །དེ་ནས་ཕྱོགས་ཀྱི་གཏོར་མ་གཏོང་བའི་ཕྱིར།ཤར་ཕྱོགས་ནས་ཡུལ་འཁོར་སྲུང༌།འཁོར་དང་བཅས་པ་ལ་གཏོར་མ་"@bo ;
+        :eTextHasPage       bdr:EP5EE530876B5D0B98 , bdr:EP9E64AE2AE35834DD , bdr:EPF0D637C645AE26EA , bdr:EPF720A717E7259E09 ;
+        :eTextInInstance    bdr:IE00EGS1017151 ;
+        :eTextIsVolume      517 ;
+        :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SA-KABUM/SKYA511.rtf" .
+}

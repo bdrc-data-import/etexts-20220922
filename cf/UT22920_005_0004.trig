@@ -1,0 +1,68 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22920_005_0004 {
+    bda:UT22920_005_0004
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT22920_005_0004 ;
+        adm:facetIndex      7 ;
+        adm:gitPath         "cf/UT22920_005_0004.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22920_005_0004 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP3C61A5C231516AF3
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1837 ;
+        :sliceStartChar     62 .
+    
+    bdr:EPB5B19AFDE3EA0784
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8365 ;
+        :sliceStartChar     7428 .
+    
+    bdr:EPC2B617B4FF4FBAB4
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       60 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPC9253F9197915932
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3457 ;
+        :sliceStartChar     1839 .
+    
+    bdr:EPE1C8C7E0F1D85D15
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       7426 ;
+        :sliceStartChar     5307 .
+    
+    bdr:EPF0C1D0809D1D560F
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5305 ;
+        :sliceStartChar     3459 .
+    
+    bdr:UT22920_005_0004
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཀུན་མཁྱེན་ཀློང་ཆེན་རབ་འབྱམས་པའི་གསུང་རབ་མཛོད་བདུན་ལ་"@bo ;
+        :eTextHasPage       bdr:EP3C61A5C231516AF3 , bdr:EPB5B19AFDE3EA0784 , bdr:EPC2B617B4FF4FBAB4 , bdr:EPC9253F9197915932 , bdr:EPE1C8C7E0F1D85D15 , bdr:EPF0C1D0809D1D560F ;
+        :eTextInInstance    bdr:IE22920 ;
+        :eTextInVolume      5 ;
+        :eTextSourcePath    "DharmaDownload/mdzod-bdun/rtfs/volume-005/05_4_theg-mchog-mdzod_mdzod-bdun-la-blta-bar-bskul-ba.rtf" ;
+        :eTextVolumeIndex   4 .
+}

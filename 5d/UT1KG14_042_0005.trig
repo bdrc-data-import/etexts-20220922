@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG14_042_0005 {
+    bda:UT1KG14_042_0005
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG14_042_0005 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "5d/UT1KG14_042_0005.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG14_042_0005 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP188726823B86F3EF
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13537 ;
+        :sliceStartChar     12134 .
+    
+    bdr:EP1D25EB32991B45AC
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       17766 ;
+        :sliceStartChar     16360 .
+    
+    bdr:EP2BD82F0CBDF66DA1
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1491 ;
+        :sliceStartChar     63 .
+    
+    bdr:EP341E29A69805CA43
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3302 ;
+        :sliceStartChar     1493 .
+    
+    bdr:EP35F801F5C7EF6477
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10639 ;
+        :sliceStartChar     9190 .
+    
+    bdr:EP59FF32FB4D4DB5C2
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       12132 ;
+        :sliceStartChar     10641 .
+    
+    bdr:EP6F46740DADF1242C
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14945 ;
+        :sliceStartChar     13539 .
+    
+    bdr:EP96D2FA1B582CA391
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       9188 ;
+        :sliceStartChar     7766 .
+    
+    bdr:EPA0A7931E4D03821D
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       16358 ;
+        :sliceStartChar     14947 .
+    
+    bdr:EPA9692B050BFE4BB4
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       61 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPACEB697D71A04C5B
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7764 ;
+        :sliceStartChar     6307 .
+    
+    bdr:EPDEE7789E5036B807
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6305 ;
+        :sliceStartChar     4859 .
+    
+    bdr:EPE1C477523E5B0410
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4857 ;
+        :sliceStartChar     3304 .
+    
+    bdr:UT1KG14_042_0005
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །བར་དོའི་ཆོས་བཤད་ཐོས་པས་རྣམ་གྲོལ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP188726823B86F3EF , bdr:EP1D25EB32991B45AC , bdr:EP2BD82F0CBDF66DA1 , bdr:EP341E29A69805CA43 , bdr:EP35F801F5C7EF6477 , bdr:EP59FF32FB4D4DB5C2 , bdr:EP6F46740DADF1242C , bdr:EP96D2FA1B582CA391 , bdr:EPA0A7931E4D03821D , bdr:EPA9692B050BFE4BB4 , bdr:EPACEB697D71A04C5B , bdr:EPDEE7789E5036B807 , bdr:EPE1C477523E5B0410 ;
+        :eTextInInstance    bdr:IE1KG14 ;
+        :eTextInVolume      42 ;
+        :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/42-NI/Terzod-ni-P04.rtf" ;
+        :eTextVolumeIndex   5 .
+}

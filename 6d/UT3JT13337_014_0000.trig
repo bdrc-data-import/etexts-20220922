@@ -1,0 +1,55 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13337_014_0000 {
+    bda:UT3JT13337_014_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13337_014_0000 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "6d/UT3JT13337_014_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13337_014_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP39E2B9402183BF36
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       3575 ;
+        :sliceStartChar     2101 .
+    
+    bdr:EP6D56E7454EB2E741
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       5067 ;
+        :sliceStartChar     3577 .
+    
+    bdr:EP7F42E2E1404FDDE3
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       2099 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP8CD6EAE870D0CBB0
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5355 ;
+        :sliceStartChar     5069 .
+    
+    bdr:UT3JT13337_014_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "གནས་བརྟན་ཕྱག་མཆོད་ནི།ལག་མཐིལ་ལྟར་མཉམ་རིན་ཆེན་རྒྱན་གྱིས་སྤྲས། །ལྗོན་ཤིང་ཆུ་མཚོས་བརྒྱན་པའི་ས་གཞིའི་དབུས། །རིན་ཆེན་ལས་གྲུབ་གཞལ་མེ"@bo ;
+        :eTextHasPage       bdr:EP39E2B9402183BF36 , bdr:EP6D56E7454EB2E741 , bdr:EP7F42E2E1404FDDE3 , bdr:EP8CD6EAE870D0CBB0 ;
+        :eTextInInstance    bdr:IE3JT13337 ;
+        :eTextIsVolume      14 ;
+        :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/021-gnas-brtan-phag-mchod.rtf" .
+}

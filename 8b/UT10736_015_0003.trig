@@ -1,0 +1,80 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_015_0003 {
+    bda:UT10736_015_0003
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_015_0003 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "8b/UT10736_015_0003.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_015_0003 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP09CCBC6EBCD9760E
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2907 ;
+        :sliceStartChar     1495 .
+    
+    bdr:EP1C96693E70C6CDEE
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1493 ;
+        :sliceStartChar     53 .
+    
+    bdr:EP437F63A36E26F0E0
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       9064 ;
+        :sliceStartChar     7615 .
+    
+    bdr:EP44E3A2451302A21F
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       51 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP8401C0693A98261C
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4401 ;
+        :sliceStartChar     2909 .
+    
+    bdr:EP9163A2B9707190AA
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5957 ;
+        :sliceStartChar     4403 .
+    
+    bdr:EPE32BF0EE03341ADB
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10734 ;
+        :sliceStartChar     9066 .
+    
+    bdr:EPFAA25872AE107288
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7613 ;
+        :sliceStartChar     5959 .
+    
+    bdr:UT10736_015_0003
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །སྙན་རྒྱུད་ལས་ལུས་དཀྱིལ་གྱི་དབང་ཆོག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP09CCBC6EBCD9760E , bdr:EP1C96693E70C6CDEE , bdr:EP437F63A36E26F0E0 , bdr:EP44E3A2451302A21F , bdr:EP8401C0693A98261C , bdr:EP9163A2B9707190AA , bdr:EPE32BF0EE03341ADB , bdr:EPFAA25872AE107288 ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      15 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/15_ba/15_03_ba_snyan-rgyud-las-lus-dkyil-gyi-dbang-chog.rtf" ;
+        :eTextVolumeIndex   3 .
+}

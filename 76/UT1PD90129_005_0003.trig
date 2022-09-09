@@ -1,0 +1,116 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1PD90129_005_0003 {
+    bda:UT1PD90129_005_0003
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1PD90129_005_0003 ;
+        adm:facetIndex      15 ;
+        adm:gitPath         "76/UT1PD90129_005_0003.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1PD90129_005_0003 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP05748BC6FD4DCFB2
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14617 ;
+        :sliceStartChar     13159 .
+    
+    bdr:EP0841247EB999BCCE
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1518 ;
+        :sliceStartChar     78 .
+    
+    bdr:EP3D13E5EC28CEDFAE
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11700 ;
+        :sliceStartChar     10247 .
+    
+    bdr:EP79D83211BC200A83
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       16051 ;
+        :sliceStartChar     14619 .
+    
+    bdr:EP7D57D5E18CC726E1
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       76 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP858DDD96EFD49BE0
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2985 ;
+        :sliceStartChar     1520 .
+    
+    bdr:EP8F225ADD27D729A7
+        a                   :EtextPage ;
+        :seqNum             14 ;
+        :sliceEndChar       16336 ;
+        :sliceStartChar     16185 .
+    
+    bdr:EP8FBCC16C0EA01144
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       16183 ;
+        :sliceStartChar     16053 .
+    
+    bdr:EP9B7CB70BF0771916
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13157 ;
+        :sliceStartChar     11702 .
+    
+    bdr:EPA074970BD6932A4C
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8802 ;
+        :sliceStartChar     7364 .
+    
+    bdr:EPC9AE33A842032D13
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5918 ;
+        :sliceStartChar     4453 .
+    
+    bdr:EPE3856C3C41D033FB
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10245 ;
+        :sliceStartChar     8804 .
+    
+    bdr:EPE7A75073F83F0765
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7362 ;
+        :sliceStartChar     5920 .
+    
+    bdr:EPFF9046D3987366E2
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4451 ;
+        :sliceStartChar     2987 .
+    
+    bdr:UT1PD90129_005_0003
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཉམས་ལེན་སྤྱི་ལ་ཉེ་བར་མཁོ་བའི་དོགས་དཔྱོད་སོམ་ཉི་སེལ་བྱེད་ཅེས་བྱ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP05748BC6FD4DCFB2 , bdr:EP0841247EB999BCCE , bdr:EP3D13E5EC28CEDFAE , bdr:EP79D83211BC200A83 , bdr:EP7D57D5E18CC726E1 , bdr:EP858DDD96EFD49BE0 , bdr:EP8F225ADD27D729A7 , bdr:EP8FBCC16C0EA01144 , bdr:EP9B7CB70BF0771916 , bdr:EPA074970BD6932A4C , bdr:EPC9AE33A842032D13 , bdr:EPE3856C3C41D033FB , bdr:EPE7A75073F83F0765 , bdr:EPFF9046D3987366E2 ;
+        :eTextInInstance    bdr:IE1PD90129 ;
+        :eTextInVolume      5 ;
+        :eTextSourcePath    "KarmaDelek/co-ne-grags-pa-bshad-sgrub-gsung-qbum/rtfs/volume_005/volume_005_103.rtf" ;
+        :eTextVolumeIndex   3 .
+}

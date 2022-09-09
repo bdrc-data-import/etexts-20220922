@@ -1,0 +1,128 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG5988_001_0092 {
+    bda:UT1KG5988_001_0092
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG5988_001_0092 ;
+        adm:facetIndex      17 ;
+        adm:gitPath         "a6/UT1KG5988_001_0092.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG5988_001_0092 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0009062EC2152EB9
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8893 ;
+        :sliceStartChar     7396 .
+    
+    bdr:EP0FC27D6C1942455E
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7394 ;
+        :sliceStartChar     5997 .
+    
+    bdr:EP3C2A10D5ADA0FB73
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1494 ;
+        :sliceStartChar     44 .
+    
+    bdr:EP3FF9F33552C3AB7E
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       17516 ;
+        :sliceStartChar     16078 .
+    
+    bdr:EP4E48A00A0CC95331
+        a                   :EtextPage ;
+        :seqNum             16 ;
+        :sliceEndChar       21569 ;
+        :sliceStartChar     20368 .
+    
+    bdr:EP6C8524D94443A00F
+        a                   :EtextPage ;
+        :seqNum             15 ;
+        :sliceEndChar       20366 ;
+        :sliceStartChar     18923 .
+    
+    bdr:EP7D84E3A334B53871
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2996 ;
+        :sliceStartChar     1496 .
+    
+    bdr:EP87204820A2670148
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11772 ;
+        :sliceStartChar     10366 .
+    
+    bdr:EPAE5B26EA5BFDA65B
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14659 ;
+        :sliceStartChar     13239 .
+    
+    bdr:EPB78C8F27FE68C878
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4416 ;
+        :sliceStartChar     2998 .
+    
+    bdr:EPBB5E136E5EE377F7
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       16076 ;
+        :sliceStartChar     14661 .
+    
+    bdr:EPCBBDC61C083BB953
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13237 ;
+        :sliceStartChar     11774 .
+    
+    bdr:EPD95970728316D63E
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10364 ;
+        :sliceStartChar     8895 .
+    
+    bdr:EPD9E21F7E9F949C31
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       42 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPF5A30A6787B2CB98
+        a                   :EtextPage ;
+        :seqNum             14 ;
+        :sliceEndChar       18921 ;
+        :sliceStartChar     17518 .
+    
+    bdr:EPFD0047A06B385D89
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5995 ;
+        :sliceStartChar     4418 .
+    
+    bdr:UT1KG5988_001_0092
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །གཙུག་ཏོར་ལྷ་མོ་རོལ་མ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP0009062EC2152EB9 , bdr:EP0FC27D6C1942455E , bdr:EP3C2A10D5ADA0FB73 , bdr:EP3FF9F33552C3AB7E , bdr:EP4E48A00A0CC95331 , bdr:EP6C8524D94443A00F , bdr:EP7D84E3A334B53871 , bdr:EP87204820A2670148 , bdr:EPAE5B26EA5BFDA65B , bdr:EPB78C8F27FE68C878 , bdr:EPBB5E136E5EE377F7 , bdr:EPCBBDC61C083BB953 , bdr:EPD95970728316D63E , bdr:EPD9E21F7E9F949C31 , bdr:EPF5A30A6787B2CB98 , bdr:EPFD0047A06B385D89 ;
+        :eTextInInstance    bdr:IE1KG5988 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/093_gtsug-tor-lha-mo-rol-ma.rtf" ;
+        :eTextVolumeIndex   92 .
+}

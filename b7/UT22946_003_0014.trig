@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22946_003_0014 {
+    bda:UT22946_003_0014
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT22946_003_0014 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "b7/UT22946_003_0014.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22946_003_0014 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP07C1097F701362B4
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1433 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP430651541DA2A3DF
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3554 ;
+        :sliceStartChar     2868 .
+    
+    bdr:EPA9D619DF64F6C8AB
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2866 ;
+        :sliceStartChar     1435 .
+    
+    bdr:UT22946_003_0014
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༡༤༧༽ན་མོ་རཏྣ་ཏྲ་ཡ་ཡ།རྒྱལ་སྲིད་སྤངས་ནས་དཀའ་བ་བརྒྱ་ཕྲག་གིས།བླ་མ་བརྒྱ་དང་ལྔ་བཅུ་རྩ་བདུན་བརྟེན།ཤེས་བྱ་ཐམས་ཅད་ཡང་དག་ཐུགས་སུ་ཆུད།རྒྱལ"@bo ;
+        :eTextHasPage       bdr:EP07C1097F701362B4 , bdr:EP430651541DA2A3DF , bdr:EPA9D619DF64F6C8AB ;
+        :eTextInInstance    bdr:IE22946 ;
+        :eTextInVolume      3 ;
+        :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-3-GA/ga_0147-0152_pecha.rtf" ;
+        :eTextVolumeIndex   14 .
+}

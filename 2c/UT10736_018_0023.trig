@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_018_0023 {
+    bda:UT10736_018_0023
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_018_0023 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "2c/UT10736_018_0023.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_018_0023 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP00D0044CD2A53D5C
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2886 ;
+        :sliceStartChar     1480 .
+    
+    bdr:EP0E211353610690A9
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       60 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP0FA2EEEB6E983295
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5779 ;
+        :sliceStartChar     4355 .
+    
+    bdr:EP1608BAD499825170
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       16100 ;
+        :sliceStartChar     14574 .
+    
+    bdr:EP25AB00E028532A0E
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11598 ;
+        :sliceStartChar     10149 .
+    
+    bdr:EP31BCF2C70467575A
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7204 ;
+        :sliceStartChar     5781 .
+    
+    bdr:EP558A8BCDAA5FF1B5
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4353 ;
+        :sliceStartChar     2888 .
+    
+    bdr:EP671778ACA2561788
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1478 ;
+        :sliceStartChar     62 .
+    
+    bdr:EP85B7258E824C676E
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10147 ;
+        :sliceStartChar     8703 .
+    
+    bdr:EPB14D41D62867CC7C
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13118 ;
+        :sliceStartChar     11600 .
+    
+    bdr:EPDAC4071918F7B380
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8701 ;
+        :sliceStartChar     7206 .
+    
+    bdr:EPF27BCE3ADA66FE9E
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       16280 ;
+        :sliceStartChar     16102 .
+    
+    bdr:EPF60BAFD93D46EA21
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14572 ;
+        :sliceStartChar     13120 .
+    
+    bdr:UT10736_018_0023
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །མདོས་ཀྱི་གསལ་བྱེད་འཕྲུལ་གྱི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP00D0044CD2A53D5C , bdr:EP0E211353610690A9 , bdr:EP0FA2EEEB6E983295 , bdr:EP1608BAD499825170 , bdr:EP25AB00E028532A0E , bdr:EP31BCF2C70467575A , bdr:EP558A8BCDAA5FF1B5 , bdr:EP671778ACA2561788 , bdr:EP85B7258E824C676E , bdr:EPB14D41D62867CC7C , bdr:EPDAC4071918F7B380 , bdr:EPF27BCE3ADA66FE9E , bdr:EPF60BAFD93D46EA21 ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      18 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/18_tsha/18_26_tsha_mdos-kyi-gsal-byed-qphrul-gyi-me-long.rtf" ;
+        :eTextVolumeIndex   23 .
+}

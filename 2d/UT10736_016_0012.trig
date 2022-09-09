@@ -1,0 +1,104 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_016_0012 {
+    bda:UT10736_016_0012
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_016_0012 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "2d/UT10736_016_0012.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_016_0012 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP04E688B26878B94D
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8868 ;
+        :sliceStartChar     7413 .
+    
+    bdr:EP18F28EA6B6911D1F
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       15602 ;
+        :sliceStartChar     14606 .
+    
+    bdr:EP252F5307241DB85D
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13198 ;
+        :sliceStartChar     11749 .
+    
+    bdr:EP54498373CE38792F
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7411 ;
+        :sliceStartChar     5939 .
+    
+    bdr:EP685A556928177254
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10313 ;
+        :sliceStartChar     8870 .
+    
+    bdr:EP8AD8343CE69D77AE
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14604 ;
+        :sliceStartChar     13200 .
+    
+    bdr:EPCB90ACE67FA43B71
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3000 ;
+        :sliceStartChar     1526 .
+    
+    bdr:EPDABF2F760CE2EDAF
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1524 ;
+        :sliceStartChar     72 .
+    
+    bdr:EPDEB13FC376FAFBE6
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       70 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPE1058893E53A4DDF
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11747 ;
+        :sliceStartChar     10315 .
+    
+    bdr:EPEED502B3CA2022D0
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4487 ;
+        :sliceStartChar     3002 .
+    
+    bdr:EPFFDDD025071C6733
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5937 ;
+        :sliceStartChar     4489 .
+    
+    bdr:UT10736_016_0012
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །བདེ་བ་ཅན་ལས་འོངས་པའི་བདུད་རྩིའི་ཉིང་ཁུའི་སྒྲུབ་ཐབས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP04E688B26878B94D , bdr:EP18F28EA6B6911D1F , bdr:EP252F5307241DB85D , bdr:EP54498373CE38792F , bdr:EP685A556928177254 , bdr:EP8AD8343CE69D77AE , bdr:EPCB90ACE67FA43B71 , bdr:EPDABF2F760CE2EDAF , bdr:EPDEB13FC376FAFBE6 , bdr:EPE1058893E53A4DDF , bdr:EPEED502B3CA2022D0 , bdr:EPFFDDD025071C6733 ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      16 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/16_ma/16_11_ma_bde-ba-can-las-qongs-paqi-bdud-rtsiqi-nying-khuqi-sgrub-thabs.rtf" ;
+        :eTextVolumeIndex   12 .
+}

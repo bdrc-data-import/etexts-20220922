@@ -1,0 +1,320 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23681_001_0311 {
+    bda:UT23681_001_0311
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23681_001_0311 ;
+        adm:facetIndex      49 ;
+        adm:gitPath         "91/UT23681_001_0311.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23681_001_0311 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP059BFCCA9614311E
+        a                   :EtextPage ;
+        :seqNum             14 ;
+        :sliceEndChar       19782 ;
+        :sliceStartChar     18303 .
+    
+    bdr:EP09BC95F07125B140
+        a                   :EtextPage ;
+        :seqNum             35 ;
+        :sliceEndChar       49148 ;
+        :sliceStartChar     47735 .
+    
+    bdr:EP120C9EA6BB4FCB5B
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       10020 ;
+        :sliceStartChar     8558 .
+    
+    bdr:EP12D15F9C83D1BC05
+        a                   :EtextPage ;
+        :seqNum             41 ;
+        :sliceEndChar       57888 ;
+        :sliceStartChar     56414 .
+    
+    bdr:EP16F6166B5349E512
+        a                   :EtextPage ;
+        :seqNum             26 ;
+        :sliceEndChar       35922 ;
+        :sliceStartChar     35498 .
+    
+    bdr:EP23FFDE44C263EFC5
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4270 ;
+        :sliceStartChar     2848 .
+    
+    bdr:EP290A259901A34477
+        a                   :EtextPage ;
+        :seqNum             36 ;
+        :sliceEndChar       50612 ;
+        :sliceStartChar     49150 .
+    
+    bdr:EP2F2CA98F30407587
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       12453 ;
+        :sliceStartChar     11427 .
+    
+    bdr:EP35986315619EF166
+        a                   :EtextPage ;
+        :seqNum             34 ;
+        :sliceEndChar       47733 ;
+        :sliceStartChar     46300 .
+    
+    bdr:EP35A90A89D6283D73
+        a                   :EtextPage ;
+        :seqNum             48 ;
+        :sliceEndChar       65605 ;
+        :sliceStartChar     65503 .
+    
+    bdr:EP3987C290AD29F8F4
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       11425 ;
+        :sliceStartChar     10022 .
+    
+    bdr:EP4EFE6ED758857EB5
+        a                   :EtextPage ;
+        :seqNum             40 ;
+        :sliceEndChar       56412 ;
+        :sliceStartChar     54957 .
+    
+    bdr:EP5153BA135D1DB592
+        a                   :EtextPage ;
+        :seqNum             32 ;
+        :sliceEndChar       44862 ;
+        :sliceStartChar     43425 .
+    
+    bdr:EP54CEC24107BE3C97
+        a                   :EtextPage ;
+        :seqNum             42 ;
+        :sliceEndChar       58240 ;
+        :sliceStartChar     57890 .
+    
+    bdr:EP550E9767E15C7D06
+        a                   :EtextPage ;
+        :seqNum             37 ;
+        :sliceEndChar       52075 ;
+        :sliceStartChar     50614 .
+    
+    bdr:EP5956C62C59EA60CA
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       15422 ;
+        :sliceStartChar     13978 .
+    
+    bdr:EP5BA803D30FF3E102
+        a                   :EtextPage ;
+        :seqNum             38 ;
+        :sliceEndChar       53510 ;
+        :sliceStartChar     52077 .
+    
+    bdr:EP655F2737886EE0FE
+        a                   :EtextPage ;
+        :seqNum             24 ;
+        :sliceEndChar       34074 ;
+        :sliceStartChar     32606 .
+    
+    bdr:EP6953F764D98E6CBB
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13976 ;
+        :sliceStartChar     12455 .
+    
+    bdr:EP6D320ED32B40D344
+        a                   :EtextPage ;
+        :seqNum             22 ;
+        :sliceEndChar       31175 ;
+        :sliceStartChar     29737 .
+    
+    bdr:EP76DCDE2F4F3727DB
+        a                   :EtextPage ;
+        :seqNum             17 ;
+        :sliceEndChar       23992 ;
+        :sliceStartChar     22643 .
+    
+    bdr:EP7E6B296FFA22B41E
+        a                   :EtextPage ;
+        :seqNum             20 ;
+        :sliceEndChar       28291 ;
+        :sliceStartChar     26864 .
+    
+    bdr:EP8F6DCEB78F1F9AFE
+        a                   :EtextPage ;
+        :seqNum             29 ;
+        :sliceEndChar       40425 ;
+        :sliceStartChar     38969 .
+    
+    bdr:EP92E3843EEE023482
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1441 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP95E9DB746B67760A
+        a                   :EtextPage ;
+        :seqNum             30 ;
+        :sliceEndChar       41926 ;
+        :sliceStartChar     40427 .
+    
+    bdr:EP96494B303B01E7D1
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       16872 ;
+        :sliceStartChar     15424 .
+    
+    bdr:EP9A4F75AF5BA508AA
+        a                   :EtextPage ;
+        :seqNum             44 ;
+        :sliceEndChar       61147 ;
+        :sliceStartChar     59677 .
+    
+    bdr:EPA6ABF8F0EDE44985
+        a                   :EtextPage ;
+        :seqNum             46 ;
+        :sliceEndChar       64064 ;
+        :sliceStartChar     62573 .
+    
+    bdr:EPAC537D493B8199FF
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2846 ;
+        :sliceStartChar     1443 .
+    
+    bdr:EPB0D32DD36A1A424B
+        a                   :EtextPage ;
+        :seqNum             28 ;
+        :sliceEndChar       38967 ;
+        :sliceStartChar     37396 .
+    
+    bdr:EPB181000BDB4486D0
+        a                   :EtextPage ;
+        :seqNum             31 ;
+        :sliceEndChar       43423 ;
+        :sliceStartChar     41928 .
+    
+    bdr:EPB37479E3D2CC4FC4
+        a                   :EtextPage ;
+        :seqNum             43 ;
+        :sliceEndChar       59675 ;
+        :sliceStartChar     58242 .
+    
+    bdr:EPB3A13F6FFB10C4B5
+        a                   :EtextPage ;
+        :seqNum             25 ;
+        :sliceEndChar       35496 ;
+        :sliceStartChar     34076 .
+    
+    bdr:EPB6436F13FDEF6430
+        a                   :EtextPage ;
+        :seqNum             23 ;
+        :sliceEndChar       32604 ;
+        :sliceStartChar     31177 .
+    
+    bdr:EPC2C6021B04249E8A
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       7133 ;
+        :sliceStartChar     5706 .
+    
+    bdr:EPC720356BE7DC48A9
+        a                   :EtextPage ;
+        :seqNum             21 ;
+        :sliceEndChar       29735 ;
+        :sliceStartChar     28293 .
+    
+    bdr:EPCAB4513AA3DC4244
+        a                   :EtextPage ;
+        :seqNum             27 ;
+        :sliceEndChar       37394 ;
+        :sliceStartChar     35924 .
+    
+    bdr:EPD1D307D205AFFB8C
+        a                   :EtextPage ;
+        :seqNum             39 ;
+        :sliceEndChar       54955 ;
+        :sliceStartChar     53512 .
+    
+    bdr:EPD1D7F87D4A83667F
+        a                   :EtextPage ;
+        :seqNum             18 ;
+        :sliceEndChar       25427 ;
+        :sliceStartChar     23994 .
+    
+    bdr:EPD2D55ECD1B407677
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8556 ;
+        :sliceStartChar     7135 .
+    
+    bdr:EPD51ED40C24F81666
+        a                   :EtextPage ;
+        :seqNum             47 ;
+        :sliceEndChar       65501 ;
+        :sliceStartChar     64066 .
+    
+    bdr:EPD6C350F84A883BBB
+        a                   :EtextPage ;
+        :seqNum             16 ;
+        :sliceEndChar       22641 ;
+        :sliceStartChar     21218 .
+    
+    bdr:EPDD533B9C75907D57
+        a                   :EtextPage ;
+        :seqNum             45 ;
+        :sliceEndChar       62571 ;
+        :sliceStartChar     61149 .
+    
+    bdr:EPE362B84C4E80FD97
+        a                   :EtextPage ;
+        :seqNum             33 ;
+        :sliceEndChar       46298 ;
+        :sliceStartChar     44864 .
+    
+    bdr:EPE91E3A00BBEE2E19
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       18301 ;
+        :sliceStartChar     16874 .
+    
+    bdr:EPF1C4B78DD3707B09
+        a                   :EtextPage ;
+        :seqNum             19 ;
+        :sliceEndChar       26862 ;
+        :sliceStartChar     25429 .
+    
+    bdr:EPF5412C78BB3A232F
+        a                   :EtextPage ;
+        :seqNum             15 ;
+        :sliceEndChar       21216 ;
+        :sliceStartChar     19784 .
+    
+    bdr:EPFB814E1B49E44E0B
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5704 ;
+        :sliceStartChar     4272 .
+    
+    bdr:UT23681_001_0311
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼ན༽༄༅། །སྒྲུབ་ཐབས་བརྒྱ་རྩ་ནས་བཤད་པའི་ལྷ་ཚོགས་རྣམས་ཀྱི་མངོན་རྟོགས་རྗེས་གནང་གི་ཆོ་ག་དང་བཅས་པའི་ཐོ་ཡིག་མུན་སེལ་སྒྲོན་མེ་ཞེས་བྱ་བ་བ"@bo ;
+        :eTextHasPage       bdr:EP059BFCCA9614311E , bdr:EP09BC95F07125B140 , bdr:EP120C9EA6BB4FCB5B , bdr:EP12D15F9C83D1BC05 , bdr:EP16F6166B5349E512 , bdr:EP23FFDE44C263EFC5 , bdr:EP290A259901A34477 , bdr:EP2F2CA98F30407587 , bdr:EP35986315619EF166 , bdr:EP35A90A89D6283D73 , bdr:EP3987C290AD29F8F4 , bdr:EP4EFE6ED758857EB5 , bdr:EP5153BA135D1DB592 , bdr:EP54CEC24107BE3C97 , bdr:EP550E9767E15C7D06 , bdr:EP5956C62C59EA60CA , bdr:EP5BA803D30FF3E102 , bdr:EP655F2737886EE0FE , bdr:EP6953F764D98E6CBB , bdr:EP6D320ED32B40D344 , bdr:EP76DCDE2F4F3727DB , bdr:EP7E6B296FFA22B41E , bdr:EP8F6DCEB78F1F9AFE , bdr:EP92E3843EEE023482 , bdr:EP95E9DB746B67760A , bdr:EP96494B303B01E7D1 , bdr:EP9A4F75AF5BA508AA , bdr:EPA6ABF8F0EDE44985 , bdr:EPAC537D493B8199FF , bdr:EPB0D32DD36A1A424B , bdr:EPB181000BDB4486D0 , bdr:EPB37479E3D2CC4FC4 , bdr:EPB3A13F6FFB10C4B5 , bdr:EPB6436F13FDEF6430 , bdr:EPC2C6021B04249E8A , bdr:EPC720356BE7DC48A9 , bdr:EPCAB4513AA3DC4244 , bdr:EPD1D307D205AFFB8C , bdr:EPD1D7F87D4A83667F , bdr:EPD2D55ECD1B407677 , bdr:EPD51ED40C24F81666 , bdr:EPD6C350F84A883BBB , bdr:EPDD533B9C75907D57 , bdr:EPE362B84C4E80FD97 , bdr:EPE91E3A00BBEE2E19 , bdr:EPF1C4B78DD3707B09 , bdr:EPF5412C78BB3A232F , bdr:EPFB814E1B49E44E0B ;
+        :eTextInInstance    bdr:IE23681 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "GuruLamaWorks/Drub-thab-kuntu/rtfs/volume-001-014/DBTU311.rtf" ;
+        :eTextVolumeIndex   311 .
+}

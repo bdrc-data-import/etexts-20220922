@@ -1,0 +1,61 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG4323_035_0000 {
+    bda:UT1KG4323_035_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG4323_035_0000 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "2c/UT1KG4323_035_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG4323_035_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0777237F25CE805C
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4289 ;
+        :sliceStartChar     2875 .
+    
+    bdr:EP2844D7DABBC04FC9
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5994 ;
+        :sliceStartChar     5743 .
+    
+    bdr:EPA3BAE055358B4230
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5741 ;
+        :sliceStartChar     4291 .
+    
+    bdr:EPA92A5AB355F5B27C
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2873 ;
+        :sliceStartChar     1446 .
+    
+    bdr:EPDBE2C54F6EC18731
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1444 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT1KG4323_035_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ལམ་འབྲས་འཆད་སྐབས་ཀྱི་ཐོ་ཆུང་བཞུགས་སོ། །ཤར་ཆེན་བྱམས་པ་ཀུན་དགའ་བཀྲ་ཤིས་ཀྱིས་མཛད་པའི་ལམ་འབྲས་གྱི་དམིགས་ཁྲིད་ཐོ་ཡིག་ལས།སློབ་མ"@bo ;
+        :eTextHasPage       bdr:EP0777237F25CE805C , bdr:EP2844D7DABBC04FC9 , bdr:EPA3BAE055358B4230 , bdr:EPA92A5AB355F5B27C , bdr:EPDBE2C54F6EC18731 ;
+        :eTextInInstance    bdr:IE1KG4323 ;
+        :eTextIsVolume      35 ;
+        :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/15_SPUN/SPUN035_ལམ་འབྲས་འཆད་སྐབས་ཀྱི་ཐོ་ཆུང་།.rtf" .
+}

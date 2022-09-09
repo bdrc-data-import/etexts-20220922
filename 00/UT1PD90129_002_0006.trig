@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1PD90129_002_0006 {
+    bda:UT1PD90129_002_0006
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1PD90129_002_0006 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "00/UT1PD90129_002_0006.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1PD90129_002_0006 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP11253EFA1A7192EB
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       30 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP1567FDB0CCDFDE3A
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4342 ;
+        :sliceStartChar     2888 .
+    
+    bdr:EP39F5A7BAC7448F50
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8712 ;
+        :sliceStartChar     7259 .
+    
+    bdr:EP3F43B53BF0EDD4F4
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5815 ;
+        :sliceStartChar     4344 .
+    
+    bdr:EP3F661807C41D25E5
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7257 ;
+        :sliceStartChar     5817 .
+    
+    bdr:EP4A5306C9045B8F5C
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       14628 ;
+        :sliceStartChar     14522 .
+    
+    bdr:EP68EA3AEDBE85EA8A
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       11609 ;
+        :sliceStartChar     10159 .
+    
+    bdr:EP7B48739C90626EBD
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10157 ;
+        :sliceStartChar     8714 .
+    
+    bdr:EP8DD52945EC050354
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       14520 ;
+        :sliceStartChar     13061 .
+    
+    bdr:EPA8533B78BAC7E3BF
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2886 ;
+        :sliceStartChar     1468 .
+    
+    bdr:EPC0BB7CD19DFC37F5
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       14748 ;
+        :sliceStartChar     14630 .
+    
+    bdr:EPCBC9F2FAB9FF266D
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       13059 ;
+        :sliceStartChar     11611 .
+    
+    bdr:EPF09CD6ABDE5E4D8E
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1466 ;
+        :sliceStartChar     32 .
+    
+    bdr:UT1PD90129_002_0006
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །རྣམ་སྲས་མངོན་རྟོགས་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP11253EFA1A7192EB , bdr:EP1567FDB0CCDFDE3A , bdr:EP39F5A7BAC7448F50 , bdr:EP3F43B53BF0EDD4F4 , bdr:EP3F661807C41D25E5 , bdr:EP4A5306C9045B8F5C , bdr:EP68EA3AEDBE85EA8A , bdr:EP7B48739C90626EBD , bdr:EP8DD52945EC050354 , bdr:EPA8533B78BAC7E3BF , bdr:EPC0BB7CD19DFC37F5 , bdr:EPCBC9F2FAB9FF266D , bdr:EPF09CD6ABDE5E4D8E ;
+        :eTextInInstance    bdr:IE1PD90129 ;
+        :eTextInVolume      2 ;
+        :eTextSourcePath    "KarmaDelek/co-ne-grags-pa-bshad-sgrub-gsung-qbum/rtfs/volume_002/volume_002_020.rtf" ;
+        :eTextVolumeIndex   6 .
+}

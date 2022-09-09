@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG4884_011_0008 {
+    bda:UT1KG4884_011_0008
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG4884_011_0008 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "94/UT1KG4884_011_0008.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG4884_011_0008 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0CF9551A3329493F
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       40 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPAA3B2BF937076172
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1487 ;
+        :sliceStartChar     42 .
+    
+    bdr:EPB0A99F2E91020A4C
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       4869 ;
+        :sliceStartChar     4368 .
+    
+    bdr:EPD57C5B1E2661A3BD
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4366 ;
+        :sliceStartChar     2923 .
+    
+    bdr:EPE4B8E432FBFE9DF2
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2921 ;
+        :sliceStartChar     1489 .
+    
+    bdr:UT1KG4884_011_0008
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །གཞི་མ་བཅོས་ཇི་བཞིན་དུ་ངོ་སྤྲོད་པའི་རིམ་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0CF9551A3329493F , bdr:EPAA3B2BF937076172 , bdr:EPB0A99F2E91020A4C , bdr:EPD57C5B1E2661A3BD , bdr:EPE4B8E432FBFE9DF2 ;
+        :eTextInInstance    bdr:IE1KG4884 ;
+        :eTextInVolume      11 ;
+        :eTextSourcePath    "KarmaDelek/klong-chen-rab-byams-gung-qbum/rtfs/volume_011/volume_011_344.rtf" ;
+        :eTextVolumeIndex   8 .
+}

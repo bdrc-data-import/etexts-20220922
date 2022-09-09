@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13384_009_0032 {
+    bda:UT3JT13384_009_0032
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13384_009_0032 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "39/UT3JT13384_009_0032.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13384_009_0032 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP45523FDD8E0B7B42
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5772 ;
+        :sliceStartChar     4465 .
+    
+    bdr:EPAB9F9F9D472EE05A
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1556 ;
+        :sliceStartChar     130 .
+    
+    bdr:EPD92C330568345A2B
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       128 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPF09D668CAEB6E446
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4463 ;
+        :sliceStartChar     3016 .
+    
+    bdr:EPF42B6B1B46962A85
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3014 ;
+        :sliceStartChar     1558 .
+    
+    bdr:UT3JT13384_009_0032
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཀུན་བཟང་ཐུགས་གཏེར་གྱི་གཏེར་སྲུང་སྤུ་གྲི་རྣམ་གསུམ་གིང་ཆེན་བཅས་པའི་གཏོར་ཆོག་མདོར་བསྡུས་བཞུགས་སོ།ན་མོ་གུ་རུ་ཤྲཱི་ཧེ་རུ་ཀཱ་ཡ།"@bo ;
+        :eTextHasPage       bdr:EP45523FDD8E0B7B42 , bdr:EPAB9F9F9D472EE05A , bdr:EPD92C330568345A2B , bdr:EPF09D668CAEB6E446 , bdr:EPF42B6B1B46962A85 ;
+        :eTextInInstance    bdr:IE3JT13384 ;
+        :eTextInVolume      9 ;
+        :eTextSourcePath    "Various/gsung_qbum_mkhyen_brtseqi_dbang_po_UT2MS24768/rtfs/volume-009/9-9.rtf" ;
+        :eTextVolumeIndex   32 .
+}

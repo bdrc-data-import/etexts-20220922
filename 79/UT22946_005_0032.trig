@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22946_005_0032 {
+    bda:UT22946_005_0032
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT22946_005_0032 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "79/UT22946_005_0032.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22946_005_0032 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP1FA1B454D934E55F
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2973 ;
+        :sliceStartChar     1529 .
+    
+    bdr:EP3B1BBB43060FAE09
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1527 ;
+        :sliceStartChar     70 .
+    
+    bdr:EP454A7A9B277F200A
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       2986 ;
+        :sliceStartChar     2975 .
+    
+    bdr:EP8B1E894BFF88CDF8
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       68 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT22946_005_0032
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༨༢༩༽ལས་གང་གིས་སྔོན་དུ་འགྲོ་བ་སྡེ་བརྒྱད་ཀྱི་བཅོས་ཐབས་བཞུགས་སོ།༼༨༣༠༽བླ་མ་དམ་པ་རྣམས་ལ་ཕྱག་འཚལ་ལོ།གནས་གཙང་མར་ལྷ་བཤོས།རི་རབ།ཆང་ཕུད།འ"@bo ;
+        :eTextHasPage       bdr:EP1FA1B454D934E55F , bdr:EP3B1BBB43060FAE09 , bdr:EP454A7A9B277F200A , bdr:EP8B1E894BFF88CDF8 ;
+        :eTextInInstance    bdr:IE22946 ;
+        :eTextInVolume      5 ;
+        :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-5-CA/ca_0829-0838_pecha.rtf" ;
+        :eTextVolumeIndex   32 .
+}

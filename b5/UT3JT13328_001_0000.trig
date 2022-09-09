@@ -1,0 +1,79 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13328_001_0000 {
+    bda:UT3JT13328_001_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13328_001_0000 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "b5/UT3JT13328_001_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13328_001_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0A89463F31A3B933
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       10313 ;
+        :sliceStartChar     10302 .
+    
+    bdr:EP1E6F6D2879C6C414
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3035 ;
+        :sliceStartChar     1566 .
+    
+    bdr:EP2A2C00D3C07DBF6F
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       5303 ;
+        :sliceStartChar     3037 .
+    
+    bdr:EP2F9C0846B8F72383
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       92 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP31E4C4E59F6DDCB7
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       10300 ;
+        :sliceStartChar     8722 .
+    
+    bdr:EP83CCC72F084A30D4
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6892 ;
+        :sliceStartChar     5305 .
+    
+    bdr:EPBFEC3543E8EB9287
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8720 ;
+        :sliceStartChar     6894 .
+    
+    bdr:EPE6BB8954EF487AA9
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1564 ;
+        :sliceStartChar     94 .
+    
+    bdr:UT3JT13328_001_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །རྗེ་བཙན་བྱེ་ལན་གྱི་ལོ་རྒྱུས་དང་གསོལ་མཆོད་བྱ་ཚུལ་ལྷ་གླིང་གི་ཅོང་སྒྲ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0A89463F31A3B933 , bdr:EP1E6F6D2879C6C414 , bdr:EP2A2C00D3C07DBF6F , bdr:EP2F9C0846B8F72383 , bdr:EP31E4C4E59F6DDCB7 , bdr:EP83CCC72F084A30D4 , bdr:EPBFEC3543E8EB9287 , bdr:EPE6BB8954EF487AA9 ;
+        :eTextInInstance    bdr:IE3JT13328 ;
+        :eTextIsVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/pecha/rtfs/Jalan-by-17-Karmapa_tdoc/01_bye-lan-gyi-lo-rgyus-dang-gsol-mchod.rtf" .
+}

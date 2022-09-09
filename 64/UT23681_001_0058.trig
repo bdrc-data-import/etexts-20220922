@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23681_001_0058 {
+    bda:UT23681_001_0058
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23681_001_0058 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "64/UT23681_001_0058.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23681_001_0058 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP3868AA569CB8F721
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       8072 ;
+        :sliceStartChar     6579 .
+    
+    bdr:EP3CA6F8C5F715558F
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       10749 ;
+        :sliceStartChar     9488 .
+    
+    bdr:EP828AFEBA9321ADA1
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       4141 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPB559ABC5B37E40BD
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       9486 ;
+        :sliceStartChar     8074 .
+    
+    bdr:EPBED245B7BC9CE8FE
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       6577 ;
+        :sliceStartChar     4143 .
+    
+    bdr:UT23681_001_0058
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼ག༽༄༅། །ཐེག་པ་ཆེན་པོའི་གསོ་སྦྱོང་རང་གིས་ལེན་པའི་ཆོ་ག་བཞུགས་སོ། །༄༅། །ཨོཾ་སྭ་སྟི་སིདྡྷཾ།བྱ་བའི་རྒྱུད་སོགས་རྒྱུད་སྡེ་འོག་མའི་ཆོ"@bo ;
+        :eTextHasPage       bdr:EP3868AA569CB8F721 , bdr:EP3CA6F8C5F715558F , bdr:EP828AFEBA9321ADA1 , bdr:EPB559ABC5B37E40BD , bdr:EPBED245B7BC9CE8FE ;
+        :eTextInInstance    bdr:IE23681 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "GuruLamaWorks/Drub-thab-kuntu/rtfs/volume-001-014/DBTU058.rtf" ;
+        :eTextVolumeIndex   58 .
+}

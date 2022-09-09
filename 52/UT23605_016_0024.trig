@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_016_0024 {
+    bda:UT23605_016_0024
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_016_0024 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "52/UT23605_016_0024.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_016_0024 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP45C785E49D246111
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       94 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP6482765782C18602
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3049 ;
+        :sliceStartChar     1606 .
+    
+    bdr:EP72CF3B54C06EAAC3
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       3236 ;
+        :sliceStartChar     3051 .
+    
+    bdr:EPFEFE87CDCD19B4A4
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1604 ;
+        :sliceStartChar     96 .
+    
+    bdr:UT23605_016_0024
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༤༨༥༽༄༅། །སྤྱན་རས་གཟིགས་ལམ་རིམ་བླ་མ་བརྒྱུད་པ་ལ་གསོལ་འདེབས་བྱིན་རླབས་ཀྱི་ཆུ་གཏེར་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP45C785E49D246111 , bdr:EP6482765782C18602 , bdr:EP72CF3B54C06EAAC3 , bdr:EPFEFE87CDCD19B4A4 ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      16 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/16_gdams-ngag-mdzod_ma/16_23_spyan-ras-gzigs-lam-rim-bla-ma-brgyud-pa-la-gsol-qdebs.rtf" ;
+        :eTextVolumeIndex   24 .
+}

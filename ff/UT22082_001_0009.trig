@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22082_001_0009 {
+    bda:UT22082_001_0009
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT22082_001_0009 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "ff/UT22082_001_0009.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22082_001_0009 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP06C8EA3A276B4F58
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       19315 ;
+        :sliceStartChar     17659 .
+    
+    bdr:EP09276FA3932BB2ED
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       15518 ;
+        :sliceStartChar     14026 .
+    
+    bdr:EP30E65655A5F347A1
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       17657 ;
+        :sliceStartChar     15520 .
+    
+    bdr:EP6F46D927F8B2EECE
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1688 ;
+        :sliceStartChar     63 .
+    
+    bdr:EP8A6514638215A651
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4752 ;
+        :sliceStartChar     3108 .
+    
+    bdr:EP91071DEE1819FB32
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       8996 ;
+        :sliceStartChar     6694 .
+    
+    bdr:EP946634EB8F044FA0
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3106 ;
+        :sliceStartChar     1690 .
+    
+    bdr:EP999B1B4F74186BFE
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       61 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPAAD8DDBE53096F0D
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       20034 ;
+        :sliceStartChar     19317 .
+    
+    bdr:EPD3B77CCF9C40283D
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       14024 ;
+        :sliceStartChar     12452 .
+    
+    bdr:EPF5A559362F36A379
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       6692 ;
+        :sliceStartChar     4754 .
+    
+    bdr:EPFA47E77425E88580
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       10515 ;
+        :sliceStartChar     8998 .
+    
+    bdr:EPFAAC96FFD111D057
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       12450 ;
+        :sliceStartChar     10517 .
+    
+    bdr:UT22082_001_0009
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །དངུལ་གྱི་གཏེར་ཁ་བརྟག་པ་སོགས་ལུང་བསྟན་གྱི་སྐོར་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP06C8EA3A276B4F58 , bdr:EP09276FA3932BB2ED , bdr:EP30E65655A5F347A1 , bdr:EP6F46D927F8B2EECE , bdr:EP8A6514638215A651 , bdr:EP91071DEE1819FB32 , bdr:EP946634EB8F044FA0 , bdr:EP999B1B4F74186BFE , bdr:EPAAD8DDBE53096F0D , bdr:EPD3B77CCF9C40283D , bdr:EPF5A559362F36A379 , bdr:EPFA47E77425E88580 , bdr:EPFAAC96FFD111D057 ;
+        :eTextInInstance    bdr:IE22082 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-001/KA.MA.rtf" ;
+        :eTextVolumeIndex   9 .
+}

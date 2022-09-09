@@ -1,0 +1,44 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22946_004_0007 {
+    bda:UT22946_004_0007
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT22946_004_0007 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "00/UT22946_004_0007.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22946_004_0007 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP75238568BC9743B1
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       462 ;
+        :sliceStartChar     368 .
+    
+    bdr:EP86CE7D14A57DDB40
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       366 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT22946_004_0007
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༢༨༥༽༼༢༨༦༽ཧཱུྃ།དཔལ་ཆེན་རྡོ་རྗེ་གྲོ་བོ་ལོད། །སྟག་ཚང་སེང་གེའི་བསམ་འགྲུབ་ཏུ། །གདུག་པའི་དམ་སྲི་འདུལ་བ་བཞིན། །ཁྱེད་ཀྱི་ཐུགས་དམ་དུས"@bo ;
+        :eTextHasPage       bdr:EP75238568BC9743B1 , bdr:EP86CE7D14A57DDB40 ;
+        :eTextInInstance    bdr:IE22946 ;
+        :eTextInVolume      4 ;
+        :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-4-NGA/nga_0285-0286_pecha.rtf" ;
+        :eTextVolumeIndex   7 .
+}

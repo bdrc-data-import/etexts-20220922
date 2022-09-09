@@ -1,0 +1,67 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13340_040_0000 {
+    bda:UT3JT13340_040_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13340_040_0000 ;
+        adm:facetIndex      7 ;
+        adm:gitPath         "7a/UT3JT13340_040_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13340_040_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP03906AB120C6DC35
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1557 ;
+        :sliceStartChar     147 .
+    
+    bdr:EP1D18F1E766920233
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2993 ;
+        :sliceStartChar     1559 .
+    
+    bdr:EP2AE7C5FE0CA152F5
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       6010 ;
+        :sliceStartChar     5882 .
+    
+    bdr:EP7B4A8A527238542B
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       145 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP8E3E8CDB4D912CCE
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4430 ;
+        :sliceStartChar     2995 .
+    
+    bdr:EPDC27D8AC1B505ED0
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5880 ;
+        :sliceStartChar     4432 .
+    
+    bdr:UT3JT13340_040_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༁ྃ༔ཟབ་ཆོས་ཞི་ཁྲོ་དགོངས་པ་རང་གྲོལ་ལས།བཀའ་སྲུང་དམ་ཅན་སྡེ་བདུན་གྱི་ཕྲིན་ལས་ཆོས་སྐྱོང་ཀུན་འདུས་དགྲ་བགེགས་གདུག་པ་རང་གྲོལ་གྱི་ལས་བྱང་ཆ"@bo ;
+        :eTextHasPage       bdr:EP03906AB120C6DC35 , bdr:EP1D18F1E766920233 , bdr:EP2AE7C5FE0CA152F5 , bdr:EP7B4A8A527238542B , bdr:EP8E3E8CDB4D912CCE , bdr:EPDC27D8AC1B505ED0 ;
+        :eTextInInstance    bdr:IE3JT13340 ;
+        :eTextIsVolume      40 ;
+        :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0033_Karling-Zhithro/07-sde-bdun.rtf" .
+}

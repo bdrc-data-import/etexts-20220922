@@ -1,0 +1,110 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG4280_001_0011 {
+    bda:UT1KG4280_001_0011
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG4280_001_0011 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "84/UT1KG4280_001_0011.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG4280_001_0011 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP1099BF1816A71D84
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       7089 ;
+        :sliceStartChar     5642 .
+    
+    bdr:EP10FF9FD8E1491C30
+        a                   :EtextPage ;
+        :seqNum             12 ;
+        :sliceEndChar       19422 ;
+        :sliceStartChar     17198 .
+    
+    bdr:EP21F2307077458EC3
+        a                   :EtextPage ;
+        :seqNum             9 ;
+        :sliceEndChar       14288 ;
+        :sliceStartChar     12868 .
+    
+    bdr:EP263638A352030ADD
+        a                   :EtextPage ;
+        :seqNum             11 ;
+        :sliceEndChar       17196 ;
+        :sliceStartChar     15719 .
+    
+    bdr:EP60CC09D84F4BA844
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       150 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP7BA315936D4DED4D
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       11452 ;
+        :sliceStartChar     10130 .
+    
+    bdr:EP804DB0364F9B3E7B
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       12866 ;
+        :sliceStartChar     11454 .
+    
+    bdr:EPAEC6A322ED2BE65E
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       5640 ;
+        :sliceStartChar     4230 .
+    
+    bdr:EPB9E590F464D22291
+        a                   :EtextPage ;
+        :seqNum             13 ;
+        :sliceEndChar       20459 ;
+        :sliceStartChar     19424 .
+    
+    bdr:EPBE04D6CD0022A46F
+        a                   :EtextPage ;
+        :seqNum             10 ;
+        :sliceEndChar       15717 ;
+        :sliceStartChar     14290 .
+    
+    bdr:EPC1704A1117EDCE9A
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       8505 ;
+        :sliceStartChar     7091 .
+    
+    bdr:EPC85EBC2953B5E5CB
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       10128 ;
+        :sliceStartChar     8507 .
+    
+    bdr:EPEE494A2523E9A1EB
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       4228 ;
+        :sliceStartChar     152 .
+    
+    bdr:UT1KG4280_001_0011
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །དཔལ་མཆོག་དང་པོའི་སངས་རྒྱས་ཀྱི་གསང་སྔགས་ཟབ་ལམ་རྡོ་རྗེའི་རྣལ་འབྱོར་བྱིན་རླབས་བཀའ་བརྒྱུད་བླ་མར་གསོལ་འདེབས་བརྒྱུད་འཛིན་མཆོག་རྒ"@bo ;
+        :eTextHasPage       bdr:EP1099BF1816A71D84 , bdr:EP10FF9FD8E1491C30 , bdr:EP21F2307077458EC3 , bdr:EP263638A352030ADD , bdr:EP60CC09D84F4BA844 , bdr:EP7BA315936D4DED4D , bdr:EP804DB0364F9B3E7B , bdr:EPAEC6A322ED2BE65E , bdr:EPB9E590F464D22291 , bdr:EPBE04D6CD0022A46F , bdr:EPC1704A1117EDCE9A , bdr:EPC85EBC2953B5E5CB , bdr:EPEE494A2523E9A1EB ;
+        :eTextInInstance    bdr:IE1KG4280 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Situpa-09-sung-bum/rtfs/AHA/011_9th-Situ-Kabum_AHA_sbyor-drug-khrid-rim-sngon-qgroqi-ngag-qdon.rtf" ;
+        :eTextVolumeIndex   11 .
+}

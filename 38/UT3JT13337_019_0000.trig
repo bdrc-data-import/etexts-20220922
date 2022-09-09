@@ -1,0 +1,61 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13337_019_0000 {
+    bda:UT3JT13337_019_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13337_019_0000 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "38/UT3JT13337_019_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13337_019_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP00F7E40770D192EC
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       4762 ;
+        :sliceStartChar     4456 .
+    
+    bdr:EP4843F0FF6DEED850
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1535 ;
+        :sliceStartChar     95 .
+    
+    bdr:EP5E75447D64B2D2FF
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       93 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP663D4EC65F8BA2E0
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4454 ;
+        :sliceStartChar     2983 .
+    
+    bdr:EP7D00C609A40C5E63
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2981 ;
+        :sliceStartChar     1537 .
+    
+    bdr:UT3JT13337_019_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅།ཚེ་སྒྲུབ་ཉི་ཟླ་ཁ་སྦྱོར་ལས།ཉེར་མཁོ་འཆི་བདག་འཇོམས་པའི་འཆི་བསླུའི་རིམ་པ་བཀླག་ཆོག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP00F7E40770D192EC , bdr:EP4843F0FF6DEED850 , bdr:EP5E75447D64B2D2FF , bdr:EP663D4EC65F8BA2E0 , bdr:EP7D00C609A40C5E63 ;
+        :eTextInInstance    bdr:IE3JT13337 ;
+        :eTextIsVolume      19 ;
+        :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/026-qchi-bslu.rtf" .
+}

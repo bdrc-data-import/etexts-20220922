@@ -1,0 +1,68 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT21825_003_0015 {
+    bda:UT21825_003_0015
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT21825_003_0015 ;
+        adm:facetIndex      7 ;
+        adm:gitPath         "9d/UT21825_003_0015.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT21825_003_0015 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP10387917A4876991
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1502 ;
+        :sliceStartChar     7 .
+    
+    bdr:EP2161032695E5E1D5
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5920 ;
+        :sliceStartChar     4480 .
+    
+    bdr:EP6917A3456689FA3B
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       5 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPA4E15D37FD6E110A
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       6795 ;
+        :sliceStartChar     5922 .
+    
+    bdr:EPDDEB568B15238EC1
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3014 ;
+        :sliceStartChar     1504 .
+    
+    bdr:EPE9385D4A95F63B3A
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4478 ;
+        :sliceStartChar     3016 .
+    
+    bdr:UT21825_003_0015
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༣༥༣༽མགོན་པོ་ཚོགས་བདག་གི་རྟེན་སྒྲུབ་མཆོད་པའི་རྟེན་ནི།བིང་རྣམས་བླ་རྡོ་སྲོག་འཁོར།ཕ་ཝཾ་ལོང་བུའི་སྟེང་ཧཱུྃ་དང་འོག་གྲི་ཁྲག་གི་བྷྱོ་བྲ"@bo ;
+        :eTextHasPage       bdr:EP10387917A4876991 , bdr:EP2161032695E5E1D5 , bdr:EP6917A3456689FA3B , bdr:EPA4E15D37FD6E110A , bdr:EPDDEB568B15238EC1 , bdr:EPE9385D4A95F63B3A ;
+        :eTextInInstance    bdr:IE21825 ;
+        :eTextInVolume      3 ;
+        :eTextSourcePath    "PalriParkhang/W21825-bkaq-qbum-pad-nor-02-thub-bstan-chos-kyi-glang-po/rtfs/03-penor-kabum-ga/penor-kabum-Ga-0353-360.rtf" ;
+        :eTextVolumeIndex   15 .
+}

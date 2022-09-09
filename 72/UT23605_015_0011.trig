@@ -1,0 +1,56 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_015_0011 {
+    bda:UT23605_015_0011
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_015_0011 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "72/UT23605_015_0011.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_015_0011 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP74FC7BABCAD78C2F
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1638 ;
+        :sliceStartChar     161 .
+    
+    bdr:EP80D1703C07735ED5
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       3665 ;
+        :sliceStartChar     3377 .
+    
+    bdr:EPA885D289C426AB1E
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3375 ;
+        :sliceStartChar     1640 .
+    
+    bdr:EPC288C11F75EF9F19
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       159 ;
+        :sliceStartChar     0 .
+    
+    bdr:UT23605_015_0011
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༣༢༧༽༄༅། །དཔལ་མཆོག་དང་པོའི་སངས་རྒྱས་ཀྱི་མན་ངག་ཟབ་ལམ་རྡོ་རྗེའི་རྣལ་འབྱོར་བྱིན་རླབས་བཀའ་བརྒྱུད་བླ་མར་གསོལ་བ་འདེབས་པ་བརྒྱུད་འཛིན་མ"@bo ;
+        :eTextHasPage       bdr:EP74FC7BABCAD78C2F , bdr:EP80D1703C07735ED5 , bdr:EPA885D289C426AB1E , bdr:EPC288C11F75EF9F19 ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      15 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/15_gdams-ngag-mdzod_ba/15_10_gsol-qdebs-brgyud-qdzin-mchog-rgyas.rtf" ;
+        :eTextVolumeIndex   11 .
+}

@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG5988_001_0055 {
+    bda:UT1KG5988_001_0055
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG5988_001_0055 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "01/UT1KG5988_001_0055.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG5988_001_0055 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP62CDB603D2570CE1
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       41 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP84F705B65DF0E992
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1501 ;
+        :sliceStartChar     43 .
+    
+    bdr:EPC8BDBD49DB6E605F
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2730 ;
+        :sliceStartChar     1503 .
+    
+    bdr:UT1KG5988_001_0055
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཨ་པ་ར་ཡང་དག་ཤེས་ཀྱི་གཟུངས་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP62CDB603D2570CE1 , bdr:EP84F705B65DF0E992 , bdr:EPC8BDBD49DB6E605F ;
+        :eTextInInstance    bdr:IE1KG5988 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/056_aa-pa-ra-yang-dag-shes-kyi-gzungs.rtf" ;
+        :eTextVolumeIndex   55 .
+}

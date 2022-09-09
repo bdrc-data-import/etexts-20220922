@@ -1,0 +1,49 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13306_326_0000 {
+    bda:UT3JT13306_326_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT3JT13306_326_0000 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "71/UT3JT13306_326_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13306_326_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP04B48CFFA9942466
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3091 ;
+        :sliceStartChar     2819 .
+    
+    bdr:EP57793FB383A52B8C
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1410 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP8FB5EF834F7A6845
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2817 ;
+        :sliceStartChar     1412 .
+    
+    bdr:UT3JT13306_326_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །གཏད་ཧྲུལ་ཟངས་གླིང་པའི་འདོད་གསོལ་ལ་དཔལ་ས་སྐྱར་དམིགས་བསལ་སྦྱར་བ་བཞུགས་སོ། །སྐྱབས་གནས་དམ་པ་རྣམས་དང་ཁྱད་པར་ས་ཕྱོགས་འདི་ན་གནས་"@bo ;
+        :eTextHasPage       bdr:EP04B48CFFA9942466 , bdr:EP57793FB383A52B8C , bdr:EP8FB5EF834F7A6845 ;
+        :eTextInInstance    bdr:IE3JT13306 ;
+        :eTextIsVolume      326 ;
+        :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/5_KUNL/KUNL326_གཏད་ཧྲུལ་ཟངས་གླིང་པའི་འདོད་གསོལ་ལ་དཔལ་ས་སྐྱར་དམིགས་བསལ་སྦྱར་བ།.rtf" .
+}

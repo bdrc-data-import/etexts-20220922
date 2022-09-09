@@ -1,0 +1,80 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_018_0020 {
+    bda:UT10736_018_0020
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_018_0020 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "3b/UT10736_018_0020.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_018_0020 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP24110DFFC63EDEE0
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2885 ;
+        :sliceStartChar     1463 .
+    
+    bdr:EP3C3B70588E96ABFE
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5772 ;
+        :sliceStartChar     4363 .
+    
+    bdr:EP5D9E8CC48B5EA397
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1461 ;
+        :sliceStartChar     60 .
+    
+    bdr:EP7F907ABCE0F87218
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       58 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPA9FFC005D671ABE9
+        a                   :EtextPage ;
+        :seqNum             8 ;
+        :sliceEndChar       9339 ;
+        :sliceStartChar     8635 .
+    
+    bdr:EPBA58411A731010B8
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4361 ;
+        :sliceStartChar     2887 .
+    
+    bdr:EPEB18497BF47BB1C9
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       8633 ;
+        :sliceStartChar     7201 .
+    
+    bdr:EPFD5A944AED10EC26
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7199 ;
+        :sliceStartChar     5774 .
+    
+    bdr:UT10736_018_0020
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ནག་པོ་ཆེན་པོའི་ལས་མཐའ་སྲེག་པ་ཧོཾ་གྱི་གཟེར་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP24110DFFC63EDEE0 , bdr:EP3C3B70588E96ABFE , bdr:EP5D9E8CC48B5EA397 , bdr:EP7F907ABCE0F87218 , bdr:EPA9FFC005D671ABE9 , bdr:EPBA58411A731010B8 , bdr:EPEB18497BF47BB1C9 , bdr:EPFD5A944AED10EC26 ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      18 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/18_tsha/18_23_tsha_nag-po-chen-poqi-las-mthaq-sreg-pa-hom-gyi-gzer.rtf" ;
+        :eTextVolumeIndex   20 .
+}

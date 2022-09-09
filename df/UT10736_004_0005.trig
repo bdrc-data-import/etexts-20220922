@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_004_0005 {
+    bda:UT10736_004_0005
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT10736_004_0005 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "df/UT10736_004_0005.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_004_0005 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP08349CE43D234112
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       46 ;
+        :sliceStartChar     0 .
+    
+    bdr:EP1EFD3A55BC5F2E04
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5228 ;
+        :sliceStartChar     4390 .
+    
+    bdr:EP642FBC6B6B135FA9
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2908 ;
+        :sliceStartChar     1500 .
+    
+    bdr:EPC348E75057152A3D
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4388 ;
+        :sliceStartChar     2910 .
+    
+    bdr:EPFB50CAD4BE44157F
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1498 ;
+        :sliceStartChar     48 .
+    
+    bdr:UT10736_004_0005
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༡ན༡༽༄༅། །སྔགས་བཟླས་བརྗོད་ཀྱི་ཡིག་ཆུང་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP08349CE43D234112 , bdr:EP1EFD3A55BC5F2E04 , bdr:EP642FBC6B6B135FA9 , bdr:EPC348E75057152A3D , bdr:EPFB50CAD4BE44157F ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      4 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/04_nga/04_10_nga_sngags-bzlas-brjod-kyi-yig-chung.rtf" ;
+        :eTextVolumeIndex   5 .
+}

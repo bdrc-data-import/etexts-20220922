@@ -1,0 +1,55 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG4325_044_0000 {
+    bda:UT1KG4325_044_0000
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT1KG4325_044_0000 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "9d/UT1KG4325_044_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG4325_044_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP2D594087641D8064
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4932 ;
+        :sliceStartChar     4357 .
+    
+    bdr:EP6D4B71433DFBABB5
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       2925 ;
+        :sliceStartChar     1457 .
+    
+    bdr:EPD7E62A577B4BADF8
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       1455 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPEE1933625E98C633
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       4355 ;
+        :sliceStartChar     2927 .
+    
+    bdr:UT1KG4325_044_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །རྡོ་རྗེ་ཕུར་པའི་འཆམས་བཤད་བཞུགས་སོ། །བླ་མ་རིགས་འཛིན་བརྒྱུད་པའི་ཚོགས་རྣམས་དང་། །ཡི་དམ་ཞི་ཁྲོ་རབ་འབྱམས་འཁོར་དང་བཅས། །བཀའ་ས"@bo ;
+        :eTextHasPage       bdr:EP2D594087641D8064 , bdr:EP6D4B71433DFBABB5 , bdr:EPD7E62A577B4BADF8 , bdr:EPEE1933625E98C633 ;
+        :eTextInInstance    bdr:IE1KG4325 ;
+        :eTextIsVolume      44 ;
+        :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/2_SALO/SALO045_རྡོ་རྗེ་ཕུར་པའི་འཆམས་བཤད།.rtf" .
+}

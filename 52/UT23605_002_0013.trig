@@ -1,0 +1,74 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_002_0013 {
+    bda:UT23605_002_0013
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_002_0013 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "52/UT23605_002_0013.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_002_0013 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP0D14EC20420CC014
+        a                   :EtextPage ;
+        :seqNum             5 ;
+        :sliceEndChar       5860 ;
+        :sliceStartChar     4422 .
+    
+    bdr:EP83D8D422F1BD312F
+        a                   :EtextPage ;
+        :seqNum             6 ;
+        :sliceEndChar       7267 ;
+        :sliceStartChar     5862 .
+    
+    bdr:EP83DB7F1393BC7F39
+        a                   :EtextPage ;
+        :seqNum             4 ;
+        :sliceEndChar       4420 ;
+        :sliceStartChar     2936 .
+    
+    bdr:EPA1634B0EC2302048
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1472 ;
+        :sliceStartChar     52 .
+    
+    bdr:EPA8083B1B45B7FEED
+        a                   :EtextPage ;
+        :seqNum             7 ;
+        :sliceEndChar       7845 ;
+        :sliceStartChar     7269 .
+    
+    bdr:EPD56BD854D386292A
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       50 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPEEC3B7A4DDDD06F8
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       2934 ;
+        :sliceStartChar     1474 .
+    
+    bdr:UT23605_002_0013
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༢༤༧༽༄༅། །མཆོག་གསང་ལམ་ཁྲིད་ཆེན་མོ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP0D14EC20420CC014 , bdr:EP83D8D422F1BD312F , bdr:EP83DB7F1393BC7F39 , bdr:EPA1634B0EC2302048 , bdr:EPA8083B1B45B7FEED , bdr:EPD56BD854D386292A , bdr:EPEEC3B7A4DDDD06F8 ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      2 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/02_gdams-ngag-mdzod_kha/02_12_mchog-gsang-lam-khrid-chen-mo.rtf" ;
+        :eTextVolumeIndex   13 .
+}

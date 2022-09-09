@@ -1,0 +1,50 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT23605_005_0008 {
+    bda:UT23605_005_0008
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:UT23605_005_0008 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "c8/UT23605_005_0008.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT23605_005_0008 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:EP74C3ED271716785B
+        a                   :EtextPage ;
+        :seqNum             3 ;
+        :sliceEndChar       3006 ;
+        :sliceStartChar     1489 .
+    
+    bdr:EP83BB61B02236071F
+        a                   :EtextPage ;
+        :seqNum             1 ;
+        :sliceEndChar       79 ;
+        :sliceStartChar     0 .
+    
+    bdr:EPF9EBD9BF4EF7DE12
+        a                   :EtextPage ;
+        :seqNum             2 ;
+        :sliceEndChar       1487 ;
+        :sliceStartChar     81 .
+    
+    bdr:UT23605_005_0008
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༣༢༥༽༄༅། །གསུང་ངག་རིན་པོ་ཆེ་ལམ་འབྲས་བུ་དང་བཅས་པའི་བརྒྱུད་འདེབས་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP74C3ED271716785B , bdr:EP83BB61B02236071F , bdr:EPF9EBD9BF4EF7DE12 ;
+        :eTextInInstance    bdr:IE23605 ;
+        :eTextInVolume      5 ;
+        :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/05_gdams-ngag-mdzod_ca/05_07_gsung-ngag-rin-po-che-lam-qbras-bu-dang-bcas-paqi-brgyud-qdebs.rtf" ;
+        :eTextVolumeIndex   8 .
+}
